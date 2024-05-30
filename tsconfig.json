@@ -1,0 +1,11 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"rootDir": ".",
+		"outDir": "dist",
+		"sourceMap": true,
+		"target": "ESNext",
+		"module": "CommonJS",
+		"moduleResolution": "node",
+	}
+}
