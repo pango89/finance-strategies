@@ -1,8 +1,7 @@
-import QuoteHistory from "./interfaces/quote-history";
+import QuoteHistory from './interfaces/quote-history';
+import { calculateSMA, round } from './utils';
 
-const round = (num: number) => Math.round(num * 100) / 100;
-
-export default class StrategyV20 {
+export default class V20Strategy {
     constructor() { }
 
     // public run(quoteHistoryArray: QuoteHistory[], upsidePercent: number) {
@@ -63,15 +62,22 @@ export default class StrategyV20 {
     //     console.log(buySignals);
     // }
 
-    public run(quoteHistoryArray: QuoteHistory[], upsidePercent: number, sma200: number[]) {
-        const cmp = quoteHistoryArray[quoteHistoryArray.length - 1].close;
-        const symbol = quoteHistoryArray[quoteHistoryArray.length - 1].symbol;
+    public static run(quoteHistoryArray: QuoteHistory[], upsidePercent: number) {
+        const n = quoteHistoryArray.length;
+
+        const cmp = quoteHistoryArray[n - 1].close;
+        const prices = quoteHistoryArray.map((x) => x.close);
+
+        const sma200 = calculateSMA(prices, 200);
+        const sma50 = calculateSMA(prices, 50);
+        const sma20 = calculateSMA(prices, 20);
 
         const poi = [];
-        const buySignals = [];
 
-        for (let i = quoteHistoryArray.length - 1; i >= 0; i--) {
-            let lowest = 1000000;
+        let resultSignal = null;
+
+        for (let i = n - 1; i >= 0; i--) {
+            let lowest = 10000000;
             let highest = 0;
 
             let candles = 0;
@@ -98,7 +104,7 @@ export default class StrategyV20 {
 
                 lowest = Math.min(lowest, currLow);
                 highest = Math.max(highest, currHigh);
-                diffPercent = lowest > 0 ? 100 * (highest - lowest) / lowest : 0;
+                diffPercent = lowest > 0 ? (100 * (highest - lowest)) / lowest : 0;
 
                 if (isPrevRedCandle) {
                     if (diffPercent >= upsidePercent) {
@@ -106,19 +112,21 @@ export default class StrategyV20 {
                             symbol,
                             currDate,
                             candles,
-                            upsidePercent: round(diffPercent)
+                            diffPercent: round(diffPercent),
                         });
 
-                        // if (currLow <= sma200[i] && cmp <= currLow) {
-                        if (cmp <= currLow) {
-                            buySignals.push({
+                        if (currLow <= sma200[i] && cmp <= currLow) {
+                            // if (cmp <= currLow) {
+                            resultSignal = {
+                                signal: 'BUY',
                                 symbol,
-                                buyAtPrice: cmp,
-                                checkedOnDate: currDate,
-                                checkedOnDateLow: lowest,
-                                sellAtPrice: highest,
-                                upside: round(100 * (highest - cmp) / cmp),
-                            })
+                                cmp,
+                                sma200: sma200[n - 1],
+                                sma50: sma50[n - 1],
+                                sma20: sma20[n - 1],
+                                target: highest,
+                                upside: round((100 * (highest - cmp)) / cmp),
+                            };
                         }
                     }
 
@@ -128,17 +136,11 @@ export default class StrategyV20 {
                 i -= 1;
             }
 
-            // If we have already found the last spot then break
+            // If we have already found the latest spot then break
             if (poi.length > 0) break;
         }
 
         // console.log(JSON.stringify(poi));
-
-        if (buySignals.length > 0) {
-            const { symbol, buyAtPrice, checkedOnDate, checkedOnDateLow, sellAtPrice, upside } = buySignals[0];
-            console.log(`Symbol = ${symbol} - V20 Start Date = ${checkedOnDate}, Buy At Price = ${buyAtPrice}, Sell At Price = ${sellAtPrice}, Upside = ${upside}%`);
-        } else {
-            console.log(`Symbol = ${symbol} - No buy signals!`);
-        }
+        return resultSignal;
     }
 }

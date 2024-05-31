@@ -1,7 +1,9 @@
 import { createObjectCsvWriter } from 'csv-writer';
+import * as fs from 'fs';
+import * as csv from 'csv-parser';
 
 export default class CsvHelper {
-	constructor() {}
+	constructor() { }
 
 	public async writeToCsv({
 		path,
@@ -28,5 +30,18 @@ export default class CsvHelper {
 			const item = data[i];
 			await csvWriter.writeRecords([{ ...item }]);
 		}
+	}
+
+	public async readFromCsv({ path }: { path: string; }):Promise<any[]> {
+		return new Promise((resolve, reject) => {
+			const csvRows = [];
+
+			fs.createReadStream(path)
+				.pipe(csv())
+				.on('data', (data) => csvRows.push(data))
+				.on('end', () => {
+					resolve(csvRows);
+				});
+		});
 	}
 }
