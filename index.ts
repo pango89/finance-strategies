@@ -8,8 +8,10 @@ import { calculateSMA, delay } from './utils';
 const runKD = async (histories: any[], set: string) => {
 	const kdConfig = {
 		rsiPeriod: 14,
-		rsiSMAPeriod: 20,
-		smaPeriod: 200,
+		// rsiSMAPeriod: 20,
+		// smaPeriod: 200,
+		momentumPeriod: 20,
+		candlesBack: 200
 	};
 
 	const signals = [];
@@ -19,8 +21,8 @@ const runKD = async (histories: any[], set: string) => {
 		const signal = KnoxvilleDivergenceStrategy.run(
 			history,
 			kdConfig.rsiPeriod,
-			kdConfig.rsiSMAPeriod,
-			kdConfig.smaPeriod
+			kdConfig.momentumPeriod,
+			kdConfig.candlesBack
 		);
 
 		if (signal) {
@@ -64,7 +66,7 @@ const runV20 = async (histories: any[], set: string) => {
 
 const test = async () => {
 	const sets = ['V40', 'V40N', 'PG75', 'TP'];
-	const startDate = '2023-01-01';
+	const startDate = '2022-01-01';
 
 	const csvHelper = new CsvHelper();
 	const yahooFinanceClient = new YahooFinance();
@@ -88,10 +90,10 @@ const test = async () => {
 		}
 
 		// Run Knoxville Divergence Strategy
-		// await runKD(histories, set);
+		await runKD(histories, set);
 
 		// Run V20 Strategy
-		await runV20(histories, set);
+		// await runV20(histories, set);
 	}
 };
 

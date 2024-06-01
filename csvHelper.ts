@@ -10,11 +10,13 @@ export default class CsvHelper {
 		data,
 		ids,
 		titles,
+		append = false
 	}: {
 		path: string;
 		data: any[];
 		ids: string[];
 		titles: string[];
+		append?: boolean;
 	}): Promise<void> {
 		const csvWriter = createObjectCsvWriter({
 			path,
@@ -24,6 +26,7 @@ export default class CsvHelper {
 					title: titles[idx],
 				};
 			}),
+			append
 		});
 
 		for (let i = 0; i < data.length; i += 1) {

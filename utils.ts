@@ -52,5 +52,74 @@ export const calculateRSI = (prices: number[], period: number): number[] => {
     return rsi;
 };
 
+// Helper function to calculate the Momentum
+export const calculateMomentum = (prices: number[], period: number): number[] => {
+    const momentum: number[] = [];
+
+    for (let i = period; i < prices.length; i++) {
+        momentum.push(prices[i] - prices[i - period]);
+    }
+
+    return momentum;
+}
+
 export const delay = async (ms: number) =>
     new Promise((resolve) => setTimeout(resolve, ms));
+
+export const getDurationInDays = (startDate: string, endDate: string): number => {
+    const d1 = new Date(startDate);
+    const d2 = new Date(endDate);
+
+    const days = Math.ceil((d2.getTime() - d1.getTime()) / (1000 * 3600 * 24));
+    return days;
+}
+
+export const dateDiffInDays = (date1: Date, date2: Date): number => {
+    const oneDay = 1000 * 60 * 60 * 24;
+    return (date1.getTime() - date2.getTime()) / oneDay;
+}
+
+// Function to calculate the NPV for a given rate
+const npv = (rate: number, cashFlows: number[], dates: Date[]): number => {
+    const startDate = dates[0];
+    return cashFlows.reduce((acc, cashFlow, i) => {
+        const days = dateDiffInDays(dates[i], startDate);
+        return acc + (cashFlow / Math.pow(1 + rate, days / 365));
+    }, 0);
+}
+
+// Function to calculate the derivative of the NPV
+const npvDerivative = (rate: number, cashFlows: number[], dates: Date[]): number => {
+    const startDate = dates[0];
+    return cashFlows.reduce((acc, cashFlow, i) => {
+        const days = dateDiffInDays(dates[i], startDate);
+        const fraction = days / 365;
+        return acc - (fraction * cashFlow / Math.pow(1 + rate, fraction + 1));
+    }, 0);
+}
+
+// Function to calculate the XIRR
+export const xirr = (cashFlows: number[], dates: Date[], guess: number = 0.1): number => {
+    if (cashFlows.length === 0) return 0;
+
+    const tol = 1e-6;
+    const maxIter = 1000;
+    let rate = guess;
+
+    for (let i = 0; i < maxIter; i++) {
+        const npvValue = npv(rate, cashFlows, dates);
+        const derivativeValue = npvDerivative(rate, cashFlows, dates);
+
+        if (Math.abs(npvValue) < tol) {
+            return round(100 * rate);
+        }
+
+        if (derivativeValue === 0) {
+            throw new Error("XIRR derivative is zero; no solution found");
+        }
+
+        rate = rate - npvValue / derivativeValue;
+    }
+
+    throw new Error("XIRR did not converge");
+}
