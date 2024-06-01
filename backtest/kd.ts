@@ -104,7 +104,7 @@ const runKD = async (histories: any[], set: string) => {
 };
 
 const test = async () => {
-    const sets = ['NIFTYNEXT50'];
+    const sets = ['NIFTYSMALLCAP50'];
     const startDate = '2022-06-01';
 
     const csvHelper = new CsvHelper();
