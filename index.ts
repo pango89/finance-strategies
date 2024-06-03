@@ -65,7 +65,7 @@ const runV20 = async (histories: any[], set: string) => {
 };
 
 const test = async () => {
-	const sets = ['V40', 'V40N', 'PG75', 'TP'];
+	const sets = ['V40', 'V40N', 'PG75', 'TP', 'NIFTY50', 'NIFTYNEXT50', 'NIFTYMIDCAP50', 'NIFTYSMALLCAP50'];
 	const startDate = '2022-01-01';
 
 	const csvHelper = new CsvHelper();
@@ -81,7 +81,7 @@ const test = async () => {
 		for (let i = 0; i < csvRows.length; i++) {
 			const { symbol } = csvRows[i];
 			console.log(symbol);
-			await delay(500);
+			await delay(250);
 			const history = await yahooFinanceClient.getHistoricalData({
 				symbol,
 				startDate,
