@@ -17,6 +17,18 @@ export const calculateSMA = (data: number[], period: number): number[] => {
     return sma;
 };
 
+// Helper function to calculate EMA
+export const calculateEMA = (data: number[], period: number): number[] => {
+    const k = 2 / (period + 1);
+    const ema: number[] = [data[0]]; // Start with the first price as the first EMA value
+
+    for (let i = 1; i < data.length; i++) {
+        ema.push(data[i] * k + ema[i - 1] * (1 - k));
+    }
+
+    return ema;
+}
+
 export const calculateRSI = (prices: number[], period: number): number[] => {
     const rsi: number[] = [];
     let gainSum = 0;
@@ -122,4 +134,32 @@ export const xirr = (cashFlows: number[], dates: Date[], guess: number = 0.1): n
     }
 
     throw new Error("XIRR did not converge");
+}
+
+// Calculate MACD
+export const calculateMACD = (prices: number[], fastPeriod: number, slowPeriod: number, signalPeriod: number) => {
+    const macdResults: {
+        macd: number;
+        signal: number;
+        histogram: number;
+    }[] = [];
+
+    const fastEMA = calculateEMA(prices, fastPeriod);
+    const slowEMA = calculateEMA(prices, slowPeriod);
+
+    const macdLine = fastEMA.map((value, index) => value - slowEMA[index]);
+    const signalLine = calculateEMA(macdLine.slice(slowPeriod - 1), signalPeriod);
+
+    for (let i = slowPeriod - 1; i < prices.length; i++) {
+        const macd = macdLine[i];
+        const signal = signalLine[i - slowPeriod + 1];
+        const histogram = macd - signal;
+        macdResults.push({
+            macd,
+            signal,
+            histogram
+        });
+    }
+
+    return macdResults;
 }

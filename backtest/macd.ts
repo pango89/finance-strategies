@@ -1,17 +1,15 @@
 import YahooFinance from '../clients/yahoo-finance';
 import CsvHelper from '../csvHelper';
-import KnoxvilleDivergenceStrategy from '../knoxville-divergence-strategy';
 import { delay, xirr } from '../utils';
 import Report from '../report';
 import path = require('path');
+import MACDStrategy from '../macd-strategy';
 
-const runKD = async (histories: any[], set: string) => {
-    const kdConfig = {
-        rsiPeriod: 14,
-        // rsiSMAPeriod: 20,
-        // smaPeriod: 200,
-        momentumPeriod: 20,
-        candlesBack: 200
+const runMACD = async (histories: any[], set: string) => {
+    const macdConfig = {
+        shortPeriod: 12,
+        longPeriod: 26,
+        signalPeriod: 9
     };
 
     let consolidatedReport = [];
@@ -20,17 +18,17 @@ const runKD = async (histories: any[], set: string) => {
 
     for (let i = 0; i < histories.length; i++) {
         const history = histories[i];
-        const divergences = KnoxvilleDivergenceStrategy.getDivergences(
+        const divergences = MACDStrategy.getDivergences(
             history,
             history.map(x => x.close),
-            kdConfig.rsiPeriod,
-            kdConfig.momentumPeriod,
-            kdConfig.candlesBack
+            macdConfig.shortPeriod,
+            macdConfig.longPeriod,
+            macdConfig.signalPeriod
         );
 
         const signals = [];
 
-        // console.log(divergences);
+        console.log(divergences);
 
         for (let j = 0; j < divergences.length; j += 1) {
             while (j < divergences.length && divergences[j].signal !== 'BULL-D') {
@@ -93,7 +91,7 @@ const runKD = async (histories: any[], set: string) => {
     consolidatedReport = consolidatedReport.sort((a, b) => a.buyDate > b.buyDate ? 1 : -1);
 
     await csvHelper.writeToCsv({
-        path: path.join(__dirname, `/reports/KD/${new Date().toISOString().split('T')[0]}_kd_${set}.csv`),
+        path: path.join(__dirname, `/reports/MACD/${new Date().toISOString().split('T')[0]}_macd_${set}.csv`),
         data: consolidatedReport,
         ids: ['symbol', 'buyDate', 'buyPrice', 'sellDate', 'sellPrice', 'gain', 'gainPercent', 'days', 'annualGainPercent'],
         titles: ['Symbol', 'Buy Date', 'Buy Price', 'Sell Date', 'Sell Price', 'Gain', 'Gain %', 'Days', 'Annual Gain %'],
@@ -104,7 +102,7 @@ const runKD = async (histories: any[], set: string) => {
 };
 
 const test = async () => {
-    const sets = ['NIFTY50'];
+    const sets = ['PG'];
     const startDate = '2022-06-01';
 
     const csvHelper = new CsvHelper();
@@ -129,7 +127,7 @@ const test = async () => {
         }
 
         // Run Knoxville Divergence Strategy
-        await runKD(histories, set);
+        await runMACD(histories, set);
     }
 };
 
