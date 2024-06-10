@@ -30,7 +30,7 @@ const runKD = async (histories: any[], set: string) => {
 
         const signals = [];
 
-        // console.log(divergences);
+        console.log(divergences);
 
         for (let j = 0; j < divergences.length; j += 1) {
             while (j < divergences.length && divergences[j].signal !== 'BULL-D') {
@@ -104,7 +104,7 @@ const runKD = async (histories: any[], set: string) => {
 };
 
 const test = async () => {
-    const sets = ['NIFTY50'];
+    const sets = ['PG'];
     const startDate = '2022-06-01';
 
     const csvHelper = new CsvHelper();
