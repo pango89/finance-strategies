@@ -65,7 +65,11 @@ const runV20 = async (histories: any[], set: string) => {
 };
 
 const test = async () => {
-	const sets = ['V40', 'V40N', 'PG75', 'TP', 'NIFTY50', 'NIFTYNEXT50', 'NIFTYMIDCAP50', 'NIFTYSMALLCAP50'];
+	const sets = ['V40S'];
+	// const sets = ['NIFTYMIDCAP150'];
+	// const sets = ['NIFTYSMALLCAP250'];
+	// const sets = ['NIFTYAUTO', 'NIFTYCONDUR', 'NIFTYFINSERV', 'NIFTYFMCG', 'NIFTYHEALTHCARE', 'NIFTYMEDIA', 'NIFTYOILGAS'];
+	// const sets = ['NIFTYIT', 'NIFTYMETAL', 'NIFTYPHARMA', 'NIFTYPRIVATEBANK', 'NIFTYPSUBANK', 'NIFTYREALTY'];
 	const startDate = '2022-01-01';
 
 	const csvHelper = new CsvHelper();
