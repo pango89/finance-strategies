@@ -65,11 +65,12 @@ const runV20 = async (histories: any[], set: string) => {
 };
 
 const test = async () => {
-	const sets = ['V40S'];
-	// const sets = ['NIFTYMIDCAP150'];
-	// const sets = ['NIFTYSMALLCAP250'];
-	// const sets = ['NIFTYAUTO', 'NIFTYCONDUR', 'NIFTYFINSERV', 'NIFTYFMCG', 'NIFTYHEALTHCARE', 'NIFTYMEDIA', 'NIFTYOILGAS'];
-	// const sets = ['NIFTYIT', 'NIFTYMETAL', 'NIFTYPHARMA', 'NIFTYPRIVATEBANK', 'NIFTYPSUBANK', 'NIFTYREALTY'];
+	const sets = [
+		'V40', 'V40N', 'V40S', 'PG75', 'TP', 'NIFTYMIDCAP150', 'NIFTYSMALLCAP250',
+		'NIFTYAUTO', 'NIFTYCONDUR', 'NIFTYFINSERV', 'NIFTYFMCG', 'NIFTYHEALTHCARE',
+		'NIFTYMEDIA', 'NIFTYOILGAS', 'NIFTYIT', 'NIFTYMETAL', 'NIFTYPHARMA',
+		'NIFTYPRIVATEBANK', 'NIFTYPSUBANK', 'NIFTYREALTY', 'NIFTY500', 'NIFTYMICROCAP250'
+	];
 	const startDate = '2022-01-01';
 
 	const csvHelper = new CsvHelper();
@@ -94,21 +95,13 @@ const test = async () => {
 		}
 
 		// Run Knoxville Divergence Strategy
-		await runKD(histories, set);
+		// await runKD(histories, set);
 
 		// Run V20 Strategy
-		// await runV20(histories, set);
+		await runV20(histories, set);
 	}
 };
 
 (async () => {
 	await test();
 })();
-
-// const quotes: Quote[] = await yahooFinanceClient.getQuotes({ symbols: ['DIXON', 'POLYCAB'] });
-
-// console.log(quotes);
-
-// const sma200 = calculateSMA(history.map(x => x.close), 200);
-// const strategyV20 = new StrategyV20();
-// strategyV20.run(history, 20, sma200);
