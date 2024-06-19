@@ -60,7 +60,7 @@ const runV20 = async (histories: any[], set: string) => {
 		path: `./outputs/v20/${new Date().toISOString().split('T')[0]}_${set}.csv`,
 		data: signals,
 		ids: ['signal', 'symbol', 'cmp', 'sma200', 'sma50', 'sma20', 'target', 'upside'],
-		titles: ['Signal', 'Symbol', 'CMP', 'SMA200', 'SMA50', 'SMA20', 'target', 'upside'],
+		titles: ['Signal', 'Symbol', 'CMP', 'SMA200', 'SMA50', 'SMA20', 'Target', 'Upside'],
 	});
 };
 
@@ -77,6 +77,7 @@ const test = async () => {
 	const yahooFinanceClient = new YahooFinance();
 
 	for (const set of sets) {
+		console.log(`Started Running Set - ${set}`);
 		const csvRows = await csvHelper.readFromCsv({
 			path: `./inputs/${set}.csv`,
 		});
@@ -95,10 +96,10 @@ const test = async () => {
 		}
 
 		// Run Knoxville Divergence Strategy
-		// await runKD(histories, set);
+		await runKD(histories, set);
 
 		// Run V20 Strategy
-		await runV20(histories, set);
+		// await runV20(histories, set);
 	}
 };
 

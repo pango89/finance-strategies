@@ -35,13 +35,21 @@ export default class CsvHelper {
 		}
 	}
 
-	public async readFromCsv({ path }: { path: string; }):Promise<any[]> {
+	public async readFromCsv({ path }: { path: string; }): Promise<any[]> {
 		return new Promise((resolve, reject) => {
 			const csvRows = [];
 
 			fs.createReadStream(path)
 				.pipe(csv())
-				.on('data', (data) => csvRows.push(data))
+				.on('data', (data) => {
+					for (const [key, value] of Object.entries(data)) {
+						const regex = /^-?\d+(\.\d+)?$/;
+						if (regex.test(value as string)) {
+							data[key] = +value;
+						}
+					}
+					csvRows.push(data)
+				})
 				.on('end', () => {
 					resolve(csvRows);
 				});
