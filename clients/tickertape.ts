@@ -1,7 +1,5 @@
 import axios from 'axios';
-import { round } from '../utils'
-
-const Infinity: number = 99999;
+import { round, Infinity } from '../utils';
 
 export default class Tickertape {
 	constructor() { }

@@ -1,0 +1,1201 @@
+date,symbol,industry,sector,cmp,marketCap,priceToEarnings,priceToBook,priceToSales,priceToCashflow,enterpriseToEbitda,dividendYield,returnOnEquity,return12M,return6M,return3M,return1M
+2022-06-01,RELIANCE,Oil & Gas Refining & Marketing,Energy,2430.72,1644624,26.76,2.11,2.35,14.86,15.6,0.26,7.79,21.42,9.35,10.73,-5.28
+2022-06-01,TCS,Information Technology Services,Technology,3355.2,1227685,32.38,13.77,6.4,30.73,21.61,1.08,43,6.41,-7.84,-5.34,-5.28
+2022-06-01,HDFCBANK,Banks - Regional,Financial Services,1394.85,773520,20.1,3.09,7.59,13.31,7.43,0.47,15.41,-7.73,-7.84,1.74,-0.63
+2022-06-01,INFY,Information Technology Services,Technology,1478.55,619958,2112.21,623.64,380.09,1853.39,1527.35,0.03,29.81,6.59,-14.81,-14.08,-4.05
+2022-06-01,ICICIBANK,Banks - Regional,Financial Services,752.65,523000,21.24,2.87,4.49,9,6.15,0.26,13.79,15.77,5.07,7.78,1.57
+2022-06-01,HINDUNILVR,Household & Personal Products,Consumer Defensive,2308.45,542392,61.09,11.06,10.4,59.95,41.47,1.39,18.1,-2.11,-1.5,10.4,3.49
+2022-06-01,SBIN,Banks - Regional,Financial Services,468.3,417940,11.81,1.37,1.77,7.24,1.35,0.85,11.58,8.26,-1.03,0.19,-4.62
+2022-06-01,BAJFINANCE,Credit Services,Financial Services,6010.15,362581,51.91,8.29,18.01,-9.78,25.16,0.17,16.08,3.9,-14.98,-10.94,-9.3
+2022-06-01,HDFC,,,,,,,,,,,,,,,
+2022-06-01,BHARTIARTL,Telecom Services,Communication Services,694.65,408550,91.04,6.14,3.51,7.43,12.1,0.35,6.39,32.8,-3.3,3.36,-6.3
+2022-06-01,KOTAKBANK,Banks - Regional,Financial Services,1865.1,370160,30.71,3.81,8.05,44.55,13.04,0.06,12.44,3.79,-2.57,4.06,5.11
+2022-06-01,WIPRO,Information Technology Services,Technology,470.75,258069,21.12,3.92,3.26,23.29,14.16,0.21,18.57,-13.27,-26.53,-17.35,-4.9
+2022-06-01,HCLTECH,Information Technology Services,Technology,1017.9,275581,20.45,4.45,3.22,16.31,12.58,4.13,21.8,7.07,-13.1,-10.69,-4.59
+2022-06-01,ITC,Tobacco,Consumer Defensive,271.85,335008,21.98,5.36,5.58,21.24,15.05,4.12,24.41,26.3,22.65,23.91,3.31
+2022-06-01,ADANIGREEN,Utilities - Renewable,Utilities,1848.4,289093,766.97,110.59,56.32,92.45,95.35,0,18.71,45.42,33.01,-5.25,-34.69
+2022-06-01,ASIANPAINT,Specialty Chemicals,Basic Materials,2852.5,273548,90.3,19.81,9.45,277.29,54.41,0.64,21.94,-2.68,-8.29,-0.68,-10.86
+2022-06-01,BAJAJFINSV,Financial Conglomerates,Financial Services,1259.66,200244,44.04,4.98,2.97,-5.95,18.58,0.2,11.32,6.48,-27.97,-19.79,-15.78
+2022-06-01,ADANITRANS,,,,,,,,,,,,,,,
+2022-06-01,DMART,Discount Stores,Consumer Defensive,3874.05,250952,169.47,18.35,8.13,182.86,96.83,0,10.91,27.23,-19.27,-9.41,-2.74
+2022-06-01,LT,Engineering & Construction,Industrials,1648,231549,26.73,2.81,1.49,12.08,19.09,1.09,10.52,11.76,-8.51,-5.95,-1.87
+2022-06-01,ATGL,Utilities - Regulated Gas,Utilities,2325.9,255805,502.35,105.87,85.22,349.41,315.18,0.01,21.08,61.45,46.03,32.81,-6.52
+2022-06-01,AXISBANK,Banks - Regional,Financial Services,686.05,210601,14.94,1.78,4.11,7.48,4.34,0,11.94,-7.93,1.94,-7,-5.68
+2022-06-01,MARUTI,Auto Manufacturers,Consumer Cyclical,7939.4,239834,61.82,4.33,2.82,130.31,32.24,0.57,7.01,11.96,10.14,4.53,3.99
+2022-06-01,TITAN,Luxury Goods,Consumer Cyclical,2197.6,195100,89.77,20.97,6.79,-269.47,57.83,0.18,23.36,38.09,-7.24,-14.63,-7.92
+2022-06-01,ADANIENT,Thermal Coal,Energy,2150.9,236559,304.66,10.63,3.41,170.77,62.15,0.05,3.49,51.87,25.92,30.85,-8.06
+2022-06-01,SUNPHARMA,Drug Manufacturers - Specialty & Generic,Healthcare,839.25,201365,61.71,4.19,5.24,22.41,29.93,1.07,6.82,25.07,11.63,2.24,-9.11
+2022-06-01,ONGC,Oil & Gas Integrated,Energy,149.75,188390,4.14,0.73,0.35,2.41,3.77,6.86,17.54,27.34,2.64,-12.07,-4.22
+2022-06-01,ULTRACEMCO,Building Materials,Basic Materials,5975.65,172336,23.48,3.42,3.33,18.56,19.13,0.62,14.56,-9.48,-18.5,-0.08,-10.53
+2022-06-01,JSWSTEEL,Steel,Basic Materials,569.5,136709,6.66,2.03,0.95,5.2,5.03,1.15,30.71,-18,-11.64,-13.01,-22.19
+2022-06-01,ADANIPORTS,Marine Shipping,Industrials,736.9,155661,32.58,3.71,9.17,14.94,17.25,0.66,11.64,-7.68,-0.07,4.27,-13.97
+2022-06-01,TATASTEEL,Steel,Basic Materials,106.36,129885,3.2,1.13,0.53,2.93,3,2.33,35.09,-3.39,-4.87,-18.39,-17.88
+2022-06-01,POWERGRID,Utilities - Regulated Electric,Utilities,171.9,159878,9.5,2.1,3.91,6.12,7.23,6.76,22.07,36.18,11.21,5.21,-1.01
+2022-06-01,VEDL,Other Industrial Metals & Mining,Basic Materials,316.05,117208,6.27,1.79,0.89,3.35,3.91,14.23,28.76,17.82,-6.3,-20.18,-22.51
+2022-06-01,TECHM,Information Technology Services,Technology,1146.6,100626,18.26,3.74,2.25,19.04,10.99,3.96,20.7,11.27,-28.04,-19.63,-6.87
+2022-06-01,TATAMOTORS,Auto Manufacturers,Consumer Cyclical,444.6,170240,-14.88,3.82,0.62,11.92,10.48,0,-25.68,39.77,-7.39,1.72,2.71
+2022-06-01,HINDZINC,Other Industrial Metals & Mining,Basic Materials,310,143530,13.6,4.19,4.99,11.31,8.4,5.3,28.09,-5.36,-10.83,-8.93,-4.13
+2022-06-01,NTPC,Utilities - Regulated Electric,Utilities,156.8,152044,9.12,1.12,1.15,3.64,8.06,4.67,12.32,42.29,23.46,18.7,-0.44
+2022-06-01,HINDALCO,Aluminum,Basic Materials,410.65,87285,6.66,1.12,0.45,5.18,4.97,0.76,17.56,4.04,-3.3,-32.27,-15.23
+2022-06-01,PIDILITIND,Specialty Chemicals,Basic Materials,2205.2,112088,92.85,17.5,11.34,117.32,60.26,0.39,18.86,6.68,-0.15,-5.71,-9.03
+2022-06-01,DIVISLAB,Drug Manufacturers - Specialty & Generic,Healthcare,3555.15,94379,31.88,8.05,10.73,49.37,23.34,0.56,25.24,-15.76,-25.27,-14.55,-21.17
+2022-06-01,HDFCLIFE,Insurance - Life,Financial Services,607.15,128235,93.7,8.21,1.9,21.79,87.57,0.35,8.5,-8.73,-12.13,14.18,4.71
+2022-06-01,COALINDIA,Thermal Coal,Energy,196.05,120821,6.96,2.8,1.2,2.94,4.13,8.93,40.23,32.83,22.72,3.76,4.48
+2022-06-01,SBILIFE,Insurance - Life,Financial Services,1152.75,115318,76.65,9.92,1.39,5.29,68.94,0.22,12.96,19.3,-1.13,6.61,6.63
+2022-06-01,IOC,Oil & Gas Refining & Marketing,Energy,78.8,108520,4.32,0.81,0.19,4.21,4.76,10.04,18.8,7.55,-3.28,3.1,-6.67
+2022-06-01,GRASIM,Building Materials,Basic Materials,1430.86,94568,12.51,1.25,1,13.44,11.72,1.13,9.97,-0.55,-15.69,-4.46,-14.47
+2022-06-01,LTI,,,,,,,,,,,,,,,
+2022-06-01,BAJAJ-AUTO,Auto Manufacturers,Consumer Cyclical,3720.1,107648,17.45,3.61,3.35,25.65,13.49,3.76,20.65,-12.24,13.15,12.83,2.67
+2022-06-01,M&M,Auto Manufacturers,Consumer Cyclical,1047.35,116480,17.8,2.47,1.3,12.6,11.81,0.84,13.96,29.9,25.14,37.44,13.68
+2022-06-01,DABUR,Household & Personal Products,Consumer Defensive,517.55,91496,52.76,10.92,8.47,50.77,36.31,1.06,20.75,-3.63,-10.97,-8.06,-7.12
+2022-06-01,DLF,Real Estate - Development,Real Estate,337,83419,55.61,2.29,14.61,29.46,34.34,0.6,4.13,17.3,-12.74,-0.6,-8.31
+2022-06-01,SHREECEM,Building Materials,Basic Materials,21791.5,78626,33.72,4.5,5.39,29.47,18.99,0.49,13.36,-21.11,-15.91,-4.54,-16.92
+2022-06-01,SIEMENS,Specialty Industrial Machinery,Industrials,2419.05,,,,,,,,,17.47,10.67,2.3,7.65
+2022-06-01,CIPLA,Drug Manufacturers - General,Healthcare,983.55,79355,31.55,3.81,3.67,23.86,18.81,0.51,12.08,3.92,7.84,5.2,0.71
+2022-06-01,SBICARD,Credit Services,Financial Services,772.95,72903,45.41,9.4,8.44,-16.6,29,0,20.85,-26.1,-21.94,2.69,-5.76
+2022-06-01,NYKAA,Internet Retail,Consumer Cyclical,242.55,68997,1617,51.49,18.28,-194.93,397.19,0,3.07,-9999999999,-37.4,-3.26,-15.48
+2022-06-01,SRF,Specialty Chemicals,Basic Materials,2397.45,71066,37.61,8.3,5.77,33.75,23.31,0.3,22.05,82.77,15.03,2.29,-4.29
+2022-06-01,BPCL,Oil & Gas Refining & Marketing,Energy,326,70495,5.94,1.36,0.2,3.47,5.58,20.54,22.51,-30.76,-15.52,-5.89,-11.04
+2022-06-01,INDIGO,Airlines,Industrials,1825.55,70331,-11.41,-11.75,2.71,33.64,83.42,0,102.9,4.57,-2.67,5.53,-2.21
+2022-06-01,BRITANNIA,Packaged Foods,Consumer Defensive,3551.3,85540,56.09,33.44,6.13,65.82,36.24,2.9,59.61,3.03,-0.07,5.49,8.56
+2022-06-01,GODREJCP,Household & Personal Products,Consumer Defensive,765.8,78310,43.91,6.78,6.38,53.99,32.69,0,15.43,-9.81,-16.13,4.36,-0.78
+2022-06-01,TATAPOWER,Utilities - Independent Power Producers,Utilities,232.75,74410,43.42,3.32,1.78,11.12,13.87,0.75,7.76,122.41,3.17,2.71,-6.34
+2022-06-01,INDUSINDBK,Banks - Regional,Financial Services,928.35,71916,14.98,1.42,3.26,4.31,2.13,0.54,9.51,-8.09,-2.4,1.76,-8.82
+2022-06-01,HAVELLS,Electrical Equipment & Parts,Industrials,1191.15,74598,62.36,12.43,5.39,43.17,38.75,0.55,19.93,15.71,-13.89,7.86,-7.65
+2022-06-01,ICICIPRULI,Insurance - Life,Financial Services,547.9,78751,104.16,8.6,1.27,47.95,80.91,0.36,8.29,-0.74,-9.19,17.85,5.59
+2022-06-01,TATACONSUM,Packaged Foods,Consumer Defensive,761.1,70140,74.99,4.63,5.68,46.27,44.69,0.57,6.18,14.31,-1.7,10.78,-7.68
+2022-06-01,DRREDDY,Drug Manufacturers - Specialty & Generic,Healthcare,4319,71677,30.48,3.76,3.34,25.5,22.12,0.58,12.37,-18.76,-6.04,16.14,4.73
+2022-06-01,ADANIPOWER,Utilities - Independent Power Producers,Utilities,307.1,118447,31.89,6.33,4.27,11.58,12.27,0,26.26,222.08,204.66,150.29,9.54
+2022-06-01,MINDTREE,,,,,,,,,,,,,,,
+2022-06-01,GAIL,Utilities - Regulated Gas,Utilities,99.33,66160,5.4,1.03,0.71,7.02,4.09,6.04,19.12,-7.14,12.66,-6.29,-5.43
+2022-06-01,BERGEPAINT,Specialty Chemicals,Basic Materials,500.83,58377,70.13,14.87,6.74,103.05,42.51,0.47,21.21,-24.71,-17.67,-9.39,-15.75
+2022-06-01,EICHERMOT,Auto Manufacturers,Consumer Cyclical,2771.7,75785,45.24,6.01,7.48,49.63,28.37,0.61,13.3,3.97,12.87,15.03,8.59
+2022-06-01,AWL,Packaged Foods,Consumer Defensive,645.85,83940,93.74,11.04,1.55,70.07,52.8,0,10.57,-9999999999,-9999999999,69.85,-14.3
+2022-06-01,ICICIGI,Insurance - Diversified,Financial Services,1252.65,61492,48.51,6.69,3.71,83.86,32.05,0,13.83,-14.6,-13.57,0.98,-2.43
+2022-06-01,MARICO,Household & Personal Products,Consumer Defensive,520.25,67183,54.84,20.07,7.11,66.12,39.13,1.78,36.59,8.23,-2.16,1.8,-0.51
+2022-06-01,APOLLOHOSP,Medical Care Facilities,Healthcare,3839,55199,52.29,9.82,3.8,32.55,24.24,0.08,18.77,18.49,-29.33,-21.94,-10.82
+2022-06-01,ZOMATO,Internet Retail,Consumer Cyclical,74.7,57093,-44.73,3.46,13.62,-82.38,-49.21,0,-7.32,-9999999999,-48.45,-9.12,7.48
+2022-06-01,MCDOWELL-N,Beverages - Wineries & Distilleries,Consumer Defensive,801.5,56854,68.62,11.48,5.89,58.17,38.9,0,16.73,30.88,-10.46,-8.58,-5.27
+2022-06-01,MPHASIS,Information Technology Services,Technology,2529.45,47508,33.45,6.84,3.97,27.69,21.04,2.56,20.61,29.72,-18.06,-19.59,-7.69
+2022-06-01,IRCTC,Railroads,Industrials,687.8,55024,83.47,29.42,29.3,105.01,58.03,0.44,35.26,81.52,-16.11,-13.99,-6.74
+2022-06-01,INDUSTOWER,Telecom Services,Communication Services,201.2,54211,8.51,2.45,1.96,5.94,4.76,0,28.77,-16.74,-28.32,-5,-1.47
+2022-06-01,AMBUJACEM,Building Materials,Basic Materials,371.65,,,,,,,,,14.64,-1.31,28.07,-1.72
+2022-06-01,CHOLAFIN,Credit Services,Financial Services,671.55,55140,25.64,4.69,9.4,-9.9,16.56,0.3,18.3,23.07,18.26,-0.64,-10.04
+2022-06-01,UPL,Agricultural Inputs,Basic Materials,779.75,59577,17,2.42,1.3,9.17,11.29,1.28,14.7,-4.42,9.4,9.25,-6.08
+2022-06-01,NAUKRI,Internet Content & Information,Communication Services,4080.3,52516,4.14,3.05,33.05,74.31,3.71,0.39,74.01,-7.85,-29.83,-11.09,-9.93
+2022-06-01,BANKBARODA,Banks - Regional,Financial Services,101.85,52671,6.71,0.57,1.08,8.48,0.71,0,8.54,28.36,14.95,-0.73,-9.67
+2022-06-01,BAJAJHLDNG,Asset Management,Financial Services,5051.15,56217,13.86,1.31,12.86,34.92,13.43,2.54,9.47,44.08,-6.87,-0.69,-5.15
+2022-06-01,TATAELXSI,Software - Application,Technology,8606,53596,97.51,33.48,21.69,110.96,66.14,0.56,34.34,138.43,45.93,29.23,12.17
+2022-06-01,JINDALSTEL,Steel,Basic Materials,376.2,38376,6.67,1.08,0.55,2.39,3.33,0.26,18.99,-5.12,4.66,-15.48,-29.4
+2022-06-01,LODHA,Real Estate - Development,Real Estate,500.1,48161,38.1,3.98,5.27,24.1,15.92,0,9.93,59.7,-30.02,-7.63,-2.73
+2022-06-01,LTTS,Information Technology Services,Technology,3489.2,36823,38.45,8.85,5.6,36.6,23.7,0.99,22.99,29.85,-35.57,-25.1,-11.53
+2022-06-01,GLAND,Drug Manufacturers - General,Healthcare,2800.8,46018,38.03,6.43,10.5,58.19,26.4,0,16.93,-9.07,-23.25,-13.84,-12.61
+2022-06-01,MUTHOOTFIN,Credit Services,Financial Services,1111.95,44628,11.11,2.38,5.61,-27.95,9.13,1.8,21.38,-15.05,-25,-21.9,-12.7
+2022-06-01,PEL,Financial Conglomerates,Financial Services,1067.68,25482,13.28,0.72,3.31,3.02,12.59,3.13,5.42,2.27,-27.31,-10.75,-13.72
+2022-06-01,BEL,Aerospace & Defense,Industrials,82.03,59963,25,4.88,3.98,14.25,16.36,1.71,19.53,67.48,19.09,14.44,3.34
+2022-06-01,JSWENERGY,Utilities - Independent Power Producers,Utilities,264.6,43386,25.2,2.49,5.34,14.7,12.98,0.76,9.93,110,-18.11,-21.57,-13.23
+2022-06-01,HAL,Aerospace & Defense,Industrials,946.67,63311,12.46,3.28,2.57,6.22,9.17,2.11,26.3,83.52,46.03,37.42,20.2
+2022-06-01,BANDHANBNK,Banks - Regional,Financial Services,332.55,53567,426.35,3.08,4.64,59.37,11.4,0.3,0.72,9.81,19.92,17.07,-1.17
+2022-06-01,PAGEIND,Apparel Manufacturing,Consumer Cyclical,44194.3,49294,91.87,45.28,13.23,150.79,61.2,0.68,49.29,42.31,15.03,5.66,-3.07
+2022-06-01,NMDC,Steel,Basic Materials,97.19,28483,3.02,1.58,1.1,4.1,2.26,15.17,52.33,-30.29,-13.36,-17.14,-21.14
+2022-06-01,TORNTPHARM,Drug Manufacturers - Specialty & Generic,Healthcare,1408.22,47661,61.33,8.01,5.66,26.43,29.76,1.42,13.06,1.11,-5.55,0.56,0.86
+2022-06-01,PGHH,Household & Personal Products,Consumer Defensive,14106.05,,,,,,,,,8.57,-6.73,-8.3,2.29
+2022-06-01,GODREJPROP,Real Estate - Development,Real Estate,1367.65,38020,107.94,4.38,20.83,-84.17,68.68,0,4.06,0.48,-32.3,-11.17,-15.36
+2022-06-01,IDBI,Banks - Regional,Financial Services,36.75,39516,15.57,0.93,3.05,7.8,0.19,0.02,5.95,-2.65,-21.31,-15.13,-19.23
+2022-06-01,HEROMOTOCO,Auto Manufacturers,Consumer Cyclical,2757.6,55101,23.79,3.48,1.9,26.19,14.66,3.46,14.62,-7.36,11.99,14.07,10.87
+2022-06-01,HDFCAMC,Asset Management,Financial Services,1854.25,39548,28.39,7.15,18.7,31.54,20.68,1.83,25.19,-37.46,-28.11,-11.21,-8.6
+2022-06-01,ABB,Specialty Industrial Machinery,Industrials,2456.35,,,,,,,,,45.07,18.18,13.75,19.74
+2022-06-01,TRENT,Apparel Retail,Consumer Cyclical,1109.45,39440,372.3,16.68,8.86,679.06,55.19,0.11,4.48,32.05,8.67,-1.92,-9.08
+2022-06-01,MOTHERSUMI,,,,,,,,,,,,,,,
+2022-06-01,ALKEM,Drug Manufacturers - Specialty & Generic,Healthcare,3113,37221,22.62,4.31,3.54,33.5,18.86,1.13,19.05,0.36,-9.47,-4.21,-4.88
+2022-06-01,PIIND,Agricultural Inputs,Basic Materials,2732.3,41439,49.12,6.77,7.82,78.38,33.19,0.18,13.79,4.54,-5.51,10.52,-4.68
+2022-06-01,BOSCHLTD,Auto Parts,Consumer Cyclical,14537.25,42876,35.19,4.01,3.71,159.69,23.25,0.79,11.41,-3.78,-11.9,-4.17,0.53
+2022-06-01,COLPAL,Household & Personal Products,Consumer Defensive,1623.85,44167,40.95,25.46,8.67,27.17,27.34,2.39,62.16,-5.25,11.99,12.66,-1.17
+2022-06-01,CANBK,Banks - Regional,Financial Services,41.75,7574,1.19,0.11,0.15,8.24,-2.38,0,8.75,31.25,1.09,-2.88,-9.14
+2022-06-01,BALKRISIND,Auto Parts,Consumer Cyclical,2334.2,45125,31.44,6.51,5.49,49.69,19.46,1.24,20.7,7.3,6.04,29.82,10.94
+2022-06-01,VOLTAS,Specialty Industrial Machinery,Industrials,1048.05,34679,68.81,6.31,4.42,59.36,45.66,0.48,9.17,3.44,-15.93,-12.45,-14.86
+2022-06-01,CONCOR,Railroads,Industrials,653.95,39845,37.82,3.71,5.22,29.72,20.2,1.22,9.82,-5.66,2.05,9.79,1.47
+2022-06-01,STARHEALTH,Insurance - Diversified,Financial Services,709.05,40808,-38.02,6.38,3.85,-5397.8,-31.39,0,-16.27,-9999999999,-9999999999,3.27,1.07
+2022-06-01,VBL,Beverages - Non-Alcoholic,Consumer Defensive,369.7,,,,,,,,,65.26,26.3,12.68,0.39
+2022-06-01,SAIL,Steel,Basic Materials,76.45,31578,2.58,0.58,0.31,1.02,2.19,9.71,22.58,-36.92,-26.49,-24.42,-21.06
+2022-06-01,ASTRAL,Building Products & Equipment,Industrials,1357.72,36373,75.39,15.57,8.3,66.97,46.81,0.12,20.71,-2.63,-18.8,-3.14,-12.37
+2022-06-01,ACC,Building Materials,Basic Materials,2195.85,,,,,,,,,11.27,-2.93,12.26,-6.45
+2022-06-01,BIOCON,Biotechnology,Healthcare,327.7,39098,60.46,4.64,4.87,33.23,27.06,0,7.69,-15.07,-10.67,-3.63,-12.1
+2022-06-01,SONACOMS,Auto Parts,Consumer Cyclical,571.9,33420,92.09,16.71,15.84,75.17,56.58,0.13,18.07,-9999999999,-25.38,-5.35,-9.77
+2022-06-01,UBL,Beverages - Brewers,Consumer Defensive,1533.9,40558,110.99,10.31,7.24,45.08,55.12,0.03,9.29,22.65,1.41,9.94,-1.26
+2022-06-01,AUBANK,Banks - Regional,Financial Services,643.13,40505,36.03,5.39,9.58,5.91,9.46,0,15.04,30.04,13.19,11.06,-6.19
+2022-06-01,AUROPHARMA,Drug Manufacturers - Specialty & Generic,Healthcare,540.7,31682,11.97,1.29,1.36,6.32,7.32,0.83,10.78,-44.27,-19.8,-12.57,-15.84
+2022-06-01,PNB,Banks - Regional,Financial Services,31.4,34575,8.9,0.35,0.84,1.73,-0.71,0,3.96,-24.61,-18.44,-10.54,-10.41
+2022-06-01,HINDPETRO,Oil & Gas Refining & Marketing,Energy,229.55,32563,4.47,0.79,0.09,2.06,5.72,9.9,17.62,-18.47,-23.1,-17.74,-15.73
+2022-06-01,PERSISTENT,Information Technology Services,Technology,1869.57,27680,41.39,8.22,4.85,32.76,25.37,0.72,20.5,49.92,-13.77,-8.64,-9.84
+2022-06-01,ZYDUSLIFE,Drug Manufacturers - Specialty & Generic,Healthcare,372.65,38150,8.5,2.24,2.57,18.13,7.13,0.98,26.4,-39.84,-19.07,5.99,6.43
+2022-06-01,POLYCAB,Electrical Equipment & Parts,Industrials,2493.7,37267,41.15,6.72,3.1,72.84,26.54,0.4,16.39,48.6,5.45,7.66,1.07
+2022-06-01,HONAUT,Electrical Equipment & Parts,Industrials,31749.1,28072,82.77,9.9,9.56,106.5,53.99,0.27,11.95,-23.53,-17.81,-21.62,-21.22
+2022-06-01,TATACOMM,Telecom Services,Communication Services,970.75,27667,18.67,29.83,1.65,6.58,7.9,1.44,159.74,-13.55,-25.51,-16.75,-10.41
+2022-06-01,JUBLFOOD,Restaurants,Consumer Cyclical,556,36597,87.28,18.82,8.36,39.35,34.47,0.22,21.61,-9.02,-26.85,-0.69,1.6
+2022-06-01,AARTIIND,Specialty Chemicals,Basic Materials,749.8,27181,22.92,6.02,5.24,52.41,17.54,0.47,26.25,-12.35,-21.81,-14.89,-11.54
+2022-06-01,GUJGASLTD,Utilities - Regulated Gas,Utilities,561.4,38647,30.02,6.86,2.36,23.26,18.39,0.36,22.87,3.89,-15.25,6.64,13.21
+2022-06-01,ASHOKLEY,Farm & Heavy Construction Machinery,Industrials,139.9,41069,-114.67,5.62,1.57,14.44,27.86,0.43,-4.91,15,15.96,26.95,10.86
+2022-06-01,IOB,Banks - Regional,Financial Services,18,34025,19.57,1.51,3.03,6.14,0.07,0,7.56,8.11,-14.69,0.56,-0.55
+2022-06-01,PAYTM,Software - Infrastructure,Technology,654.4,42442,-17.22,3,8.55,-34.33,-19.63,0,-16.91,-9999999999,-60.3,-17.82,8.87
+2022-06-01,OBEROIRLTY,Real Estate - Development,Real Estate,795.45,28923,27.62,2.78,10.74,27.06,21.4,0,10.05,31.47,-6.97,-8.59,-16.18
+2022-06-01,LUPIN,Drug Manufacturers - Specialty & Generic,Healthcare,607.95,27630,-18.07,2.27,1.71,75.22,81.84,1.07,-12.57,-49.72,-30.36,-15.5,-18.05
+2022-06-01,MAXHEALTH,Medical Care Facilities,Healthcare,369.55,35833,59.22,5.7,9.23,48.39,36.73,0,9.63,60.43,-2.43,0.14,-5.59
+2022-06-01,BHARATFORG,Auto Parts,Consumer Cyclical,694.25,32324,29.89,4.92,3.26,63.9,16.93,0.51,16.46,4.14,-1.35,7.79,2.33
+2022-06-01,TTML,Telecom Services,Communication Services,121.85,23821,-19.59,-1.26,22.08,44.94,90.44,0,6.45,645.26,-6.45,12.72,-8.21
+2022-06-01,LINDEINDIA,Specialty Chemicals,Basic Materials,3066.65,,,,,,,,,95.21,23.32,16.4,-12.3
+2022-06-01,LAURUSLABS,Drug Manufacturers - Specialty & Generic,Healthcare,560.25,30106,36.5,8.98,6.16,33.04,22.62,0.29,24.69,5.21,9.55,3.7,-5.58
+2022-06-01,INDHOTEL,Lodging,Consumer Cyclical,236.6,33607,-120.1,4.76,11.52,50.04,66.72,0.16,-3.51,79.47,23.04,18.33,-9.59
+2022-06-01,TIINDIA,Conglomerates,Industrials,1599.95,30872,40.22,10.05,2.58,34.47,23.48,0.23,25.03,34.52,-1.76,5.27,-13.3
+2022-06-01,POLICYBZR,Insurance Brokers,Financial Services,658.65,28922,-32.38,5.34,20.3,-18.45,-36.95,0,-15.39,-9999999999,-45.59,-0.14,1.59
+2022-06-01,CUMMINSIND,Specialty Industrial Machinery,Industrials,1026.25,28448,30.47,5.53,4.7,39.96,21.29,1.56,18.15,31.6,11.37,7.91,-0.46
+2022-06-01,OFSS,Software - Infrastructure,Technology,3284.35,28327,15.06,3.99,5.42,15.26,10.15,6.09,26.6,-6.45,-21.01,-2.85,-6.26
+2022-06-01,YESBANK,Banks - Regional,Financial Services,13.25,33198,31.55,0.99,3.64,1.41,2.4,0,3.16,-0.75,5.58,2.32,-3.99
+2022-06-01,SRTRANSFIN,,,,,,,,,,,,,,,
+2022-06-01,DEEPAKNTR,Chemicals,Basic Materials,2012.8,27454,25.74,8.22,4.05,33.32,16.9,0.27,31.95,14.34,-12.84,1.92,-12.42
+2022-06-01,ATUL,Specialty Chemicals,Basic Materials,8091.9,23942,39.62,5.41,4.77,103.44,24.28,0.25,13.64,-5.58,-8.95,-8.61,-8.93
+2022-06-01,SCHAEFFLER,Auto Parts,Consumer Cyclical,2401.05,,,,,,,,,130.81,52.28,28.66,5.81
+2022-06-01,FLUOROCHEM,Specialty Chemicals,Basic Materials,2912,31989,41.23,7.52,8.09,43.15,25.01,0.07,18.5,216.75,17.11,9.92,6.7
+2022-06-01,PFC,Credit Services,Financial Services,88.8,29305,2.09,0.41,0.97,5.98,11.27,15.38,19.55,-6.84,-8.42,0.91,-5.01
+2022-06-01,TVSMOTOR,Auto Manufacturers,Consumer Cyclical,737.2,35024,46.28,7.96,1.64,-22.23,18.17,0.54,17.2,20.32,9.65,25.9,13.58
+2022-06-01,PETRONET,Oil & Gas Refining & Marketing,Energy,223.35,33503,9.74,2.45,0.78,9.63,6.36,4.7,25.15,-7.36,0.36,3.93,7.35
+2022-06-01,ABFRL,Apparel Manufacturing,Consumer Cyclical,274.45,25624,-232.58,9.24,3.17,26.96,24.91,0,-3.92,38.93,3.76,2.67,-2.83
+2022-06-01,RUCHI,,,,,,,,,,,,,,,
+2022-06-01,GLAXO,Drug Manufacturers - General,Healthcare,1525.2,25838,15.25,9.7,7.92,31.87,11.87,1.96,63.64,1.97,-11.89,0.09,-1.73
+2022-06-01,IRFC,Credit Services,Financial Services,21.25,27771,4.56,0.68,1.37,-0.43,19.7,3.62,14.85,-9.96,-9.19,-2.3,-4.49
+2022-06-01,DALBHARAT,Building Materials,Basic Materials,1362.4,25528,31.28,1.59,2.31,13.21,11.16,0.39,5.08,-24.95,-27.06,-4.51,-9.28
+2022-06-01,NHPC,Utilities - Renewable,Utilities,34.1,34254,9.72,0.98,3.78,7.46,10.7,5.69,10.09,32.43,4.76,16.38,1.94
+2022-06-01,IDEA,Telecom Services,Communication Services,9.35,30032,-0.95,-0.48,0.78,1.73,36.13,0,45.58,10,-35.29,-15.77,0.54
+2022-06-01,ZEEL,Broadcasting,Communication Services,253.15,24316,25.21,2.24,2.97,86.87,13.65,1.17,8.88,18.74,-27.58,6.37,-0.88
+2022-06-01,MRF,Auto Parts,Consumer Cyclical,76331.5,32374,48.37,2.31,1.7,-56.01,14.94,0.2,4.77,-8.13,3.32,15.59,5.14
+2022-06-01,TRIDENT,Textile Manufacturing,Consumer Cyclical,47.2,23623,28.26,6.14,3.58,26.17,16.3,1.52,21.69,197.79,5.71,-8.62,-8.79
+2022-06-01,COFORGE,Information Technology Services,Technology,3793.45,23108,35.61,8.45,3.59,30.18,23.34,1.36,24.21,5.71,-29.1,-18.92,-7.85
+2022-06-01,IPCALAB,Drug Manufacturers - Specialty & Generic,Healthcare,889.25,22561,25.52,4.13,3.91,26.35,17.39,0.45,16.18,-13.9,-12.78,-8.2,-11.99
+2022-06-01,MINDAIND,,,,,,,,,,,,,,,
+2022-06-01,RELAXO,Footwear & Accessories,Consumer Cyclical,983.8,24490,105.22,13.91,9.23,437.39,56.1,0.25,13.22,-9.53,-22.8,-18.07,-9.29
+2022-06-01,UNIONBANK,Banks - Regional,Financial Services,38.75,26485,4.99,0.37,0.64,0.73,-1.08,0,7.43,12.81,-15.67,-5.95,0.39
+2022-06-01,IGL,Utilities - Regulated Gas,Utilities,372.45,26072,17.36,3.44,3.4,13.74,11.44,0.97,19.8,-29.02,-26.36,9.29,6.32
+2022-06-01,MFSL,Insurance - Life,Financial Services,807.05,27853,109.95,7.08,0.89,3.28,48.82,0.12,6.44,-13.82,-17.15,-1.05,9.86
+2022-06-01,ABCAPITAL,Financial Conglomerates,Financial Services,101.1,24429,14.34,1.58,0.96,-4.82,13.34,0,11.01,-14.79,-13.22,-2.03,-13.55
+2022-06-01,SUPREMEIND,Building Products & Equipment,Industrials,1892.45,24040,24.82,6.25,3.11,51.12,16.08,1.22,25.19,-15.64,-18.79,-6.75,-6.12
+2022-06-01,OIL,Oil & Gas E&P,Energy,244.85,26552,4.72,0.87,1.04,2.85,4.1,5.2,18.39,79.9,13.38,-0.18,11.45
+2022-06-01,CGPOWER,Electrical Equipment & Parts,Industrials,185.3,26718,29.18,26.64,4.94,55.33,22.73,0,90.98,120.73,18.63,8.78,-3.79
+2022-06-01,DIXON,Consumer Electronics,Technology,3892.3,23098,121.73,23.17,2.16,84.68,62.07,0.03,19.08,-5.24,-24.84,-7.81,-2.57
+2022-06-01,SOLARINDS,Specialty Chemicals,Basic Materials,2620.65,23715,53.73,12.39,6.19,79.63,32.57,0.23,23.05,75.32,-5.68,13.35,-10.22
+2022-06-01,BATAINDIA,Footwear & Accessories,Consumer Cyclical,1852.3,23808,231.25,13.12,9.97,112.56,52.82,0.22,5.68,20.22,-2.27,4.26,-5.87
+2022-06-01,KANSAINER,Specialty Chemicals,Basic Materials,268.63,21716,60.5,5.26,3.46,876.69,31.84,1.31,8.68,-30.06,-32.26,-9.83,-13.3
+2022-06-01,TATACHEM,Chemicals,Basic Materials,945.3,24083,19.15,1.32,1.92,14.64,11.86,1.06,6.89,33.82,3.88,6.27,-8.49
+2022-06-01,IDFCFIRSTB,Banks - Regional,Financial Services,36.15,22478,172.14,1.07,1.69,8.63,7.45,0,0.63,-37.19,-23.49,-13.1,-6.95
+2022-06-01,RECLTD,Credit Services,Financial Services,89.25,23502,2.35,0.46,1.43,-28.71,10.3,10.26,19.56,-18.19,-10.22,-3.05,-5.93
+2022-06-01,CRISIL,Financial Data & Stock Exchanges,Financial Services,3549.9,,,,,,,,,82.01,17.98,27.13,-3.34
+2022-06-01,SYNGENE,Biotechnology,Healthcare,546.9,21771,55.69,6.6,8.68,37.5,27.76,0,12,-6.38,-8.03,1.73,-11.81
+2022-06-01,CROMPTON,"Furnishings, Fixtures & Appliances",Consumer Cyclical,362.35,22952,39.51,9.36,4.27,31.17,29.5,0.68,23.58,-9.03,-15.29,-9.67,-4.28
+2022-06-01,TORNTPOWER,Utilities - Independent Power Producers,Utilities,479.25,23034,50.71,2.32,1.64,7.27,12.76,3.05,4.57,10.81,-15.22,-0.15,-10.7
+2022-06-01,COROMANDEL,Agricultural Inputs,Basic Materials,962.15,28239,18.51,4.44,2.29,13.59,12.2,1.25,24.04,20.37,28.32,23.1,5.72
+2022-06-01,MANYAVAR,Apparel Manufacturing,Consumer Cyclical,1063.55,25813,82.45,23.84,24.84,73.54,48.08,0,29.08,-9999999999,-9999999999,23.15,-0.62
+2022-06-01,HATSUN,Packaged Foods,Consumer Defensive,903.58,19842,91.46,17.89,3.12,34.42,30.83,0.65,19.65,8.14,-30.09,-15.43,-13.11
+2022-06-01,THERMAX,Specialty Industrial Machinery,Industrials,1993.55,22451,71.89,6.43,3.7,69.14,42.11,0.35,8.94,41.23,13.08,6.88,-7.11
+2022-06-01,APLAPOLLO,Steel,Basic Materials,985.3,24661,44.12,10.01,1.95,37.84,25.62,0,25.12,51.89,6.48,14.6,-4.25
+2022-06-01,ESCORTS,Farm & Heavy Construction Machinery,Industrials,1595,20665,21.63,2.72,2.92,640.18,18.14,0.36,9.69,37.17,-14.53,-12.71,1.14
+2022-06-01,SUMICHEM,Agricultural Inputs,Basic Materials,471.65,23543,55.55,12.22,7.75,106.15,37.62,0.17,21.98,47.64,26.43,27.08,7.82
+2022-06-01,NATIONALUM,Aluminum,Basic Materials,92.35,16962,5.75,1.35,1.19,4.19,3.45,6.5,23.51,27.64,0.71,-28.41,-13.25
+2022-06-01,GMRINFRA,Airports & Air Services,Industrials,38.6,23299,-22.71,-28.49,5.06,7.16,24.69,0,125.12,66.74,0.94,0.52,2.25
+2022-06-01,3MINDIA,Conglomerates,Industrials,21213.8,23898,87.87,10.94,7.17,73,53.05,0,12.46,-16.76,-17.81,0.63,6.97
+2022-06-01,FORTIS,Medical Care Facilities,Healthcare,243.7,18399,33.16,2.98,3.26,21.26,16.94,0,8.99,5.93,-14.63,-8.73,-7.71
+2022-06-01,LALPATHLAB,Diagnostics & Research,Healthcare,2134.55,17666,51.35,11.71,8.46,39.55,29.32,0.66,22.86,-26.34,-42.46,-12.78,-14.3
+2022-06-01,NAM-INDIA,Asset Management,Financial Services,282.75,17588,23.96,5.06,13.46,30.35,17.23,2.99,21.39,-23.06,-22.8,-7.97,-9.19
+2022-06-01,SUNDARMFIN,Credit Services,Financial Services,1829.6,20161,17.18,2.29,7.25,11.32,12.91,1,13.34,-26.52,-21.25,-2.69,-9.69
+2022-06-01,KPRMILL,Textile Manufacturing,Consumer Cyclical,592.2,20375,24.2,6.39,4.36,41.23,16.42,0.03,26.42,93.08,16.44,-6.13,-5.16
+2022-06-01,CLEAN,Specialty Chemicals,Basic Materials,1814.75,19277,84.37,25.08,28.45,151.49,58.28,0,29.73,-9999999999,-26.6,-9.02,-4.52
+2022-06-01,DEVYANI,Restaurants,Consumer Cyclical,169.75,20451,128.6,29.8,9.91,45.39,46.22,0,22.78,-9999999999,10.44,6.49,-0.7
+2022-06-01,POONAWALLA,Credit Services,Financial Services,258.95,19808,50.12,3.27,13.08,-6.89,33.95,0,6.19,81.15,25.86,8.42,-11.64
+2022-06-01,TANLA,Software - Application,Technology,1362.85,18501,34.29,13.66,5.77,38.03,25.89,0.07,39.83,56.25,-10.43,-12.1,-4.72
+2022-06-01,FEDERALBNK,Banks - Regional,Financial Services,89.3,18776,9.46,0.98,2.2,-2.42,0.57,0.74,10.23,4.14,0.11,-6.74,-5.55
+2022-06-01,RAJESHEXPO,Luxury Goods,Consumer Cyclical,551,16269,16.12,1.31,0.07,-3713.58,13.48,0.18,8.11,5.77,-26.24,-22.16,-11.36
+2022-06-01,MSUMI,Auto Parts,Consumer Cyclical,46.07,20369,49.54,18.27,3.65,40.68,29.52,0,36.85,-9999999999,-9999999999,-9999999999,-7.32
+2022-06-01,AAVAS,Mortgage Finance,Financial Services,2186.55,17260,48.8,6.15,15.54,-15.21,52.81,0,12.66,-3.84,-21.26,-23.17,-4.49
+2022-06-01,NAVINFLUOR,Chemicals,Basic Materials,3883.9,19246,73.17,10.44,13.29,257.44,49.01,0.28,14.26,21.37,1.36,2.15,-0.91
+2022-06-01,IEX,Capital Markets,Financial Services,190.6,17129,55.25,24.35,39.72,22.47,40.86,0.79,43.97,62.53,-25.47,-10.83,-9.41
+2022-06-01,VINATIORGA,Specialty Chemicals,Basic Materials,2061.25,21186,61.13,11.59,13.14,167.12,42.91,0.29,18.96,16.57,8.42,12.05,0.59
+2022-06-01,ISEC,Capital Markets,Financial Services,440.7,14221,10.32,5.85,4.42,-5.47,9.75,5.61,56.88,-24.37,-42.71,-30.38,-18.41
+2022-06-01,GICRE,Insurance - Reinsurance,Financial Services,124.25,21799,9.14,0.61,0.44,2.41,0.09,0,6.63,-36.85,-12.07,7.34,-7.14
+2022-06-01,WHIRLPOOL,"Furnishings, Fixtures & Appliances",Consumer Cyclical,1656.6,21018,37.11,6.26,3.39,214.97,24.29,0.3,16.87,-23.26,-18.28,0.37,0.64
+2022-06-01,L&TFH,Credit Services,Financial Services,75.85,18766,17.56,0.94,3.36,3.09,13.49,0,5.36,-17.37,-3.8,19.73,-10.45
+2022-06-01,GRINDWELL,Building Products & Equipment,Industrials,1720.65,19052,64.44,12.15,9.47,102.11,42.12,0.55,18.85,43.45,2.97,6.6,1.18
+2022-06-01,PFIZER,Drug Manufacturers - General,Healthcare,4287.95,19617,32.03,6.85,7.51,29.41,21.95,0.81,21.39,-16.32,-12.81,-0.61,-1.97
+2022-06-01,EMAMILTD,Household & Personal Products,Consumer Defensive,419,18485,22.19,8.9,5.86,28.71,23.73,1.92,40.4,-17.44,-23.98,-14.65,-14.56
+2022-06-01,PRESTIGE,Real Estate - Diversified,Real Estate,446.75,17909,15.57,1.97,2.85,8.37,9.5,0.34,12.64,64.28,2.37,1.96,-6.8
+2022-06-01,LICHSGFIN,Mortgage Finance,Financial Services,376.2,20694,8.72,0.84,3.65,-1.24,13.3,2.26,9.23,-21.23,-1.54,8.48,-3.38
+2022-06-01,M&MFIN,Credit Services,Financial Services,180.6,22268,19.61,1.32,3.25,1232.96,11.81,0.45,6.73,12.87,11.79,27.09,-0.77
+2022-06-01,PHOENIXLTD,Real Estate - Diversified,Real Estate,1146.95,20476,86.24,3.11,14.13,26.23,30.41,0.09,3.61,45.09,15.61,20.36,5.4
+2022-06-01,SUNTV,Broadcasting,Communication Services,442.75,17449,10.63,2.14,4.87,10.68,7.39,3.11,20.13,-15.77,-16.15,-1.55,-8.03
+2022-06-01,INDIANB,Banks - Regional,Financial Services,169.9,21161,5,0.47,0.88,0.74,-1.53,1.18,9.21,24.88,19.1,17.78,5.59
+2022-06-01,SUNDRMFAST,Auto Parts,Consumer Cyclical,790.75,16616,36.37,6.34,3.49,41.42,20.95,1.25,17.42,0.63,-7,-4.78,-0.98
+2022-06-01,BANKINDIA,Banks - Regional,Financial Services,47.95,19677,5.29,0.36,0.91,-0.56,-1.62,0,6.34,-37.07,-11.37,1.91,0.52
+2022-06-01,JKCEMENT,Building Materials,Basic Materials,2371.8,18327,26.98,4.24,2.34,20.86,13.76,0.63,15.89,-16.65,-28.74,-11.37,-8.37
+2022-06-01,NIACL,Insurance - Diversified,Financial Services,103.65,17082,87.84,0.66,0.47,-4.1,15.11,0,0.67,-36.12,-28.76,-11.9,-11.11
+2022-06-01,RAMCOCEM,Building Materials,Basic Materials,692.4,16361,17.75,2.47,2.74,14.42,15.92,0,13.32,-27.14,-27.18,-5.18,-12.03
+2022-06-01,DCMSHRIRAM,Specialty Chemicals,Basic Materials,1001.65,15502,14.63,2.82,1.62,12.66,8.65,1.37,19.4,44.85,-1.83,-4.1,-13.3
+2022-06-01,CHAMBLFERT,Agricultural Inputs,Basic Materials,357.55,14870,9.5,2.32,0.93,-613.69,7.09,2.52,24.47,27.36,-11.8,-8.18,-22.51
+2022-06-01,SKFINDIA,Tools & Accessories,Industrials,3597.15,17784,45.02,9.43,4.87,311.5,29.52,0.4,20.95,53.05,-7.55,6.52,8.02
+2022-06-01,SANOFI,Drug Manufacturers - General,Healthcare,6930.75,,,,,,,,,-10.52,-12.17,-4.35,-0.14
+2022-06-01,BHEL,Specialty Industrial Machinery,Industrials,51.7,18003,430.83,0.68,0.89,27.27,20.27,0,1.68,-27.29,-14.47,2.48,-1.34
+2022-06-01,BCG,Advertising Agencies,Communication Services,61,12310,13.5,2.32,2.45,42.84,7.69,0,17.23,1352.38,-19.31,-6.04,-23.56
+2022-06-01,SFL,"Furnishings, Fixtures & Appliances",Consumer Cyclical,1491.22,14550,66.51,10.45,5.08,73.8,38.33,0.03,15.61,45.96,-10.72,-13.32,-15.3
+2022-06-01,APTUS,Mortgage Finance,Financial Services,289.4,14381,38.43,4.93,22.77,-19.88,23.97,0,12.69,-9999999999,-7.48,-13.65,-9.89
+2022-06-01,AFFLE,Advertising Agencies,Communication Services,1046.65,13947,64.95,11.84,12.89,67.71,55.64,0,18.15,-0.89,-4.6,-12.4,-14.18
+2022-06-01,METROBRAND,Apparel Retail,Consumer Cyclical,582,15802,72.93,12.49,11.77,71.93,35.34,0.45,16.73,-9999999999,-9999999999,9.41,3.44
+2022-06-01,KPITTECH,Information Technology Services,Technology,543.7,14681,54.1,11.21,6.04,30.91,30.25,0.5,20.94,131.12,9.21,-4.13,1.16
+2022-06-01,BLUEDART,Integrated Freight & Logistics,Industrials,7666.95,18193,47.6,20.86,4.12,21.16,19.57,0.52,43.83,27.6,16.47,29.85,8.86
+2022-06-01,KAJARIACER,Building Products & Equipment,Industrials,1053.75,16777,44.5,7.9,4.54,39.43,26.77,0.76,17.76,9.07,-6.39,9.24,1.57
+2022-06-01,TIMKEN,Tools & Accessories,Industrials,2672.3,20101,61.45,12.13,9.21,611.08,38.71,0.06,19.74,104.03,32.48,32.17,37.97
+2022-06-01,CENTRALBK,Banks - Regional,Financial Services,18.8,16321,15.16,0.59,1.31,1.14,-1.93,0,3.84,1.35,-13.36,2.17,1.62
+2022-06-01,CENTURYPLY,Lumber & Wood Production,Basic Materials,565.1,12555,40.11,8.06,4.17,45.46,23.23,0.18,20.11,40.55,-9.79,-5.35,-13.61
+2022-06-01,GILLETTE,Household & Personal Products,Consumer Defensive,4894.75,,,,,,,,,-12.22,-9.19,-5.06,-5.81
+2022-06-01,SUVENPHAR,Drug Manufacturers - Specialty & Generic,Healthcare,503.55,12819,28.24,8.39,9.94,38.84,18.09,0.79,29.72,-0.17,2.49,-1.09,-14.07
+2022-06-01,AJANTPHARM,Drug Manufacturers - Specialty & Generic,Healthcare,1183.73,15167,21.54,4.65,4.62,27,14.39,0.54,21.83,-8.17,-16.13,2.3,-1.53
+2022-06-01,GODREJIND,Conglomerates,Industrials,474.25,15963,24.42,2.24,1.13,-9.09,16.62,0.4,9.17,-10.08,-17.43,-7.78,-2.55
+2022-06-01,HAPPSTMNDS,Information Technology Services,Technology,991.1,14134,78.97,21.23,12.92,84.07,51.62,0.48,27.22,17.43,-22.59,0.41,0.46
+2022-06-01,CDSL,Capital Markets,Financial Services,1192.05,12457,40.03,11.4,22.59,43.95,29.6,0.76,28.47,23.48,-21.71,-14.14,-7.94
+2022-06-01,ENDURANCE,Auto Parts,Consumer Cyclical,1295.2,18219,39.55,4.65,2.45,24.57,18.74,0.46,11.75,-13.24,-25.23,6.98,5.16
+2022-06-01,ABSLAMC,Asset Management,Financial Services,417.6,12027,17.93,5.48,9.3,21.36,12.85,1.93,30.63,-9999999999,-28.18,-16.99,-19.6
+2022-06-01,AIAENG,Specialty Industrial Machinery,Industrials,2276.95,21477,34.66,4.52,6.1,-543.07,24.23,0.36,13.03,19.39,23.71,42.53,17.31
+2022-06-01,NH,Medical Care Facilities,Healthcare,642.25,13126,38.14,8.82,3.55,27.06,20.57,0,22.97,30.3,12.58,-4.7,-7.52
+2022-06-01,IRB,Infrastructure Operations,Industrials,22.41,13534,25.76,1.08,2.38,37.17,12.65,0,2.88,93.19,-1.84,-2.27,-3.32
+2022-06-01,CARBORUNIV,Conglomerates,Industrials,714.75,13571,40.8,5.74,4.13,55.49,23.59,0.42,14.1,21.22,-21.38,-6.75,-6.34
+2022-06-01,POWERINDIA,Electronic Components,Technology,3510.2,,,,,,,,,82.07,31.86,-8.89,13.63
+2022-06-01,GRINFRA,Engineering & Construction,Industrials,1420.9,13739,16.51,2.86,1.62,82.54,10.23,0,17.29,-9999999999,-19.09,6.04,-8.6
+2022-06-01,IIFLWAM,,,,,,,,,,,,,,,
+2022-06-01,GSPL,Utilities - Regulated Gas,Utilities,253.55,14306,8.73,1.81,0.8,5.21,4.97,1.23,20.69,-8.48,-18.17,-8,-4.37
+2022-06-01,ALKYLAMINE,Specialty Chemicals,Basic Materials,2712.4,13853,61.72,14,9.09,67.68,40.83,0.22,22.72,-24.62,-16.77,-6.46,-13.39
+2022-06-01,APLLTD,Drug Manufacturers - Specialty & Generic,Healthcare,722.45,14201,27.26,2.71,2.71,25.71,15.98,1.94,9.95,-23.5,-10.57,-1.37,-8.16
+2022-06-01,ZFCVINDIA,Auto Parts,Consumer Cyclical,7503.65,14233,100.18,6.73,5.64,103.08,49.52,0.15,6.72,9.04,-6.64,0.12,-4.9
+2022-06-01,UCOBANK,Banks - Regional,Financial Services,11.55,13810,14.44,0.59,1.44,3.14,0.17,0,3.96,-12.5,-11.15,-2.94,-2.53
+2022-06-01,NUVOCO,Building Materials,Basic Materials,311.25,11117,334.68,1.26,1.23,9.11,11.72,0,0.36,-9999999999,-40.49,-17.35,-10.11
+2022-06-01,NATCOPHARM,Drug Manufacturers - Specialty & Generic,Healthcare,710.8,12974,76.27,3.04,6.81,279,37.64,0.63,3.99,-32.03,-16.02,-19.61,-9.65
+2022-06-01,BASF,Specialty Chemicals,Basic Materials,2585.95,11194,18.82,4.79,0.86,33.93,11.81,0.39,25.46,5.14,-10.66,-7.05,-2.53
+2022-06-01,CREDITACC,Credit Services,Financial Services,1072.2,16712,48.3,4.01,6.56,-6.16,51.02,0,8.47,69.87,106.61,52.46,3.55
+2022-06-01,INDIAMART,Internet Content & Information,Communication Services,2284.63,13961,47.18,7.45,18.53,34.7,34.26,0.33,15.88,-36.85,-36.22,0.49,-6.32
+2022-06-01,GNFC,Chemicals,Basic Materials,679.3,10558,6.17,1.32,1.22,5.37,4.04,1.17,21.41,84.07,60.72,16.14,-18.45
+2022-06-01,EXIDEIND,Auto Parts,Consumer Cyclical,147.15,12508,2.86,1.18,0.98,204.21,2.51,1.36,41.26,-22.55,-10.79,-0.81,-2.9
+2022-06-01,MOTILALOFS,Capital Markets,Financial Services,803.25,11974,9.09,2.11,3.26,11.85,7.56,0.72,23.08,2.21,-17.2,-8.25,-10.81
+2022-06-01,BSE,Financial Data & Stock Exchanges,Financial Services,746.65,10100,40.34,3.8,13.59,7.01,24.61,0.95,9.58,140.16,19.3,7.05,-16.16
+2022-06-01,ANGELONE,Capital Markets,Financial Services,1494.15,12390,20.07,7.82,6.2,22.22,9.52,1.69,39.44,100.25,31.18,14.8,-17.57
+2022-06-01,INTELLECT,Software - Application,Technology,668.75,8999,26.6,4.97,4.79,19.87,19.84,0.01,19.3,-10.37,2.66,1.94,-15.08
+2022-06-01,BSOFT,Information Technology Services,Technology,368.15,10276,22.41,3.98,2.49,36.61,14.31,1.08,17.95,18.28,-23.77,-14.35,-9.47
+2022-06-01,TV18BRDCST,Broadcasting,Communication Services,41.2,7064,12.08,1.48,1.29,11.91,9.12,0,12.23,0,-0.48,-33.76,-22.12
+2022-06-01,KIOCL,Steel,Basic Materials,198.55,12067,38.48,5.63,4.01,172.59,26.3,1.32,14.62,-21.94,-13.94,-18.49,-9.23
+2022-06-01,UTIAMC,Asset Management,Financial Services,685.4,8702,16.33,2.4,7.78,25.82,12.16,2.48,14.76,-10.24,-34.73,-20.66,-12.68
+2022-06-01,VTL,Textile Manufacturing,Consumer Cyclical,284.95,8232,5.24,1.07,0.88,5.7,4.04,4.24,20.08,12.15,-26.99,-46.69,-32.18
+2022-06-01,ALOKINDS,Textile Manufacturing,Consumer Cyclical,22.6,11222,-53.81,-0.63,1.54,49.91,57.98,0,1.16,10.78,5.85,-7.57,-9.05
+2022-06-01,GLENMARK,Drug Manufacturers - Specialty & Generic,Healthcare,388.9,10974,11.65,1.21,0.9,9.9,6.22,0.84,10.36,-34.61,-22.07,-11.8,-11.1
+2022-06-01,BAJAJELEC,"Furnishings, Fixtures & Appliances",Consumer Cyclical,922.13,10593,79.02,6.12,2.24,11.59,34.97,0,7.42,-7.53,-5.38,-11.73,-10.73
+2022-06-01,FINEORG,Specialty Chemicals,Basic Materials,5126.35,15718,60.52,16.39,8.38,236.13,39.39,0.21,27.07,68.3,38.72,22.13,14.45
+2022-06-01,JBCHEPHARM,Drug Manufacturers - Specialty & Generic,Healthcare,794.08,12274,31.88,5.75,5.06,72.14,21.09,1.04,18.06,7.55,-1.66,-0.94,-6.9
+2022-06-01,APOLLOTYRE,Auto Parts,Consumer Cyclical,219.85,13963,21.85,1.19,0.68,6.48,7.54,1.59,5.43,-0.88,4.69,22.92,8.51
+2022-06-01,RATNAMANI,Steel,Basic Materials,1742.8,12216,37.86,5.43,3.91,-43.16,23.34,0.54,14.35,36.46,28.02,16.76,9.73
+2022-06-01,MEDPLUS,Pharmaceutical Retailers,Healthcare,876.95,10463,102.93,7.38,2.79,61.58,37.06,0,6.76,-9999999999,-9999999999,-16.1,-10.19
+2022-06-01,BRIGADE,Real Estate - Development,Real Estate,457.35,10532,124.96,3.62,3.58,10.2,16.83,0.26,2.84,75.9,-7.27,-4.8,0.31
+2022-06-01,AMBER,"Furnishings, Fixtures & Appliances",Consumer Cyclical,2653.05,8940,81.86,5.15,2.18,37.13,36.22,0,6.3,-2.24,-18.32,-26.81,-32.24
+2022-06-01,RADICO,Beverages - Wineries & Distilleries,Consumer Defensive,794.9,10626,40.35,5.24,3.7,47.86,25.28,0.3,12.99,28.86,-26.17,-6.53,-9.4
+2022-06-01,PVR,,,,,,,,,,,,,,,
+2022-06-01,CHOLAHLDNG,Credit Services,Financial Services,628.35,11797,11.53,1.83,0.82,-2.06,24.7,0.85,15.87,-2.64,-7.96,-3.31,-0.66
+2022-06-01,TTKPRESTIG,"Furnishings, Fixtures & Appliances",Consumer Cyclical,882.3,12230,40.12,7.07,4.53,41.66,26.73,0.62,17.63,0.54,-13.02,9.99,3.6
+2022-06-01,KEI,Electrical Equipment & Parts,Industrials,1297.25,11689,31.21,5.47,2.06,51.14,19.98,0.19,17.61,107.96,9.96,22.79,3.52
+2022-06-01,REDINGTON,Information Technology Services,Technology,130.95,10234,7.99,1.77,0.16,10.34,4.32,4.43,22.12,6.2,-14.22,-15.27,-12.96
+2022-06-01,CAMS,Information Technology Services,Technology,2409.1,11782,41.24,18.19,12.95,36.65,26.87,1.6,44.31,-4,-18.12,-3.54,-1.25
+2022-06-01,MAHABANK,Banks - Regional,Financial Services,17.65,11880,10.2,0.84,1.45,1.72,-0.03,2.83,8.2,-25.37,-9.25,-1.4,-0.28
+2022-06-01,KIMS,Medical Care Facilities,Healthcare,1295.1,10365,30.92,7.47,6.28,31.99,19.82,0,23.98,-9999999999,-3.31,-0.34,-2.79
+2022-06-01,HINDCOPPER,Copper,Basic Materials,103.8,10038,26.82,5.25,5.54,9.54,24.08,0.34,19.56,-36.16,-11.7,-16.02,-7.98
+2022-06-01,IIFL,Credit Services,Financial Services,326.35,12755,10.79,1.97,3.17,7.15,8.75,1.04,18.38,24.89,-0.05,11.29,-3.99
+2022-06-01,HFCL,Communication Equipment,Technology,65.4,8992,27.48,3.21,1.91,43.78,16.94,0.21,11.19,50.52,-8.15,-8.15,-3.47
+2022-06-01,SHRIRAMCIT,,,,,,,,,,,,,,,
+2022-06-01,CGCL,Credit Services,Financial Services,627,46581,226.97,24.23,52.59,-34.76,178.75,0.02,10.67,21,29.73,10.58,-12.32
+2022-06-01,SJVN,Utilities - Renewable,Utilities,27.55,10827,10.93,0.82,4.49,5.06,9.64,5.64,7.52,0.92,-2.3,-5,-3.67
+2022-06-01,VIPIND,Footwear & Accessories,Consumer Cyclical,604.85,8558,128.42,15.29,6.65,-361.36,49.79,0.41,11.96,58.03,13.64,-3.67,-10.93
+2022-06-01,LXCHEM,Specialty Chemicals,Basic Materials,365.65,9641,38.01,7.47,3.13,148.34,25.7,0.14,19.95,63.49,-16.02,-10.96,-15.68
+2022-06-01,CHEMPLASTS,Chemicals,Basic Materials,481.85,7619,11.04,4.47,1.29,8.46,5.98,0,38.04,-9999999999,-17.48,-10.83,-16.05
+2022-06-01,ASAHIINDIA,Auto Parts,Consumer Cyclical,445.25,10824,31.4,6.14,3.44,18.47,15.23,0.22,19.56,42.69,-4.11,0.02,-5.3
+2022-06-01,METROPOLIS,Diagnostics & Research,Healthcare,1593.55,8155,38.25,9.2,6.64,32.2,23.22,0.5,24.17,-36.27,-50.28,-18.52,-30.43
+2022-06-01,LAXMIMACH,Specialty Industrial Machinery,Industrials,9202.1,9831,54.3,4.94,3.16,20.28,32.71,0.11,9.1,39.88,4.26,-9.96,-0.47
+2022-06-01,CYIENT,Conglomerates,Industrials,798.95,8814,16.81,2.83,1.94,13.89,9.15,3.35,16.76,-1.44,-20.47,-8.97,-7.76
+2022-06-01,JSL,Steel,Basic Materials,113.1,5944,2.99,0.61,0.18,5.73,1.87,0,31.34,23.67,-30.53,-41.37,-37.1
+2022-06-01,GALAXYSURF,Specialty Chemicals,Basic Materials,2877.45,10202,38.82,6.48,2.79,2069.36,25.83,0.14,16.69,-2.96,1.41,4.54,-2.79
+2022-06-01,BLUESTARCO,Building Products & Equipment,Industrials,511.52,9854,58.75,9.68,1.64,112.74,26.91,0.39,16.48,25.39,3.12,-2.89,-10.25
+2022-06-01,BDL,Aerospace & Defense,Industrials,406.65,14907,29.81,4.92,5.45,28.14,18.74,0.97,16.5,120.35,96.04,75.99,13.78
+2022-06-01,CESC,Utilities - Regulated Electric,Utilities,78.2,10366,7.63,1,0.83,4.15,5.59,5.81,13.06,14.97,-12.28,-1.51,-7.24
+2022-06-01,BALRAMCHIN,Confectioners,Consumer Defensive,409.45,8355,18.25,3.02,1.75,12.03,12.88,0.61,16.78,34.82,26.67,-3.64,-8.24
+2022-06-01,CASTROLIND,Oil & Gas Refining & Marketing,Energy,109.2,,,,,,,,,-17.52,-13.95,-1.09,0.65
+2022-06-01,MASTEK,Information Technology Services,Technology,2703.1,8115,26.04,7.57,3.72,29.67,16.56,0.59,27.55,39.54,-5.87,-1.54,-5.54
+2022-06-01,RHIM,Metal Fabrication,Industrials,595.15,9582,35.62,9.31,4.87,351.48,24.36,0.42,26.15,93.86,75.48,11.39,-1.41
+2022-06-01,ASTERDM,Medical Care Facilities,Healthcare,196.1,9751,18.55,2.47,0.95,7.42,9.81,0,13.3,35.99,1.03,17.43,3.21
+2022-06-01,IDFC,Asset Management,Financial Services,49.6,7919,124,0.89,87.13,182.7,60.85,0,0.72,-11.59,-3.69,-12.06,-11.98
+2022-06-01,GRAPHITE,Electrical Equipment & Parts,Industrials,444.7,8689,17.22,1.76,2.93,-17.8,12.05,1.12,10.2,-40.5,6.46,-8.81,-12.65
+2022-06-01,QUESS,Staffing & Employment Services,Industrials,704.75,10430,43.56,4.28,0.76,18.83,17.11,1.55,9.9,2.28,-18.29,16.08,2.55
+2022-06-01,KEC,Engineering & Construction,Industrials,403.8,10382,31.25,2.87,0.77,-36.59,15.25,0.99,9.17,0.42,-6.39,-13.27,1.56
+2022-06-01,ROUTE,Telecom Services,Communication Services,1387.45,8724,49.87,5.22,4.36,64.83,40.15,0.35,9.94,-17.08,-22.79,-9.49,-16.32
+2022-06-01,EIHOTEL,Lodging,Consumer Cyclical,137.3,8587,-88.01,2.84,8.71,-459.35,147.9,0.01,-3.22,25.16,10.02,3.35,-17.14
+2022-06-01,MANAPPURAM,Credit Services,Financial Services,93.55,7919,5.96,0.95,1.96,-18.72,7.55,3.21,15.87,-41.79,-45.58,-20.99,-18.19
+2022-06-01,FINPIPE,Building Products & Equipment,Industrials,156.1,9653,9.21,2.46,2.09,15.52,6.75,2.57,26.77,-6.94,-22.3,1.66,0.61
+2022-06-01,ZYDUSWELL,Packaged Foods,Consumer Defensive,1540.15,9801,31.73,2.02,4.93,41.38,28.74,0.33,6.38,-25.93,-19.57,-2.61,-9.43
+2022-06-01,CENTURYTEX,Paper & Paper Products,Basic Materials,805.7,9000,54.04,2.42,2.21,-176.01,20.69,0.13,4.48,61.95,-3.17,7.71,-3.24
+2022-06-01,CUB,Banks - Regional,Financial Services,142.3,10525,13.98,1.6,3.94,9.03,2.95,0.36,11.54,-14.82,-1.32,18.98,6.15
+2022-06-01,SAPPHIRE,Restaurants,Consumer Cyclical,1012.35,6433,131.13,6.39,3.75,16.29,21.92,0,4.61,-9999999999,-5.53,-19.22,-22.5
+2022-06-01,BALAMINES,Specialty Chemicals,Basic Materials,3254.75,10546,28.62,8.44,4.57,48.03,18.22,0.12,29.48,18.93,5.74,15.41,1.75
+2022-06-01,ERIS,Drug Manufacturers - Specialty & Generic,Healthcare,671.1,9123,22.46,4.78,6.88,24.12,19.63,0.89,21.28,-5.32,-4.82,-3.76,-0.72
+2022-06-01,VGUARD,Electrical Equipment & Parts,Industrials,234.45,10118,44.66,7.19,2.89,-274.82,28.91,0.51,16.18,-11.96,-0.82,13.37,11.96
+2022-06-01,SAREGAMA,Entertainment,Communication Services,409.51,7896,48.64,5.73,13.7,83.62,36.66,0.73,11.08,60.8,-4.73,-2.01,-1.85
+2022-06-01,SHYAMMETL,Steel,Basic Materials,312.45,7970,4.53,1.37,0.77,5.11,3.17,2.3,29.56,-9999999999,1.12,-2.75,-1.64
+2022-06-01,JSLHISAR,,,226.05,5334,2.75,1.09,0.36,-1918.45,2.57,0,39.57,29.5,-22.47,-37.62,-34.12
+2022-06-01,AMARAJABAT,,,,,,,,,,,,,,,
+2022-06-01,POLYMED,Medical Instruments & Supplies,Healthcare,763.75,7325,50.02,6.74,7.99,59.32,29.74,0.33,13.47,-24.38,-26.37,-5.92,-13.93
+2022-06-01,BIRLACORPN,Building Materials,Basic Materials,996.25,7672,19.25,1.27,1.03,7.38,10.51,1,6.59,-18.14,-26.1,-9.31,-5.23
+2022-06-01,ITI,Communication Equipment,Technology,92.5,8636,72.83,3.3,4.64,-19.74,28.27,0,4.53,-23.24,-16.18,-2.43,-5.61
+2022-06-01,WELSPUNIND,,,,,,,,,,,,,,,
+2022-06-01,STLTECH,Electrical Equipment & Parts,Industrials,174.55,6943,116.37,3.55,1.3,11.89,15.52,1.14,3.07,-31.83,-38.8,-5.93,-7.74
+2022-06-01,NETWORK18,Broadcasting,Communication Services,76.05,7963,38.03,10.55,1.37,12.42,19.71,0,27.5,88.01,1.94,-0.91,-10.53
+2022-06-01,ELGIEQUIP,Specialty Industrial Machinery,Industrials,377,11925,66.84,11.55,4.75,173.93,36.35,0.21,17.28,83.5,27.28,9.91,11.26
+2022-06-01,DELTACORP,Resorts & Casinos,Consumer Cyclical,212.2,5672,85.22,2.81,9.2,44.82,37.19,0.47,3.31,25.6,-16.01,-19.83,-19.89
+2022-06-01,ALLCARGO,Integrated Freight & Logistics,Industrials,83.72,8228,8.89,2.6,0.43,9.68,6.18,0.9,29.28,150.58,-4.25,2.93,-1.85
+2022-06-01,FSL,Information Technology Services,Technology,109.75,7463,14.4,2.46,1.27,10.61,9.89,3.19,17.72,-21.38,-36.49,-15.19,-10.41
+2022-06-01,SUPPETRO,,,,,,,,,,,,,,,
+2022-06-01,AKZOINDIA,Specialty Chemicals,Basic Materials,1833.95,8352,28.79,6.63,2.69,68.8,18.26,3.82,23.03,-18.62,-10.94,-1.08,-1.89
+2022-06-01,NLCINDIA,Utilities - Regulated Electric,Utilities,76.45,10601,9.7,0.75,0.89,1.37,6.1,4.31,7.7,27.1,29.69,16.27,-14.05
+2022-06-01,GODREJAGRO,Farm Products,Consumer Defensive,528.45,10153,25.22,4.48,1.23,-84.57,15.49,1.57,17.75,-4.27,0.71,5.69,-7.65
+2022-06-01,LATENTVIEW,Consulting Services,Industrials,398,7977,58.19,7.77,19.56,91.24,47.12,0,12.62,-9999999999,-37.65,-4.67,-8.4
+2022-06-01,FACT,Agricultural Inputs,Basic Materials,128.15,8293,23.95,12.53,3.05,54.62,16.16,0,52.32,5.73,12.61,12.36,3.51
+2022-06-01,SUZLON,Specialty Industrial Machinery,Industrials,8.63,8666,-41.1,-2.46,1.33,6.66,18.09,0,5.66,59.23,34.21,-5.06,-5.99
+2022-06-01,CANFINHOME,Mortgage Finance,Financial Services,479,6379,13.54,2.08,7.85,-1.63,16.85,0.73,15.36,-14.07,-17.74,-14.7,-25.44
+2022-06-01,NIITLTD,Education & Training Services,Consumer Defensive,474.8,6357,28.9,4.19,25.36,22.08,21.96,1.16,14.93,150.75,18.24,7.73,-17.28
+2022-06-01,ZENSARTECH,Information Technology Services,Technology,303.45,6865,16.61,2.55,1.62,20.45,9.5,1.28,15.49,7.66,-30.95,-14.39,-1.32
+2022-06-01,ANURAS,Specialty Chemicals,Basic Materials,701.5,7033,46.21,4.07,6.69,-41.02,25.57,0.14,8.81,-3.49,-12.37,-16.21,-16.79
+2022-06-01,MAPMYINDIA,Software - Infrastructure,Technology,1309.1,6971,82.13,15.63,34.77,242.35,54.41,0.15,19.52,-9999999999,-9999999999,-6.76,-11.76
+2022-06-01,EIDPARRY,Agricultural Inputs,Basic Materials,535.45,9499,10.49,1.78,0.57,4.17,5.19,3.67,17.03,28.78,11.32,33.8,1.11
+2022-06-01,ECLERX,Information Technology Services,Technology,1422.4,7063,17.55,4.51,3.27,15.91,10.23,0.05,26.63,70.14,0.14,-1.83,-9.52
+2022-06-01,KNRCON,Engineering & Construction,Industrials,254.85,7168,18.77,3.08,1.99,-21.3,9.51,0.1,16.4,15.13,-9.27,-18.72,-6.58
+2022-06-01,VMART,Department Stores,Consumer Cyclical,3323.85,6565,565.28,7.73,3.94,-583.38,34.3,0,1.37,19.78,-13.78,-2.26,6.06
+2022-06-01,SPARC,Drug Manufacturers - Specialty & Generic,Healthcare,218.5,5941,-28.27,190.25,43.28,-28.53,-33.45,0,-651.37,-0.7,-14.15,-17.97,-16.25
+2022-06-01,RBLBANK,Banks - Regional,Financial Services,111,6655,-40.07,0.53,1,1.03,0.11,0,-1.33,-47.47,-42.41,-15.36,-5.33
+2022-06-01,SONATSOFTW,Information Technology Services,Technology,253.18,7017,18.65,6.38,1.26,15.59,11.42,2.66,34.25,2.23,-19.52,-10.71,-9.05
+2022-06-01,MGL,Utilities - Regulated Gas,Utilities,764.1,7548,12.64,2.1,2.13,8.35,7.49,3.72,16.59,-35.41,-16.71,5.09,-0.95
+2022-06-01,SYMPHONY,"Furnishings, Fixtures & Appliances",Consumer Cyclical,1003.9,7023,58.37,8.37,6.79,123.56,36.06,0.71,14.33,-6.07,1.54,2.7,-9.96
+2022-06-01,INDIGOPNTS,Specialty Chemicals,Basic Materials,1567.5,7457,88.91,11.47,8.27,114.38,50.77,0,12.93,-39.5,-29.03,-10.66,1.56
+2022-06-01,POLYPLEX,Specialty Chemicals,Basic Materials,2549.6,8004,14.07,2.41,1.21,14.29,7.85,4.18,17.15,130.17,33.72,40.62,-4.85
+2022-06-01,GRANULES,Drug Manufacturers - Specialty & Generic,Healthcare,270,6697,16.27,2.59,1.8,20.17,11.01,0.56,15.96,-14.57,-10.74,-7.04,-2.69
+2022-06-01,RENUKA,Confectioners,Consumer Defensive,52.3,11133,-80.46,-18.32,1.74,-83.26,35.57,0,22.79,246.36,102.71,53.15,-6.36
+2022-06-01,BEML,Conglomerates,Industrials,1173.05,4886,37.93,2.07,1.13,95.92,17.62,0.72,5.47,7.8,-26.27,-11.69,-14.65
+2022-06-01,BORORENEW,Packaging & Containers,Consumer Cyclical,675.45,8805,53.02,11.22,13.71,50.77,33.77,0,21.13,155.56,14.42,17.42,-6.59
+2022-06-01,TRIVENI,Confectioners,Consumer Defensive,294.6,7123,16.8,3.72,1.7,-41.08,12.24,1.02,22.17,97.19,37.47,10.69,-6.43
+2022-06-01,TEAMLEASE,Staffing & Employment Services,Industrials,3374.85,5766,150.13,8.32,0.89,-937.91,81.89,0,5.54,-1.4,-18.17,-20.01,-10.94
+2022-06-01,EASEMYTRIP,Travel Services,Consumer Cyclical,47.44,8247,77.77,34.96,35.04,408.37,56.5,0.4,44.91,128.41,50.51,36.28,-8.2
+2022-06-01,IBULHSGFIN,Mortgage Finance,Financial Services,103.09,5416,4.39,0.32,1.97,8.24,7.41,0,7.06,-47.83,-54.9,-24.09,-23.56
+2022-06-01,PRIVISCL,Specialty Chemicals,Basic Materials,1185.3,4631,47.55,5.7,3.3,977.62,23.89,0.17,11.99,13.36,-29.3,-37.51,-38.81
+2022-06-01,PRAJIND,Engineering & Construction,Industrials,338.5,6218,41.38,6.79,2.71,33.13,26.71,0.64,16.41,3.58,4.52,-9.02,-16.07
+2022-06-01,MRPL,Oil & Gas Refining & Marketing,Energy,82.95,14538,4.91,2.02,0.21,3.23,7.67,0,41.03,65.24,83.72,97.74,3.88
+2022-06-01,SUNCLAYLTD,,,,,,,,,,,,,,,
+2022-06-01,AEGISCHEM,Oil & Gas Refining & Marketing,Energy,213.25,7486,20.93,3.43,1.62,26.73,15.2,2.95,16.4,-40.07,-13.84,1.31,-2.04
+2022-06-01,GREENPANEL,Lumber & Wood Production,Basic Materials,503.55,6175,25.68,6.49,3.8,16.89,14.64,0.3,25.27,102.15,29.36,4.33,-14.03
+2022-06-01,JUBLINGREA,Specialty Chemicals,Basic Materials,513.05,8172,17.12,3.36,1.66,18.05,9.76,0.55,19.59,8.95,-12.53,4.68,3.41
+2022-06-01,SIS,Security & Protection Services,Industrials,478.35,7034,21.87,3.4,0.7,30.12,14.89,0,15.69,8.29,-2.7,4.4,-5.36
+2022-06-01,PRINCEPIPE,Building Products & Equipment,Industrials,639,7065,28.25,5.58,2.67,-362.3,17.23,0.55,19.71,-10.16,-13.58,1.85,-7.58
+2022-06-01,TATAINVEST,Capital Markets,Financial Services,1536.45,7774,36.29,0.4,28.6,63.47,31.48,1.56,1.09,45.47,6.21,14.63,2.33
+2022-06-01,RVNL,Engineering & Construction,Industrials,33.4,6964,6.28,1.1,0.36,1.45,4.45,6.05,17.55,13.99,-3.75,7.4,-0.45
+2022-06-01,ORIENTELEC,"Furnishings, Fixtures & Appliances",Consumer Cyclical,279.85,5939,47.03,10.97,2.47,-4750.41,25.59,0.71,23.4,-6.89,-25.33,-14.52,-13.43
+2022-06-01,DEEPAKFERT,Chemicals,Basic Materials,678.15,8179,11.64,2.11,1.25,6.75,7.77,0.99,17.46,136.99,82.15,16.79,4.05
+2022-06-01,HOMEFIRST,Mortgage Finance,Financial Services,795.35,6970,38.72,4.43,14.57,-8.64,41.84,0,11.83,39.57,-5.42,16.34,8.52
+2022-06-01,SOBHA,Real Estate - Development,Real Estate,553.6,5251,30.3,2.17,2.05,6.35,16.98,0.63,7.15,11.55,-33.04,-27.91,-14.5
+2022-06-01,GMMPFAUDLR,Specialty Industrial Machinery,Industrials,1396.62,6125,72.03,11.62,2.43,25.91,27.41,0.12,16.14,-14.46,-8.86,-3.14,-7.72
+2022-06-01,PNCINFRA,Engineering & Construction,Industrials,254.15,6520,11.23,1.8,0.95,-13.08,8.05,0.2,15.99,1.19,-15.35,-0.06,1.01
+2022-06-01,PGHL,Drug Manufacturers - Specialty & Generic,Healthcare,4335.35,,,,,,,,,-25.87,-17.38,-4.58,-1.81
+2022-06-01,MMTC,Conglomerates,Industrials,41.25,6188,-23.98,-41.78,0.55,-18750,27.47,0,174.37,-28.82,2.48,-11.86,-7.51
+2022-06-01,LUXIND,Apparel Manufacturing,Consumer Cyclical,2021.45,6079,17.9,4.64,2.66,-26.61,12.98,0.59,25.93,-32.87,-46.96,-13.48,-11.49
+2022-06-01,GUJALKALI,Chemicals,Basic Materials,816.7,5998,10.72,1.02,1.63,8.16,6.12,0.98,9.49,105.59,25.47,24.53,-18.9
+2022-06-01,TCIEXP,Integrated Freight & Logistics,Industrials,1596.45,6146,47.73,11.46,5.68,48.18,33.66,0.5,24.03,12.6,-29.9,-9.2,-13.94
+2022-06-01,HUDCO,Credit Services,Financial Services,36.05,7217,4.21,0.5,2.93,-8.95,9.89,6.03,11.86,-25.44,-9.65,5.56,2.71
+2022-06-01,TRITURBINE,Specialty Industrial Machinery,Industrials,168.3,5442,20.13,6.35,6.47,12.55,14.02,1.31,31.54,56.56,-8.28,-5.98,-12.93
+2022-06-01,NBCC,Engineering & Construction,Industrials,34,6120,27.2,3.46,0.81,76.61,11.55,1.45,12.69,-27.81,-20,-11.57,-8.72
+2022-06-01,RAIN,Chemicals,Basic Materials,166.2,,,,,,,,,-6.55,-20.89,-9.67,-0.72
+2022-06-01,MAHINDCIE,,,,,,,,,,,,,,,
+2022-06-01,INDIACEM,Building Materials,Basic Materials,167.9,5204,18.7,0.87,1.07,11.85,15.35,0.56,1.32,-8.35,-10.31,-13.54,-17.7
+2022-06-01,INOXLEISUR,,,,,,,,,,,,,,,
+2022-06-01,CERA,Building Products & Equipment,Industrials,4260,5541,36.67,5.46,3.83,62.26,22.76,0.31,14.88,7.5,-13.51,-2.52,2.82
+2022-06-01,GSFC,Agricultural Inputs,Basic Materials,170.55,6797,7.56,0.58,0.75,28.72,4.3,1.31,7.63,57.84,48.11,39.11,-0.26
+2022-06-01,JMFINANCIL,Capital Markets,Financial Services,64.6,6164,7.99,0.8,2.31,-1.78,8.18,1.56,10.06,-24.49,-7.45,-0.92,-9.78
+2022-06-01,EQUITASBNK,Banks - Regional,Financial Services,41.15,5153,17.15,1.21,2.05,32.31,3.1,0,6.61,-31.53,-33.47,-19,-23.23
+2022-06-01,SUNTECK,Real Estate - Development,Real Estate,446.7,6542,249.55,2.34,12.97,-214.71,62.51,0.22,0.9,60.39,4.63,-9.78,-5.98
+2022-06-01,ASTRAZEN,Drug Manufacturers - Specialty & Generic,Healthcare,2944.6,7362,119.7,14.4,9.14,73.03,68.57,0.07,12.05,-21.68,-4.8,11.51,7.12
+2022-06-01,RTNINDIA,Internet Retail,Consumer Cyclical,54.15,7485,13.51,10.71,534.91,-553.87,13.72,0,79.26,202.51,23.07,32.07,29.08
+2022-06-01,PNBHOUSING,Mortgage Finance,Financial Services,271.87,5535,6.63,0.56,2.6,0.88,7.15,0,8.47,-47.96,-42.38,-19.6,-11.8
+2022-06-01,RITES,Engineering & Construction,Industrials,244.3,5871,11.37,2.36,2.23,18.96,6.52,7.16,20.75,0.14,-10.41,-1.11,-8.6
+2022-06-01,PSB,Banks - Regional,Financial Services,15.45,10472,6.04,0.75,2.86,-1.75,0.91,0,7.42,-21.77,-4.04,0.32,-4.92
+2022-06-01,CHALET,Lodging,Consumer Cyclical,316.45,6488,-79.51,4.84,12.78,104.27,82.76,0,-6.08,82.66,37.08,25.1,3.45
+2022-06-01,JUBLPHARMA,Drug Manufacturers - Specialty & Generic,Healthcare,394.95,6291,15.19,1.18,1.04,7.51,8.01,1.27,7.78,-53.34,-33.91,-4.38,-14.1
+2022-06-01,VAIBHAVGBL,Luxury Goods,Consumer Cyclical,338.3,5542,23.76,4.92,2.02,63.01,17.69,1.83,21.1,-59.34,-35.88,-14.52,-25.8
+2022-06-01,EPL,Packaging & Containers,Consumer Cyclical,164.3,5190,24.27,2.84,1.52,16.65,10.38,2.55,11.75,-31.71,-18.62,3.72,-3.04
+2022-06-01,MAHLIFE,Real Estate - Development,Real Estate,389.5,6019,39.11,3.37,15.3,-115.75,58.16,0.01,8.64,124.24,56.84,31.79,-0.65
+2022-06-01,KALYANKJIL,Luxury Goods,Consumer Cyclical,60.65,6248,27.82,1.99,0.58,23.65,12.21,0,7.15,-10.74,-12.36,1.68,0.08
+2022-06-01,GMDCLTD,Thermal Coal,Energy,153,4866,10.91,1.01,1.78,10.11,5.49,0.13,9.25,112.94,126,-1.77,-11.18
+2022-06-01,SWSOLAR,Solar,Technology,326.7,6198,-6.03,6.76,1.19,-3.67,-7.48,0,-99.2,47.89,-17.7,2.09,-14.18
+2022-06-01,BBTC,Packaged Foods,Consumer Defensive,995.4,6946,109.5,1.26,0.49,4.8,9.9,18.48,1.15,-23.5,-2.35,4.32,1.71
+2022-06-01,GAEL,Packaged Foods,Consumer Defensive,163.02,7478,15.73,3.53,1.6,12.55,10.5,0.18,22.44,100.27,102.51,66.09,2.27
+2022-06-01,JUSTDIAL,Internet Content & Information,Communication Services,658.1,5502,70.69,1.58,8.5,141.22,46.12,0,2.03,-27.69,-7.41,-12.69,-19.43
+2022-06-01,GARFIBRES,Textile Manufacturing,Consumer Cyclical,3157.55,6511,39.51,6.71,5.53,101.97,26.67,0.08,16.98,11.12,-2.33,10.8,6.23
+2022-06-01,PRSMJOHNSN,Building Materials,Basic Materials,111,5588,60.99,4.22,0.9,9.76,11.54,0,6.94,-10.74,-11.69,-5.61,-1.86
+2022-06-01,FINCABLES,Electrical Equipment & Parts,Industrials,363.2,5555,9.27,1.42,1.5,11.74,6.69,1.51,15.28,-20.82,-36.57,-11.23,-8
+2022-06-01,RAYMOND,Textile Manufacturing,Consumer Cyclical,1065.65,7095,27.25,3.01,1.16,10.47,13.17,0.13,11.04,191.36,70.83,45.97,26.53
+2022-06-01,JINDWORLD,Textile Manufacturing,Consumer Cyclical,274.6,5507,50.39,10.28,2.15,-53.12,27.6,0.05,20.38,431.14,42.17,-7.28,-8.59
+2022-06-01,GLS,Drug Manufacturers - Specialty & Generic,Healthcare,426.9,5231,11.98,2.55,2.51,8.75,7.49,2.46,20.38,-9999999999,-29.29,-6.66,-11.34
+2022-06-01,AVANTIFEED,Packaged Foods,Consumer Defensive,419.55,5717,25.8,3.02,1.15,-26.92,16.61,1.51,11.69,-30.47,-21.63,-10.73,-2.42
+2022-06-01,JKLAKSHMI,Building Materials,Basic Materials,441.45,5195,11.21,2.07,0.96,7.64,7.17,0.85,18.5,-18.24,-29.22,5.53,0.49
+2022-06-01,SHARDACROP,Agricultural Inputs,Basic Materials,699.35,6310,18.07,3.3,1.76,23.62,13.3,0.86,18.26,98.23,123.76,23.1,8.43
+2022-06-01,EDELWEISS,Capital Markets,Financial Services,29.78,2675,14.11,0.41,0.7,0.48,7.01,4.92,2.89,-13.58,-21.57,0.27,-7.54
+2022-06-01,OLECTRA,Farm & Heavy Construction Machinery,Industrials,587.55,4823,136.32,6.2,8.14,39.72,57.78,0,4.55,243.7,-28.89,-4.28,-6.4
+2022-06-01,GOCOLORS,Apparel Retail,Consumer Cyclical,1038.35,5609,154.06,12.79,14.03,169.84,40.66,0,8.12,-9999999999,-16.78,12.25,2.29
+2022-06-01,KALPATPOWR,,,,,,,,,,,,,,,
+2022-06-01,GPIL,Steel,Basic Materials,295.25,4029,2.65,1.22,0.75,3.03,2.2,1.62,44.28,27.76,12.63,-18.9,-29.91
+2022-06-01,JYOTHYLAB,Household & Personal Products,Consumer Defensive,152.75,5610,34.64,3.89,2.56,27.69,21.25,2.62,11.22,-2.08,1.19,10.93,0.16
+2022-06-01,MTARTECH,Specialty Industrial Machinery,Industrials,1453.9,4473,73.47,8.6,14.16,-150.06,45.85,0.41,11.71,49.86,-35.22,-20.26,-11.95
+2022-06-01,SCI,Marine Shipping,Industrials,120.05,5592,6.5,0.94,1.13,3.88,5.3,0.21,14.4,6.19,-21.92,-3.3,-10.11
+2022-06-01,CCL,Packaged Foods,Consumer Defensive,365.85,4867,23.82,3.89,3.33,41.86,16.46,1.37,16.34,6.06,-6.19,-12.36,-8.83
+2022-06-01,NAZARA,Electronic Gaming & Multimedia,Communication Services,589.22,7689,270.72,7.38,12.37,123.81,86.02,0,2.73,-30.49,-50.41,-31.95,-24.02
+2022-06-01,HEG,Electrical Equipment & Parts,Industrials,1105.05,4265,9.89,1.09,1.96,-30.33,7.56,0.28,11.01,-46.92,-38.4,-0.11,-7.33
+2022-06-01,VARROC,Auto Parts,Consumer Cyclical,343.9,5255,-4.73,2.64,0.91,8.27,285.05,0.11,-55.81,-15.81,16.32,5.41,-24.85
+2022-06-01,GODFRYPHLP,Tobacco,Consumer Defensive,1143.2,5944,13.57,2.03,2.24,12.42,8.41,2.08,14.96,25.92,-13.1,12.45,-5.78
+2022-06-01,GHCL,Chemicals,Basic Materials,663.2,6324,9.75,2.15,2.07,9.83,7.03,0.82,22.06,157.1,56.19,53.63,0.87
+2022-06-01,INFIBEAM,Software - Infrastructure,Technology,14.8,3945,47.74,1.33,3.05,32.33,22.58,0.34,2.93,-43.62,-26.18,-24.18,-16.62
+2022-06-01,JBMA,Auto Parts,Consumer Cyclical,431.3,5100,32.6,5.69,1.73,-35.94,19.43,0.14,17.43,158.05,3.76,1.72,-14.01
+2022-06-01,SHOPERSTOP,Department Stores,Consumer Cyclical,473.2,5182,-110.3,68.24,2.06,13.54,16.63,0,-61.9,111.58,41.76,34.76,-4.55
+2022-06-01,JKPAPER,Paper & Paper Products,Basic Materials,335.2,5679,10.47,1.9,1.46,7.34,7.83,1.19,18.11,122.8,59.96,45.3,-6.93
+2022-06-01,CAPLIPOINT,Drug Manufacturers - Specialty & Generic,Healthcare,740.35,5612,18.86,3.78,4.42,16.66,12.14,0.4,20.21,25.79,-8.59,2.18,6.52
+2022-06-01,TATVA,Specialty Chemicals,Basic Materials,2322.5,5148,52.09,10.88,11.94,254.47,44.64,0,20.27,-9999999999,-10.64,5.12,0.42
+2022-06-01,GESHIP,Marine Shipping,Industrials,390.5,5576,9.1,0.69,1.61,4.22,5.42,3.56,7.82,-8.05,31.61,23.99,2.21
+2022-06-01,BHARATRAS,Agricultural Inputs,Basic Materials,12039.15,5003,28.43,6.5,3.86,-76.43,19.5,0.01,22.85,-8.11,21.3,0.97,-12.74
+2022-06-01,INGERRAND,Specialty Industrial Machinery,Industrials,1512,4774,43.34,8.65,5.32,59,27.49,0.2,19.96,61.24,26.03,6.81,-7.26
+2022-06-01,LEMONTREE,Lodging,Consumer Cyclical,65.9,5221,-59.37,6.28,13.57,38.59,38.74,0,-10.52,59.37,36.3,25.17,-1.64
+2022-06-01,ROSSARI,Specialty Chemicals,Basic Materials,885.05,4873,50,6.05,3.29,165.98,24.59,0.06,12.13,-31.5,-31.81,-9.13,-5.05
+2022-06-01,CRAFTSMAN,Auto Parts,Consumer Cyclical,2374.95,5018,30.77,4.42,2.29,15.34,10.89,0,14.36,35.77,3.35,14.8,7.8
+2022-06-01,RBA,Restaurants,Consumer Cyclical,102.15,5034,-20.68,4.84,3.39,64.92,43.11,0,-18.83,-30.63,-32.84,-4.44,2.56
+2022-06-01,HIKAL,Drug Manufacturers - Specialty & Generic,Healthcare,318.5,3928,24.46,3.68,2.04,13.37,13.51,0.69,15.03,-16.72,-36.96,-14.29,-16.5
+2022-06-01,MINDACORP,Auto Parts,Consumer Cyclical,210.55,4946,26.29,3.72,1.69,29.65,15.11,0.31,14.43,67.5,29.25,13.41,-13.64
+2022-06-01,RCF,Agricultural Inputs,Basic Materials,95.3,5258,7.49,1.35,0.99,-8.88,5.77,3.28,18.09,17.29,29.66,27.83,-0.37
+2022-06-01,BARBEQUE,Restaurants,Consumer Cyclical,983.95,3829,-95.53,9.92,4.45,64.01,28.11,0,-6.63,19.03,-34.86,-21.92,-16.35
+2022-06-01,TEJASNET,Communication Equipment,Technology,449.7,5152,-75.33,2.67,9.36,-297.25,-55.78,0,-3.25,159.79,0.33,9.76,-1.98
+2022-06-01,JINDALPOLY,Specialty Chemicals,Basic Materials,1111.05,4865,4.07,1.27,0.83,6.72,3.3,0.18,31.21,43.66,-3.36,8.32,-0.31
+2022-06-01,RESPONIND,Specialty Chemicals,Basic Materials,137.7,3676,50905.73,3.79,3.34,-183.74,29.78,0.07,0.01,-11.73,35.73,-14.07,-15.31
+2022-06-01,MAZDOCK,Aerospace & Defense,Industrials,283.75,5723,9.37,1.48,1,-35.19,5.67,3.15,15.83,36.19,6.75,14.65,-3.29
+2022-06-01,JCHAC,"Furnishings, Fixtures & Appliances",Consumer Cyclical,1776.7,4832,301.14,6.53,2.24,-87.95,47.31,0,2.18,-20.13,-5.87,-2.41,-8.53
+2022-06-01,KRBL,Packaged Foods,Consumer Defensive,224.45,5284,11.5,1.3,1.25,9.42,7.44,1.56,11.29,10.68,-5.05,16.48,-3.11
+2022-06-01,SWANENERGY,Textile Manufacturing,Consumer Cyclical,279.65,7381,-43.27,5.93,43.26,256.64,149.11,0.03,-12.68,104.57,124.44,73.64,-15.04
+2022-06-01,SUPRAJIT,Auto Parts,Consumer Cyclical,339.05,4692,27.17,4.33,2.55,25.84,15.71,0.59,15.97,26.18,-18.48,13.11,1.57
+2022-06-01,VSTIND,Tobacco,Consumer Defensive,3195.2,4924,15.41,4.58,4.18,17.76,10.73,3.57,29.81,-3.97,0.4,7.48,-1.36
+2022-06-01,TCNSBRANDS,Apparel Manufacturing,Consumer Cyclical,618.35,3810,-687.06,6.15,4.25,36.75,33.88,0,-0.92,15.53,-23.49,-8.39,-26.82
+2022-06-01,JPPOWER,Utilities - Independent Power Producers,Utilities,7.2,4935,73.47,0.47,1.07,5.84,7.38,0,1.03,92,56.52,0,-2.04
+2022-06-01,ESABINDIA,Tools & Accessories,Industrials,3273.25,5039,59.75,20.63,5.66,59.61,40.21,1.99,34.52,79.88,13.68,15.34,-4.34
+2022-06-01,TCI,Integrated Freight & Logistics,Industrials,747.7,5782,20.02,4.04,1.77,15.71,12.87,0.71,20.25,56.42,8.5,20.05,9.33
+2022-06-01,RALLIS,Agricultural Inputs,Basic Materials,200.95,3908,23.78,2.3,1.5,23.56,13.23,1.5,9.68,-35.3,-21.29,-17.54,-11.24
+2022-06-01,IBREALEST,Real Estate - Development,Real Estate,71.55,3242,-23.82,0.95,2.26,-13.08,47.34,0,-4,-27.8,-58.11,-34.36,-17.04
+2022-06-01,MHRIL,Resorts & Casinos,Consumer Cyclical,224.3,4483,66.56,17.94,2.34,9,14.87,0,27.02,34.5,8.28,7.32,-13.56
+2022-06-01,KSB,Specialty Industrial Machinery,Industrials,1412.5,,,,,,,,,43.33,12.35,33.79,6.66
+2022-06-01,RPOWER,Utilities - Independent Power Producers,Utilities,13.2,4489,-4.42,0.38,0.64,1.24,9.82,0,-8.19,52.6,4.76,1.15,-7.04
+2022-06-01,JSWHL,Conglomerates,Industrials,3467.65,3848,28.58,0.19,20.67,29.54,19.49,0,0.76,-31.6,-17.16,-11.5,-14.36
+2022-06-01,PDSL,Specialty Business Services,Industrials,343.69,4476,18.22,5.13,0.51,10.99,13.04,0.92,28.47,90.32,13.43,8.01,-0.15
+2022-06-01,VIJAYA,Diagnostics & Research,Healthcare,374.9,3823,35.07,8.16,8.27,24.19,18.54,0,23.43,-9999999999,-35.89,-11.94,-16.26
+2022-06-01,GREAVESCOT,Specialty Industrial Machinery,Industrials,161.75,3745,-105.72,5,2.21,-66.54,182.61,0.12,-4.71,27.71,5.24,-3.29,0.43
+2022-06-01,GLOBUSSPR,Beverages - Wineries & Distilleries,Consumer Defensive,1012.3,2916,15.57,3.78,1.85,13.33,9.2,0.2,24.25,215.46,-15.4,-26.74,-28.39
+2022-06-01,UFLEX,Packaging & Containers,Consumer Cyclical,616.05,4449,4.05,0.67,0.34,6.28,3.88,0.41,16.42,38.36,19.3,19.47,-5.38
+2022-06-01,GREENLAM,"Furnishings, Fixtures & Appliances",Consumer Cyclical,319.6,3857,42.5,5.89,2.34,54.2,22.39,0.31,13.87,25.03,8.23,-1.48,-9.82
+2022-06-01,MOIL,Other Industrial Metals & Mining,Basic Materials,161.7,3291,10.01,1.54,2.29,9.14,5.21,5.39,17.6,-9.34,-4.66,-6.69,-7.86
+2022-06-01,WELCORP,Steel,Basic Materials,230.15,6006,13.72,1.36,0.95,27.49,7.02,2.17,9.91,56.62,39.44,56.56,15.54
+2022-06-01,VRLLOG,Trucking,Industrials,648.25,5727,35.78,8.79,2.67,15.45,14.93,1.85,24.57,158.42,37.21,51.04,11.95
+2022-06-01,NEOGEN,Specialty Chemicals,Basic Materials,1520.4,3792,81.3,8.63,7.98,2689.2,46.07,0.14,10.16,70.05,-13.79,-5.12,-4.39
+2022-06-01,FDC,Drug Manufacturers - Specialty & Generic,Healthcare,245.1,4138,19.12,2.11,2.72,25.6,12.85,0,11.06,-26.91,-13.85,-10.94,-9.07
+2022-06-01,PCBL,Specialty Chemicals,Basic Materials,108.2,4085,9.16,1.56,0.92,14.06,6.98,4.62,16.3,2.37,-4.1,8.4,-0.18
+2022-06-01,HEIDELBERG,Building Materials,Basic Materials,185.3,4200,16.65,2.68,1.83,13.91,8.33,4.3,16.12,-27.03,-17.9,-1.8,-7.9
+2022-06-01,HGS,Specialty Business Services,Industrials,965.4,4035,0.84,0.52,0.94,8.01,0.35,11.02,77.44,7.25,-32.15,-20.02,-4.09
+2022-06-01,IFBIND,"Furnishings, Fixtures & Appliances",Consumer Cyclical,861.3,3490,-72.44,5.38,1.02,69.02,59.66,0,-7.43,-19.6,-25.15,-0.14,-9.6
+2022-06-01,MAHSCOOTER,Auto Parts,Consumer Cyclical,3836.2,4385,30.72,0.19,22.62,36.9,25.17,1.31,0.62,2.3,-10.29,9.61,-0.37
+2022-06-01,TINPLATE,,,,,,,,,,,,,,,
+2022-06-01,RELIGARE,Insurance - Life,Financial Services,122.15,3895,-2.38,-3.96,1.59,2.44,-25.31,0,157.17,8.58,-22.91,-2.28,-0.08
+2022-06-01,NOCIL,Specialty Chemicals,Basic Materials,248.4,4138,23.55,2.86,2.65,-136.92,14.26,0.8,12.19,22.76,3.39,16.87,4.15
+2022-06-01,THYROCARE,Diagnostics & Research,Healthcare,638.4,3378,19.2,6.41,5.74,29.78,12.82,2.35,33.45,-38.74,-42.13,-23.97,-17.19
+2022-06-01,USHAMART,Steel,Basic Materials,117.35,3577,12.28,2.11,1.36,22.55,8.51,0,17.2,140.23,36.93,36.3,-17.27
+2022-06-01,ICRA,Financial Data & Stock Exchanges,Financial Services,3905.85,3758,33.46,4.45,11.05,38.87,23.49,0.7,13.31,24.22,7.67,6.61,-3.35
+2022-06-01,SARDAEN,Steel,Basic Materials,90.83,3275,4.07,1.09,0.84,3.57,3.33,0.83,26.77,80.15,15.59,-6.61,-25.27
+2022-06-01,CMSINFO,Specialty Business Services,Industrials,230.45,3530,16.08,2.81,2.22,13.76,9.16,0.64,17.84,-9999999999,-9999999999,-2.89,-11.16
+2022-06-01,TATACOFFEE,,,,,,,,,,,,,,,
+2022-06-01,MFL,,,,,,,,,,,,,,,
+2022-06-01,SHAREINDIA,Capital Markets,Financial Services,1185.37,3814,21.82,8.54,4.65,9.33,12.48,0.38,45.04,154.13,46.35,9.18,-12.49
+2022-06-01,AARTIDRUGS,Drug Manufacturers - Specialty & Generic,Healthcare,438.1,4057,19.79,3.91,1.63,57.61,13.43,0.23,19.78,-40.52,-16.13,-2.76,-4.19
+2022-06-01,SUPRIYA,Biotechnology,Healthcare,358.45,2885,19.01,4.69,5.55,59.12,12.47,0.15,24.66,-9999999999,-9999999999,-14.71,-10.12
+2022-06-01,JAMNAAUTO,Auto Parts,Consumer Cyclical,115.5,4605,32.81,6.72,2.74,4231.7,20.73,0.87,20.56,44.28,15.44,16.55,7.79
+2022-06-01,DALMIASUG,Confectioners,Consumer Defensive,389,3149,10.66,1.33,1.08,5.55,7.53,1.54,12.52,19.33,5.06,-5.23,-15.27
+2022-06-01,NESCO,Conglomerates,Industrials,536.25,3779,19.97,2.23,11.2,23.15,14.32,0.56,11.14,-2.04,-10.62,-4.52,-8.32
+2022-06-01,MANINFRA,Engineering & Construction,Industrials,89.05,3306,15.27,3.85,3.79,17.7,9.99,0.94,25.17,165.58,-0.34,-12.74,-13.38
+2022-06-01,COCHINSHIP,Aerospace & Defense,Industrials,163.73,4308,7.64,0.98,1.38,3.08,4.94,4.73,12.84,-13.12,-5,12.61,-2.73
+2022-06-01,MAITHANALL,Steel,Basic Materials,1000.15,2912,3.56,1.25,1,12.31,2.57,0.6,35.21,31.48,1.98,-13.81,-21.66
+2022-06-01,LAOPALA,"Furnishings, Fixtures & Appliances",Consumer Cyclical,266.3,2956,33.84,3.99,9.22,29.74,22.87,1.13,11.8,0.34,-27.37,-20.51,-12.42
+2022-06-01,WOCKPHARMA,Drug Manufacturers - Specialty & Generic,Healthcare,264.75,3814,-13.08,0.99,1.19,9.23,36.88,0.05,-6.34,-53.73,-34.87,-15.64,-2.23
+2022-06-01,BOROLTD,"Furnishings, Fixtures & Appliances",Consumer Cyclical,302.55,3454,41.22,4.5,4.11,45.11,22.08,0.33,10.91,40.07,-2.32,-10.8,-8.28
+2022-06-01,ISGEC,Specialty Industrial Machinery,Industrials,489.5,3600,33.07,1.7,0.65,-51.2,14.86,0.29,5.13,-11.97,-11.57,-10.32,-11.23
+2022-06-01,CEATLTD,Auto Parts,Consumer Cyclical,1013.55,4100,57.59,1.25,0.45,6.62,8.64,1.82,2.18,-23.48,-10.98,3.2,-9.93
+2022-06-01,ARVINDFASN,Apparel Manufacturing,Consumer Cyclical,264.25,3501,-12.07,4.67,1.15,11.66,47.1,0,-35.64,83.63,-7.3,-2.56,-5.44
+2022-06-01,HCG,Medical Care Facilities,Healthcare,278.2,3868,70.08,4.44,2.8,17.57,13.78,0,6.17,53.07,11.53,17.04,-3.82
+2022-06-01,DHANI,Credit Services,Financial Services,47.75,2595,-3.12,0.51,2.07,-3.69,-5.9,0.03,-17.11,-72.14,-72.21,-39.25,-11.08
+2022-06-01,IRCON,Engineering & Construction,Industrials,40.15,3777,6.37,0.81,0.51,2.67,4.44,8.84,12.7,-14.21,-11.07,-0.99,-2.78
+2022-06-01,TARSONS,Medical Instruments & Supplies,Healthcare,733.9,3905,37.71,7.97,13.05,46.78,23.94,0,20.55,-9999999999,10.84,20.57,4.45
+2022-06-01,KARURVYSYA,Banks - Regional,Financial Services,45.8,3665,5.45,0.48,1.05,12.4,0.11,1.1,8.86,-17.92,-8.03,-2.45,-5.18
+2022-06-01,MAHSEAMLES,Steel,Basic Materials,274.5,3679,5.32,0.92,0.9,-13.65,6.27,0.64,17.36,88.79,11.05,6.84,-8.84
+2022-06-01,STARCEMENT,Building Materials,Basic Materials,90.85,3672,15.04,1.69,1.76,8.8,9.72,0,11.38,-16.69,-6.68,1,-0.87
+2022-06-01,GPPL,Marine Shipping,Industrials,79.95,3866,19.6,1.72,5.62,10.16,8.89,5,8.8,-24.54,-20.49,-3.03,-8.68
+2022-06-01,VAKRANGEE,Information Technology Services,Technology,26.56,2815,664000,1.02,14.52,131.06,137.93,0.38,0,-32.05,-18.2,-11.61,-17.75
+2022-06-01,CSBBANK,Banks - Regional,Financial Services,185.6,3128,7.02,1.18,2.23,-3.67,2,0,17.29,-39.11,-30.82,-14.76,-11.95
+2022-06-01,AMIORG,Specialty Chemicals,Basic Materials,919.95,3353,43.74,6.42,6.44,-280.86,30.97,0,13.78,-9999999999,-1.92,-2.68,-20.3
+2022-06-01,DATAPATTNS,Aerospace & Defense,Industrials,772.55,4009,39.66,6.98,12.9,76.81,27.77,0.28,16.36,-9999999999,-9999999999,20.57,-0.7
+2022-06-01,EQUITAS,,,,,,,,,,,,,,,
+2022-06-01,HGINFRA,Engineering & Construction,Industrials,569,3709,9.76,2.58,1.02,-11.52,7.21,0.14,26.47,47.89,-9.1,-1.81,-6.64
+2022-06-01,MAHLOG,Integrated Freight & Logistics,Industrials,476.35,3424,196.03,6.26,0.83,17.93,35.78,0.52,3.21,-12.72,-33.68,12.21,-6.22
+2022-06-01,SUDARSCHEM,Specialty Chemicals,Basic Materials,462.8,3204,24.75,3.85,1.46,17.84,14.7,1.28,15.6,-30.79,-20.23,-14.71,-10.38
+2022-06-01,ENGINERSIN,Engineering & Construction,Industrials,62,3485,25,1.97,1.19,81.9,13.02,4.19,7.88,-25.44,-12.92,-4.47,-3.2
+2022-06-01,RATEGAIN,Software - Application,Technology,289.35,3106,348.61,5.01,8.47,184.77,140.18,0,1.36,-9999999999,-9999999999,-1.6,-15.9
+2022-06-01,NCC,Engineering & Construction,Industrials,64.65,3943,8.23,0.7,0.36,2.79,4.34,1.24,8.61,-17.33,-13.16,6.51,-4.08
+2022-06-01,DHAMPURSUG,Confectioners,Consumer Defensive,274.25,1821,12.64,2.06,0.96,-12137.86,8.81,0.01,16.28,-14.4,-5.02,-32.04,-47.17
+2022-06-01,DBL,Engineering & Construction,Industrials,241.7,3535,-6.41,1,0.38,2.18,21.93,0.41,-15.46,-55.36,-54.79,-9.08,-5.55
+2022-06-01,SANSERA,Metal Fabrication,Industrials,695.35,3627,28.54,3.54,1.95,17.02,12.53,0,12.75,-9999999999,-11.26,6.65,-10.79
+2022-06-01,RUPA,Apparel Manufacturing,Consumer Cyclical,379.75,3020,15.74,3.42,2.06,-26.02,12.14,1.32,21.76,-20.25,-9.97,-13.51,-33.59
+2022-06-01,INDOCO,Drug Manufacturers - Specialty & Generic,Healthcare,353.35,3257,21.03,3.6,2.17,18.73,10.6,0.42,17.11,-5.6,-12.5,-7,-5.32
+2022-06-01,SHILPAMED,Drug Manufacturers - Specialty & Generic,Healthcare,435.2,3778,59.94,2.07,3.31,35.93,19.85,0.24,3.33,-11.94,-22.44,2.35,-4.23
+2022-06-01,ASTEC,Agricultural Inputs,Basic Materials,1846.35,3619,40.27,9.13,5.35,153.3,23.74,0.08,22.66,29.72,35.47,22.42,-5.35
+2022-06-01,ROLEXRINGS,Metal Fabrication,Industrials,1506.3,4103,30.85,7.53,4.39,69.67,18.41,0,24.21,-9999999999,33.91,23.19,23.71
+2022-06-01,SEAMECLTD,Marine Shipping,Industrials,1044.55,2656,31.92,3.55,7.61,28.27,15.8,0,11.12,111.06,1.55,-1.41,-6.03
+2022-06-01,PAISALO,Credit Services,Financial Services,37.98,3213,40.62,3.14,15.44,-8.1,16.64,0.13,7.74,22.63,-18.76,19.66,3.01
+2022-06-01,DHANUKA,Agricultural Inputs,Basic Materials,698.75,3255,15.58,3.39,2.23,31.21,11.07,1.43,21.75,-24.95,-5.59,-5,-1.31
+2022-06-01,GATEWAY,Integrated Freight & Logistics,Industrials,73,3648,16.29,2.23,2.66,9.98,10.15,1.71,13.67,-9999999999,-9999999999,-9999999999,-1.08
+2022-06-01,BANARISUG,Confectioners,Consumer Defensive,2491.45,3125,39.06,2.19,1.59,96.04,18.49,0.4,5.62,43.7,14.93,5.45,-5.81
+2022-06-01,SEQUENT,Drug Manufacturers - Specialty & Generic,Healthcare,110.95,2768,68.07,4,1.96,90.45,28.8,0.45,5.92,-58.93,-31.28,-14.39,-16.2
+2022-06-01,HEMIPROP,Real Estate - Diversified,Real Estate,110.3,3144,-212.12,8.44,NaN,-228.83,-251.15,0,-3.99,-17.81,-16.82,2.37,-4.75
+2022-06-01,NEWGEN,Software - Application,Technology,194.18,2717,16.53,3.35,3.49,19.03,11.89,0.9,20.24,-3.76,-32.73,-23.29,-15.21
+2022-06-01,ITDC,Lodging,Consumer Cyclical,333.95,2865,681.53,10.11,9.73,183.17,197.6,0,1.5,-10.76,-14.23,-5.17,-11.68
+2022-06-01,TATASTLLP,,,,,,,,,,,,,,,
+2022-06-01,KSCL,Agricultural Inputs,Basic Materials,582.1,3395,16,2.65,3.5,30.8,13.87,0.68,16.59,-17.36,15.47,20.08,2.19
+2022-06-01,AHLUCONT,Engineering & Construction,Industrials,407.2,2728,17.57,2.64,1.02,41.49,9.27,0,14.99,32.21,-1,1.03,-18.35
+2022-06-01,ADVENZYMES,Specialty Chemicals,Basic Materials,287.7,3217,26.94,2.95,6.08,26.3,15.25,0.37,10.99,-30.33,-13.71,-9.17,-2.52
+2022-06-01,COSMOFILMS,,,,,,,,,,,,,,,
+2022-06-01,ICIL,Textile Manufacturing,Consumer Cyclical,147.8,2918,8.16,1.84,1.03,-78.6,6.7,1.01,22.6,2.5,-38.98,-13.08,-7.07
+2022-06-01,INDIAGLYCO,Chemicals,Basic Materials,858.6,2659,7.82,1.48,0.94,22.91,7.14,0.69,18.97,71.89,-1.84,5.12,-15.45
+2022-06-01,DOLLAR,Apparel Manufacturing,Consumer Cyclical,521.75,2960,20.12,4.41,2.24,8592.23,14.14,0.46,21.92,64.43,16.55,-1.2,-10.87
+2022-06-01,TEGA,Specialty Industrial Machinery,Industrials,442.35,2933,25.21,3.98,3.14,213.85,15.47,0,15.88,-9999999999,-9999999999,-0.36,5.57
+2022-06-01,HSCL,Specialty Chemicals,Basic Materials,68.5,2873,69.9,1.54,1.03,8.68,24.49,0.22,2.19,32.24,50.05,19.96,-4.06
+2022-06-01,STAR,Drug Manufacturers - Specialty & Generic,Healthcare,328.65,2951,-6.41,1.25,0.98,-11.45,-18.17,0.76,-19.51,-56.94,-32.81,6.57,0.66
+2022-06-01,MIDHANI,Steel,Basic Materials,176.6,3309,18.73,2.78,3.85,647.11,12.36,1.78,14.85,-7.61,-5.71,-0.54,-6.09
+2022-06-01,IPL,Agricultural Inputs,Basic Materials,237.3,2733,17.22,4.28,3.85,36.05,12.15,0.13,24.76,-9999999999,-21.02,-16.06,-14.79
+2022-06-01,HATHWAY,Entertainment,Communication Services,17.9,3169,24.52,0.77,1.77,9.52,7.9,0,3.15,-27.53,-14.15,-3.24,-10.95
+2022-06-01,NILKAMAL,"Furnishings, Fixtures & Appliances",Consumer Cyclical,1968.95,2939,35.25,2.45,1.08,42.54,13.58,0.51,6.94,-11.15,-14.97,-3.08,-2.08
+2022-06-01,VENKEYS,Farm Products,Consumer Defensive,2004.05,2824,17.13,2.26,0.66,561.43,10.76,0.84,13.19,-22.92,-22.36,-0.7,-8.49
+2022-06-01,J&KBANK,Banks - Regional,Financial Services,30,2799,5.03,0.35,0.6,-1.78,-2.42,0,6.13,3.63,-18.92,-11.76,-2.12
+2022-06-01,DISHTV,Entertainment,Communication Services,13.15,2422,-1.38,2.59,0.87,2.12,-2.88,0,-195.65,-14.89,-31.87,-11.74,-19.33
+2022-06-01,ARVIND,Textile Manufacturing,Consumer Cyclical,99.9,2604,10.94,0.88,0.34,4.38,5.46,0.08,8.07,27.91,-14.51,-14.91,-20.02
+2022-06-01,RSYSTEMS,Information Technology Services,Technology,228.4,,,,,,,,,64.38,-28.37,1.4,-4.17
+2022-06-01,HIL,Building Products & Equipment,Industrials,3812.4,2865,13.68,2.46,0.82,17.23,7.48,1.18,18.04,-18.09,-14.6,-5.61,-0.58
+2022-06-01,RELINFRA,Utilities - Independent Power Producers,Utilities,108.05,2837,-2.84,0.23,0.15,0.75,9.03,0.37,-8.05,78.89,23.56,1.55,-13.04
+2022-06-01,MASFIN,Credit Services,Financial Services,183.3,3006,18.88,2.23,5.31,-3.73,29.08,0.5,11.8,-40.5,-24.45,-1.24,-16.87
+2022-06-01,ORIENTCEM,Building Materials,Basic Materials,126.4,2590,9.84,1.7,0.95,4.94,4.82,1.78,17.26,-5.57,-19.7,-6.2,-6.37
+2022-06-01,HINDOILEXP,Oil & Gas E&P,Energy,176.1,2329,116.62,3.09,14.95,20.98,48.34,0,2.65,75.22,6.89,-13.02,-10.95
+2022-06-01,DCAL,Biotechnology,Healthcare,126.7,1987,110.17,0.36,0.93,5.6,15.31,0,0.32,-35.01,-48.75,-23.54,-21.62
+2022-06-01,SAGCEM,Building Materials,Basic Materials,216.05,2539,36.71,2.02,1.59,29.19,14.22,0.23,5.51,24.25,-15.44,0.89,-7.59
+2022-06-01,JKTYRE,Auto Parts,Consumer Cyclical,114.8,2827,13.46,0.99,0.24,8.17,7.12,1.74,7.37,-10.45,-16.3,9.65,-9.11
+2022-06-01,JINDALSAW,Steel,Basic Materials,89.25,2836,6.89,0.38,0.22,38.59,5.59,2.22,5.59,-17.44,-14.1,-1.22,-3.41
+2022-06-01,RTNPOWER,Utilities - Renewable,Utilities,4.2,2256,-1.14,-0.85,0.69,2.41,28.37,0,74.44,23.53,6.33,-25,-18.45
+2022-06-01,ACE,Farm & Heavy Construction Machinery,Industrials,206.8,2463,22.93,3.27,1.51,23.79,15.2,0.23,13.93,24.39,-6.57,-4.28,-11.24
+2022-06-01,FILATEX,Textile Manufacturing,Consumer Cyclical,55.25,2490,8.2,2.29,0.65,8.18,5.3,0.36,27.89,17.48,16.39,0.09,-4.28
+2022-06-01,SCHNEIDER,Electrical Equipment & Parts,Industrials,112,2678,96.55,74.13,1.77,22.25,34.82,0,76.46,-11.22,5.66,-0.93,-17.53
+2022-06-01,TIPSINDLTD,Entertainment,Communication Services,158.6,2057,31.85,20.09,15.17,70.08,22.79,0.13,63.04,87.83,24.67,-17.42,-9.77
+2022-06-01,TASTYBITE,Packaged Foods,Consumer Defensive,9488.4,2435,235.74,11.21,6.57,37.48,57.05,0.02,4.76,-39.63,-29.28,-15.84,-18.79
+2022-06-01,SOMANYCERA,Building Products & Equipment,Industrials,593.55,2522,28.43,3.47,1.21,17.68,13.66,0,12.21,26.89,-28.47,-11.63,-5.29
+2022-06-01,OPTIEMUS,Electronics & Computer Distribution,Technology,290.6,2494,-2906,7.55,5.37,90.09,156.12,0,-0.28,109.37,-20.77,16.36,-23.94
+2022-06-01,PFOCUS,Entertainment,Communication Services,80.65,2416,-14.08,21.14,0.72,13.18,8.84,0,-150.1,31.89,1.19,10.03,6.26
+2022-06-01,TECHNOE,Engineering & Construction,Industrials,282.35,3106,12.1,1.69,3.11,11.98,8.42,1.59,13.97,-16.62,20.84,19.14,-6.97
+2022-06-01,TIRUMALCHM,Specialty Chemicals,Basic Materials,255.95,2621,9.32,2.42,1.31,6.51,5.26,0.85,25.92,90.44,9.01,21.53,-9.56
+2022-06-01,SELMC,Textile Manufacturing,Consumer Cyclical,1089.35,3610,-27.47,13.68,8.59,102.55,1208.62,0,-49.79,-19.31,6583.13,234.93,-34.55
+2022-06-01,RAILTEL,Telecom Services,Communication Services,99.3,3187,15.25,2.09,2.07,12.76,7.02,2.97,13.69,-21.93,-16.73,7.35,-4.89
+2022-06-01,CARTRADE,Auto & Truck Dealerships,Consumer Cyclical,636.5,2970,-22.16,1.5,9.5,47.02,-30.55,0,-6.67,-9999999999,-31.14,14.31,-2.2
+2022-06-01,GREENPLY,Lumber & Wood Production,Basic Materials,183.95,2256,23.83,4.19,1.44,24.62,15.37,0.22,17.6,-6.67,-10.49,8.21,-12.09
+2022-06-01,IIFLSEC,Capital Markets,Financial Services,78.2,2377,7.87,2.01,2.26,2.99,3.51,3.84,25.89,7.42,-11.89,-5.9,-8.75
+2022-06-01,DODLA,Food Distribution,Consumer Defensive,491.4,2924,22.1,3.47,1.3,17.08,12.86,0,15.75,-9999999999,-13.66,12.93,-0.2
+2022-06-01,MOL,Agricultural Inputs,Basic Materials,133.4,3393,11.14,2.31,1.36,52.33,8.07,1.05,20.76,-9999999999,22.44,39.39,-5.15
+2022-06-01,SHIL,,,,,,,,,,,,,,,
+2022-06-01,RAJRATAN,Steel,Basic Materials,707.6,3593,28.89,10.54,4.03,29.5,20.58,0.23,36.46,245.39,67.98,50.39,-2.61
+2022-06-01,INDOSTAR,Credit Services,Financial Services,149.8,2039,-2.52,0.7,1.86,-1.3,-9.5,2.87,-25.14,-56.15,-40.33,-31.64,-34.71
+2022-06-01,NFL,Agricultural Inputs,Basic Materials,52.05,2554,-26.83,1.25,0.16,-2.48,13.94,0,-4.65,-23.57,2.87,14.4,-9
+2022-06-01,GRSE,Aerospace & Defense,Industrials,254.05,2911,15.35,2.31,1.67,-8.18,9.87,2.4,15.07,39.66,5.07,12.81,-12.41
+2022-06-01,THOMASCOOK,Travel Services,Consumer Cyclical,61.35,2673,-8.87,1.58,1.42,-19.24,-19.57,0,-13.52,0.16,-3.61,2.25,-19.12
+2022-06-01,AUTOAXLES,Auto Parts,Consumer Cyclical,1616.25,2443,32.85,3.93,1.68,56.43,17.24,0.28,11.97,22.65,26.09,9.12,0.85
+2022-06-01,UJJIVANSFB,Banks - Regional,Financial Services,16.5,2852,-6.87,1.02,1.34,1.12,3.63,0,-14.79,-44.07,-14.29,-2.65,-3.23
+2022-06-01,DBREALTY,Real Estate - Development,Real Estate,73.85,1914,70.33,1.01,8.72,-7.18,11.53,0,1.43,271.11,73.76,-29.4,-12.4
+2022-06-01,EKC,Specialty Industrial Machinery,Industrials,189.5,2127,8.02,2.36,1.26,12.95,5.29,0.16,29.38,91.03,17.81,-1.38,0.91
+2022-06-01,KIRIINDUS,Specialty Chemicals,Basic Materials,431.65,2238,5.76,0.87,1.52,24.27,5.06,0,15.11,-5.57,-5.35,-6.91,-12.75
+2022-06-01,PURVA,Real Estate - Development,Real Estate,95,2253,15.26,1.1,2.36,16.86,7.25,0,7.23,17.21,-30.66,-15.56,-9.91
+2022-06-01,SSWL,Auto Parts,Consumer Cyclical,154.27,2409,11.75,2.53,0.68,5.93,6.79,0.13,21.59,109.07,-9.74,-0.38,-16.1
+2022-06-01,ANANDRATHI,Asset Management,Financial Services,665.05,2768,21.89,8.05,6.63,19.06,14.69,1,36.87,-9999999999,-9999999999,18.27,2.73
+2022-06-01,RKFORGE,Tools & Accessories,Industrials,161.9,2584,13.02,2.4,1.25,60,8.43,0.19,18.36,31.34,-16.14,-4.06,-14.63
+2022-06-01,VALIANTORG,Chemicals,Basic Materials,704.95,1915,17.41,3.12,1.66,-62.26,11.4,0,18.48,-53.9,-34.32,-21.91,-19.19
+2022-06-01,DAAWAT,,,,,,,,,,,,,,,
+2022-06-01,APARINDS,Electrical Equipment & Parts,Industrials,719.6,2754,10.73,1.61,0.3,11.3,5.64,1.32,14.97,37.34,6.72,12.53,9.15
+2022-06-01,BUTTERFLY,"Furnishings, Fixtures & Appliances",Consumer Cyclical,1417.85,2536,157.19,10.79,2.64,-119.43,51.17,0.21,6.86,77.41,60.7,3.45,0.23
+2022-06-01,BBOX,Software - Application,Technology,160.3,2630,36.6,10.1,0.49,27.61,10.88,0,27.93,-43.31,-15.82,-1.73,1.82
+2022-06-01,INOXWIND,Specialty Industrial Machinery,Industrials,22.54,501,-1.04,0.27,0.8,-1.05,-7.83,0,-26.26,16.55,-38.06,-16.67,-9.88
+2022-06-01,PARAS,Aerospace & Defense,Industrials,632.5,2467,81.3,6.52,13.51,214.3,46.63,0,7.15,-9999999999,-16.77,-1.3,-6.3
+2022-06-01,IONEXCHANG,Pollution & Treatment Controls,Industrials,187.39,2304,13.65,3.51,1.47,25.21,9.05,0.53,24.83,-9999999999,-9999999999,3.51,11.54
+2022-06-01,TATAMETALI,,,,,,,,,,,,,,,
+2022-06-01,EVEREADY,Electrical Equipment & Parts,Industrials,314.25,2285,49.18,7.87,1.91,17.05,21.63,0,16.02,0.5,-2.89,-12.96,-1.8
+2022-06-01,PTC,Utilities - Independent Power Producers,Utilities,83.55,2474,4.89,0.52,0.15,0.81,7.11,8.98,10.72,-4.46,-25.53,-1.76,-8.54
+2022-06-01,JISLJALEQS,Farm & Heavy Construction Machinery,Industrials,38.95,2384,6.48,0.65,0.51,5.01,8.81,0.01,8.89,85.92,-6.26,-3.95,-3.83
+2022-06-01,HERANBA,Agricultural Inputs,Basic Materials,574,2297,12.15,3.21,1.6,23.41,8.08,0.12,26.46,-21.43,-16.49,-1.29,-7.62
+2022-06-01,GUFICBIO,Drug Manufacturers - Specialty & Generic,Healthcare,224.1,2173,22.66,8.07,2.79,20.45,14.72,0.04,35.61,27.11,18.63,8.68,-10.86
+2022-06-01,TIIL,Tools & Accessories,Industrials,1046.4,2560,9.57,1.91,1.42,23.8,6.93,0.02,20,163.74,24.56,21.58,1.19
+2022-06-01,BLS,Specialty Business Services,Industrials,92.18,3776,34.01,6.63,4.44,20.37,30.75,0.34,19.53,219.74,91.88,68.21,0.75
+2022-06-01,BAJAJCON,Household & Personal Products,Consumer Defensive,141.35,2086,12.3,2.58,2.41,16.22,9.81,5.66,20.95,-50.7,-21.95,-14.13,-15.13
+2022-06-01,ASHOKA,Engineering & Construction,Industrials,81.5,2288,2.94,1.66,0.38,6.49,2.43,0,56.38,-11.46,-18.82,-11.46,-4
+2022-06-01,SOLARA,Drug Manufacturers - Specialty & Generic,Healthcare,408.9,1598,-27.42,1.05,1.26,-6.6,26.78,0.68,-3.81,-76.88,-64.92,-40.97,-20.04
+2022-06-01,GOKEX,Apparel Manufacturing,Consumer Cyclical,476.65,2812,21.53,3.97,1.57,23.99,13.84,0,16.53,280.86,71.73,27.69,3.01
+2022-06-01,HCC,Engineering & Construction,Industrials,13.6,2144,3.81,-3.25,0.21,2.26,3.41,0,-85.38,30.77,15.25,-12.54,-11.69
+2022-06-01,OAL,Specialty Chemicals,Basic Materials,536.35,1806,33.86,2.98,2.08,-2218.55,19.99,0.28,8.81,-32.88,-30.57,-12.14,-22.23
+2022-06-01,DWARKESH,Confectioners,Consumer Defensive,112.45,2118,13.65,3.14,1.07,6.25,9.03,1.11,23.05,103.16,64.76,20.07,-8.61
+2022-06-01,GET&D,Specialty Industrial Machinery,Industrials,102.05,2613,-52.6,2.42,0.85,318.26,102.41,0,-4.59,-23.84,-13.48,16.43,-15.97
+2022-06-01,IFCI,Credit Services,Financial Services,10.4,2188,-1.19,0.78,3.61,-8.52,-11.26,1.23,-64.99,-12.97,-23.81,-14.05,-5.88
+2022-06-01,AMRUTANJAN,Drug Manufacturers - Specialty & Generic,Healthcare,818.05,2387,35.52,9,5.88,44.9,24.29,0.56,25.34,17.43,-9.88,-0.73,-8.99
+2022-06-01,POKARNA,Building Products & Equipment,Industrials,498.7,1547,19.75,3.49,2.38,26.02,11.22,0.12,17.68,47.52,-20.02,-18.75,-22.83
+2022-06-01,HESTERBIO,Drug Manufacturers - Specialty & Generic,Healthcare,2316.95,1971,50.13,7.58,8.39,226.24,30,0.43,15.12,-16.12,-0.85,-3.45,-11.36
+2022-06-01,MOLDTKPAC,Packaging & Containers,Consumer Cyclical,742,2319,35.1,5.07,3.68,921.36,19.27,0.49,13.93,53.23,4.83,7.68,-2.61
+2022-06-01,SURYAROSNI,Steel,Basic Materials,200.7,2141,10.66,1.38,0.28,7.51,6.22,0.38,13.24,-13.82,-35.44,-3.87,-7.64
+2022-06-01,KIRLOSBROS,Specialty Industrial Machinery,Industrials,259.35,2060,21.83,1.75,0.69,18.01,9.79,1.17,8.01,-33.21,-29.91,-14.02,-17.71
+2022-06-01,IMFA,Steel,Basic Materials,290.2,1566,3.09,0.91,0.61,4.01,2.52,2.1,29.57,31,-23.2,-21.22,-28.38
+2022-06-01,SHARDAMOTR,Auto Parts,Consumer Cyclical,787.2,2341,15.68,4.09,1.05,12.2,8.83,0.33,26.05,90.54,-3.64,10.49,3.49
+2022-06-01,GANESHHOUC,Real Estate - Development,Real Estate,283.35,2363,22.72,2.99,6.16,57.61,18.44,0,8.94,293.82,44.86,27.84,-6.36
+2022-06-01,TVTODAY,Broadcasting,Communication Services,275.25,1643,9.05,1.42,1.77,6.97,5.71,0.91,15.68,-6.87,-34.08,-28.03,-30.76
+2022-06-01,ACRYSIL,,,,,,,,,,,,,,,
+2022-06-01,WSTCSTPAPR,Paper & Paper Products,Basic Materials,347.9,2298,7.48,1.36,0.69,3.89,4.35,0.53,18.21,52.35,39.16,46.05,0.69
+2022-06-01,GRAVITA,Metal Fabrication,Industrials,275.8,1866,13.39,4.82,0.85,194.17,11.18,1.28,36.03,170.92,34.6,-22.29,-10.72
+2022-06-01,SAFARI,Footwear & Accessories,Consumer Cyclical,458.9,2055,96.21,6.83,2.92,131.36,39.1,0,7.43,34.52,7.34,4.79,-3.9
+2022-06-01,JAYNECOIND,Steel,Basic Materials,23.7,2302,1.01,1.26,0.39,2.67,1.97,0,122.58,26.74,-2.67,3.04,13.13
+2022-06-01,IGPL,Chemicals,Basic Materials,626.2,1929,7.29,1.82,1.02,17.64,5.02,1.17,24.9,12.32,-18.64,-8.45,-15.99
+2022-06-01,DCBBANK,Banks - Regional,Financial Services,84,2613,9.14,0.65,1.44,1.63,1.22,0,7.1,-17.28,0.24,14.83,4.87
+2022-06-01,MSTCLTD,Conglomerates,Industrials,295,2077,10.43,3.18,4.87,12.21,5.77,4.37,30.44,13.37,-13.78,-6.75,-12.88
+2022-06-01,KOLTEPATIL,Real Estate - Development,Real Estate,256.75,1952,24.57,2.03,1.75,5.5,12.23,0,8.28,17.08,-12.83,-6.57,-2
+2022-06-01,SUBROS,Auto Parts,Consumer Cyclical,303.85,1983,61.01,2.41,0.89,13.14,16.95,0.23,3.94,-7.71,-12.87,-8.82,-9.16
+2022-06-01,SPANDANA,Credit Services,Financial Services,377.25,2607,35.19,0.84,1.88,3.02,49.29,0,2.25,-33.46,-16.91,5.26,-17.85
+2022-06-01,GULFOILLUB,Specialty Chemicals,Basic Materials,421.9,2128,10.13,2.04,0.97,-89.67,6.11,2.11,20.24,-38.35,-18.5,-10.85,-2.65
+2022-06-01,BEPL,Chemicals,Basic Materials,76.3,1899,5.42,1.93,1.36,6.38,3.77,2.62,35.67,-26.92,-31.61,-10.69,-7.29
+2022-06-01,STEELXIND,Steel,Basic Materials,16.32,1438,12.22,2.93,1.31,273.6,14.81,0,23.72,180.41,80.53,-29.99,-26.32
+2022-06-01,FINOPB,Banks - Regional,Financial Services,256.25,2133,47.99,4.44,5.64,10.28,17.28,0,8.91,-9999999999,-39.41,-0.39,-15.4
+2022-06-01,VIDHIING,Specialty Chemicals,Basic Materials,393.4,1965,33.48,9.05,3.73,-91.57,24.28,0.15,26.99,96.55,17.14,8.14,-12.78
+2022-06-01,IOLCP,Drug Manufacturers - Specialty & Generic,Healthcare,352.7,2071,12.35,1.49,0.95,22.25,7.8,1.7,12.04,-48.61,-21.77,0.44,-21.34
+2022-06-01,VSTTILLERS,Farm & Heavy Construction Machinery,Industrials,2554.1,2207,22.22,2.94,2.58,17.68,14.1,0.78,13.25,31.64,-11.22,-3.99,-5.21
+2022-06-01,ANDHRSUGAR,Chemicals,Basic Materials,137.1,1859,7.67,1.22,0.96,10.53,5.09,1.52,15.95,67.44,18.52,-6.06,-14.15
+2022-06-01,VESUVIUS,Specialty Industrial Machinery,Industrials,1050.6,,,,,,,,,4.67,-9.41,10.33,4.75
+2022-06-01,NBVENTURES,,,,,,,,,,,,,,,
+2022-06-01,ATFL,Packaged Foods,Consumer Defensive,840.7,2049,77.77,4.43,2.24,-68.91,35.82,0.35,5.59,-13.04,-11.64,-4.88,-5.09
+2022-06-01,MMFL,Metal Fabrication,Industrials,841.9,2033,22.34,3.63,1.78,13.51,11.1,0.59,16.26,74,6.42,3.4,-4.39
+2022-06-01,JPASSOCIAT,Conglomerates,Industrials,9.1,2234,-1.51,26.38,0.62,108.85,112.7,0,-1745.83,5.81,-0.55,-7.61,-0.55
+2022-06-01,BOMDYEING,Textile Manufacturing,Consumer Cyclical,106.85,2207,-4.79,-3.02,1.12,4.22,-226.31,0,63,38.05,23.24,4.7,-11.4
+2022-06-01,SHK,Specialty Chemicals,Basic Materials,129.85,1756,12.01,1.73,1.13,34.97,12.64,0.6,14.66,-15.87,-14.66,-11.12,-14.71
+2022-06-01,GMRP&UI,Thermal Coal,Energy,21.05,1271,-1.96,-0.59,0.31,1.05,11.93,0,29.92,-9999999999,-9999999999,-9999999999,-29.95
+2022-06-01,NAVNETEDUL,Publishing,Communication Services,90.6,2050,27.25,2.16,1.89,70.38,12.4,1.12,7.97,6.09,-9.58,4.32,-11.7
+2022-06-01,GATI,,,,,,,,,,,,,,,
+2022-06-01,STOVEKRAFT,"Furnishings, Fixtures & Appliances",Consumer Cyclical,548.35,1803,32.33,4.95,1.6,-336.94,20.43,0,15.44,-6.45,-42.98,-21.78,-12.54
+2022-06-01,FCL,Specialty Chemicals,Basic Materials,182.15,2018,36.65,7.7,5.5,150.82,26.74,0.25,21.05,112.42,61.05,18.2,-5.52
+2022-06-01,MUKANDLTD,Steel,Basic Materials,119.85,1695,9.82,2.54,0.37,-16.65,10.38,0.83,26.45,-0.25,-5.85,-10.56,-9.38
+2022-06-01,AVTNPL,Specialty Chemicals,Basic Materials,95.05,1448,19.88,3.93,2.61,19.46,12.84,0.84,19.76,48.98,28.71,4.51,-16.14
+2022-06-01,VOLTAMP,Electrical Equipment & Parts,Industrials,2347,2375,17.88,2.52,2.11,36.21,12.98,1.07,14.1,102.33,7.46,25.56,22.28
+2022-06-01,SBCL,Metal Fabrication,Industrials,282.2,1626,29.5,8.48,5.02,-467.65,20.7,0.19,28.76,-9999999999,16.89,-3.53,-13.85
+2022-06-01,SIYSIL,Textile Manufacturing,Consumer Cyclical,521.9,2447,11.31,2.62,1.29,54.6,7.26,2.03,23.15,82.07,18.68,16.31,-21.92
+2022-06-01,FAIRCHEMOR,Specialty Chemicals,Basic Materials,1362.65,1775,26.13,7.64,2.76,43.83,17.46,0.26,29.25,51.3,-21.08,-16.14,-15.59
+2022-06-01,JAICORPLTD,Specialty Chemicals,Basic Materials,120.7,2154,40.92,1.48,2.99,23.62,26.12,0.11,3.62,4.1,-4.09,12.49,-13.26
+2022-06-01,GTPL,Entertainment,Communication Services,160.35,1804,9.03,1.75,0.75,4.56,3.48,2.49,19.35,16.66,-41.68,-26.81,-13.07
+2022-06-01,ASTRAMICRO,Communication Equipment,Technology,222,1923,50.8,3.28,2.57,16.77,22.84,0.54,6.47,72.03,-13.74,14.23,-18.8
+2022-06-01,ANANTRAJ,Real Estate - Development,Real Estate,53.7,1585,30.86,0.6,3.43,3.74,23.25,0.19,2.14,-6.61,-19,-22.45,-10.57
+2022-06-01,PSPPROJECT,Engineering & Construction,Industrials,514.05,1851,11.1,2.69,1.06,12.57,6.85,0.78,24.26,28.59,5.02,2.85,-3.26
+2022-06-01,TIDEWATER,Specialty Chemicals,Basic Materials,1082.95,1887,14.97,2.62,1.23,20.19,10.57,7.39,17.07,-48.35,-34.2,-9.86,-4.21
+2022-06-01,MIRZAINT,Footwear & Accessories,Consumer Cyclical,230.05,2768,32,5.48,2.02,-760.34,14.4,0,17.13,330.81,115.3,53.78,5.14
+2022-06-01,BALMLAWRIE,Conglomerates,Industrials,115.15,1970,14.3,1.24,0.99,854.54,8.09,5.2,8.67,-14.07,-1.92,-1.5,-3.19
+2022-06-01,HSIL,,,,,,,,,,,,,,,
+2022-06-01,VISHNU,Specialty Chemicals,Basic Materials,292.72,1749,21.48,6.31,1.64,18.53,12.95,0.74,29.4,289.2,74.23,10.47,-8.92
+2022-06-01,KIRLOSENG,Specialty Industrial Machinery,Industrials,155.8,2254,12.95,1.08,0.57,-2.16,10.39,2.57,8.38,-31.05,-20.63,20.12,-1.17
+2022-06-01,APOLLOPIPE,Building Products & Equipment,Industrials,510.7,1996,40.37,4.92,2.56,54.93,20.71,0,12.28,45.74,-15.29,10.95,-12.24
+2022-06-01,CHENNPETRO,Oil & Gas Refining & Marketing,Energy,294.9,4392,3.25,1.47,0.1,4.28,4.96,0,45.27,128.69,173.69,167.12,-3.99
+2022-06-01,GTLINFRA,Communication Equipment,Technology,1.35,1705,-1.18,-0.62,1.17,3.39,-24.63,0,53.71,28.57,-10,-20.59,-3.57
+2022-06-01,PILANIINVS,Asset Management,Financial Services,1709.2,1893,9.4,0.17,7.35,-18.86,9.66,0.88,1.81,1.15,-15.16,0.36,-4.29
+2022-06-01,MANALIPETC,Specialty Chemicals,Basic Materials,100.95,1737,4.56,1.69,1.04,4.65,2.26,1.49,36.98,26.19,-9.66,2.18,-25.36
+2022-06-01,MARKSANS,Drug Manufacturers - General,Healthcare,46.8,1916,10.38,1.59,1.29,19.3,6.25,0.55,15.35,-36.41,-19.38,-2.7,-10.43
+2022-06-01,APCOTEXIND,Specialty Chemicals,Basic Materials,651.1,3376,34.16,8.52,3.55,71,23.24,0.61,24.94,103.21,77.27,87.47,4.59
+2022-06-01,ALEMBICLTD,Real Estate - Development,Real Estate,69,1772,7.98,0.71,24.83,-99.84,7.41,0.29,8.89,-44.91,-30.79,-20.69,-11.08
+2022-06-01,NAHARSPING,Textile Manufacturing,Consumer Cyclical,392.55,1416,2.81,0.88,0.41,5.42,2.97,0.76,31.38,162.84,-21.38,-22.31,-26.61
+2022-06-01,GENUSPOWER,Electrical Equipment & Parts,Industrials,91.45,2104,36.88,2.2,3.11,75.26,21.9,0.54,6,80.02,37.62,40.91,-9.37
+2022-06-01,UNICHEMLAB,Drug Manufacturers - Specialty & Generic,Healthcare,257.65,1815,55.05,0.69,1.45,-6.99,17.37,1.56,1.26,-21.76,1.1,2.06,-3.75
+2022-06-01,RAMCOIND,Building Products & Equipment,Industrials,195.75,1697,5.4,0.45,1.16,19.21,4.51,0,8.06,-27.14,-22.09,-10.58,-9.81
+2022-06-01,BAJAJHIND,Confectioners,Consumer Defensive,14.7,1876,-6.59,0.83,0.34,3.03,33.68,0,-11.84,33.64,10.53,1.73,-16.24
+2022-06-01,SUBEXLTD,Software - Application,Technology,28.9,1588,76.05,2.82,4.78,-196.05,33.46,0.88,3.72,-50.09,-44.1,-21.79,-16.23
+2022-06-01,JTEKTINDIA,Auto Parts,Consumer Cyclical,74,1810,49.01,2.86,1.15,16.83,16.24,0.26,5.84,-33.84,-17.64,-2.82,-6.57
+2022-06-01,SHANKARA,Home Improvement Retail,Consumer Cyclical,703.85,1609,46.86,2.89,0.67,23.09,19.85,0,6.17,64.95,37.46,0.21,-7.62
+2022-06-01,GENESYS,Software - Application,Technology,482.3,1513,116.78,7.39,12.98,53.8,39.09,0,6.55,394.92,53.09,-11.14,-8.05
+2022-06-01,PUNJABCHEM,Chemicals,Basic Materials,1270.75,1559,18.67,6.91,1.7,45.42,11.94,0.16,36.99,15.21,-11.04,-7.85,Infinity
+2022-06-01,CAMLINFINE,Specialty Chemicals,Basic Materials,117.5,1845,25.94,2.47,1.31,12.68,13.52,0.04,8.11,-34.9,-15.71,-12.74,-2.93
+2022-06-01,CONFIPET,Oil & Gas Refining & Marketing,Energy,56.8,1614,18.37,2.14,1.13,15.68,8.91,0.19,11.64,-6.35,-23.86,-13.61,2.25
+2022-06-01,DATAMATICS,Information Technology Services,Technology,312.8,1844,11.71,2.15,1.54,10.11,7.55,0.8,18.38,129.66,4.04,20.12,5.05
+2022-06-01,DEN,Entertainment,Communication Services,35.95,1716,9.74,0.58,1.45,13.3,5.16,0,5.96,-28.24,-12.42,-7.11,-12.21
+2022-06-01,HBLPOWER,Electrical Equipment & Parts,Industrials,95,2634,28.04,3.04,2.17,42.15,17.01,0.37,10.85,114.45,49.72,57.15,9.76
+2022-06-01,INFOBEAN,Software - Application,Technology,728.3,1750,32.27,7.55,6.44,21.68,22.84,0.41,23.72,199.9,74.15,14.13,-7.19
+2022-06-01,WABAG,Engineering & Construction,Industrials,253.85,1579,11.97,1.03,0.54,135.63,7.92,0,8.57,-3.66,-25.08,-13.36,-10.71
+2022-06-01,XPROINDIA,Specialty Chemicals,Basic Materials,674.57,1196,26.93,6.95,2.61,24.59,19.68,0,26.12,604.14,12.81,0.56,-22.52
+2022-06-01,STYLAMIND,"Furnishings, Fixtures & Appliances",Consumer Cyclical,892,1512,24.83,4.78,2.29,254.91,14.93,0,19.26,-9999999999,-16.27,-3.78,-12.7
+2022-06-01,KTKBANK,Banks - Regional,Financial Services,66.6,2073,4.09,0.29,0.6,-4.43,-0.2,2.7,7.16,4.72,1.22,12.88,6.73
+2022-06-01,EXCELINDUS,Specialty Chemicals,Basic Materials,1333.2,1676,10.4,1.46,1.43,15.38,6.74,0.84,14.03,32.74,53.13,-12.4,-6.14
+2022-06-01,INDORAMA,Textile Manufacturing,Consumer Cyclical,69.65,1819,6.76,3.03,0.47,9.09,7.24,0,44.83,44.95,36.57,3.65,-10.48
+2022-06-01,EXPLEOSOL,Information Technology Services,Technology,1315,1349,19.92,3.42,1.82,55.63,9.15,0,17.15,121.81,0.88,-6.97,-1.97
+2022-06-01,INEOSSTYRO,,,,,,,,,,,,,,,
+2022-06-01,JAGRAN,Publishing,Communication Services,58.6,1546,6.97,0.72,0.96,4.8,4.23,0,10.41,3.99,-6.98,-12.28,-10.26
+2022-06-01,ORISSAMINE,Other Industrial Metals & Mining,Basic Materials,2818.75,1692,-116.67,479.08,20.46,16.58,115.08,0,-410.57,0.05,19.64,9.09,-16.18
+2022-06-01,ELECTCAST,Steel,Basic Materials,35.75,2126,6.12,0.52,0.4,-7.62,6.73,1.28,8.46,10.85,7.2,-6.41,-6.04
+2022-06-01,FRETAIL,Department Stores,Consumer Cyclical,7.75,,,,,,,,,-83.75,-84.22,-84.1,-64.29
+2022-06-01,LGBBROSLTD,Auto Parts,Consumer Cyclical,587.85,1846,7.52,1.63,0.96,9.12,4.46,1.7,21.68,87.48,19.77,2.11,-4.91
+2022-06-01,KABRAEXTRU,Specialty Industrial Machinery,Industrials,344.25,1105,36.58,3.36,2.77,-17.76,20.42,0.72,9.2,81.71,14.25,-21.78,-17.87
+2022-06-01,KITEX,Apparel Manufacturing,Consumer Cyclical,243.75,1621,12.95,2,2.17,-163.17,8.07,0.62,15.41,122.6,42.59,5.75,-13.12
+2022-06-01,BECTORFOOD,Packaged Foods,Consumer Defensive,285.55,1680,29.38,3.58,1.7,19.93,13.84,1.28,12.18,-30.7,-27.53,-8.78,-4.91
+2022-06-01,GOLDIAM,Luxury Goods,Consumer Cyclical,138.4,1509,14.51,2.9,2.19,-154.41,9.29,0.87,20.23,68.76,-18.77,-7.7,-4.85
+2022-06-01,MOREPENLAB,Drug Manufacturers - Specialty & Generic,Healthcare,40.2,1921,20.51,3.32,1.25,-31.89,12.27,0,17.58,-25.07,-23.65,-1.95,-15.19
+2022-06-01,NELCO,Communication Equipment,Technology,592.45,1352,84.04,15.18,5.2,26.74,25.95,0.2,18.06,177.1,-19.73,-8.71,-7.5
+2022-06-01,RGL,Luxury Goods,Consumer Cyclical,140.25,1324,12.51,1.43,0.61,15.48,9.99,0.78,11.45,39.93,-17.5,-14.77,-0.33
+2022-06-01,GULPOLY,Chemicals,Basic Materials,206.13,1286,15.08,2.4,1.17,21.1,8.48,0.21,15.92,48.16,-7.17,-25.04,-22.14
+2022-06-01,ZENTEC,Aerospace & Defense,Industrials,194.25,1545,777,5.46,22.14,-34.9,210.84,0.05,0.7,173.78,-6.16,-3.57,0.91
+2022-06-01,GRWRHITECH,Specialty Chemicals,Basic Materials,673.65,1566,9.36,0.91,1.23,9.09,6.13,1.48,9.77,-9999999999,-9999999999,-12.67,-3.5
+2022-06-01,DIAMONDYD,Packaged Foods,Consumer Defensive,664.3,1558,535.73,2.5,1.13,34.05,34.46,0.08,0.47,16.01,-17.1,-5.53,-2.29
+2022-06-01,ELECON,Specialty Industrial Machinery,Industrials,202.9,2277,16.21,2.17,1.9,10.2,9.38,0.2,13.38,78.61,0.17,36.5,9.06
+2022-06-01,GABRIEL,Auto Parts,Consumer Cyclical,120.05,1725,19.27,2.25,0.75,18.15,9.91,1.05,11.67,2.56,-14.37,8.01,0.88
+2022-06-01,NACLIND,Agricultural Inputs,Basic Materials,77.5,1537,20.95,3.15,0.94,-12.37,13.77,0.71,15.03,48.61,13.89,0.65,-10.09
+2022-06-01,PANAMAPET,Oil & Gas Refining & Marketing,Energy,283.7,1717,7.45,2.23,0.8,10.09,5.66,1.4,29.98,34.07,9.79,23.19,-16.73
+2022-06-01,MAYURUNIQ,Textile Manufacturing,Consumer Cyclical,384.75,1716,18.17,2.43,2.64,130.47,11.81,0.53,13.34,-14.54,-25.01,2.22,3.8
+2022-06-01,SWARAJENG,Auto Parts,Consumer Cyclical,1619.9,1968,17.97,6.44,1.74,19.62,11.88,4.26,35.81,5.99,-0.78,21.62,7.1
+2022-06-01,GANECOS,Textile Manufacturing,Consumer Cyclical,630.85,1376,22.22,2.4,1.35,21.23,14.17,0.32,10.8,15.29,30.25,0.87,-8.97
+2022-06-01,PRICOLLTD,Auto Parts,Consumer Cyclical,115.35,1406,27.53,2.44,0.94,7.7,9.36,0.4,8.87,45,-1.11,4.25,-12.48
+2022-06-01,SOUTHBANK,Banks - Regional,Financial Services,7.95,1811,41.21,0.31,0.55,0.35,-1.42,0,0.77,-20.9,-11.17,-1.24,0.63
+2022-06-01,ADFFOODS,Packaged Foods,Consumer Defensive,157.01,1646,33.65,4.8,4.06,48.29,22.53,0.36,14.02,-21.42,-4.5,8.63,4.91
+2022-06-01,SHRIPISTON,Auto Parts,Consumer Cyclical,354.5,1562,9.54,1.24,0.77,7.12,5.15,0.85,13.03,-8.61,-17.56,0,-0.56
+2022-06-01,PGEL,Electronic Components,Technology,904.75,1921,53.13,6.15,1.76,-24.37,26.64,0,11.98,119.95,47.87,37.22,15.98
+2022-06-01,RPSGVENT,Information Technology Services,Technology,512.85,1367,10.44,0.54,0.2,2.06,5.84,7.87,5.2,24,-30.27,-14.8,-11.5
+2022-06-01,SUNDARMHLD,Specialty Business Services,Industrials,69.95,1554,9.06,0.52,20.58,52.04,9.05,2.14,5.35,-7.96,-15.06,-4.24,-8.56
+2022-06-01,MATRIMONY,Internet Content & Information,Communication Services,832.65,1907,35.6,6.14,4.39,24.6,19.33,0.42,17.27,-6.1,-9.55,14.3,18
+2022-06-01,KRSNAA,Diagnostics & Research,Healthcare,560.55,1760,24.5,2.57,3.86,13.7,11.86,0,9.99,-9999999999,-21.13,0.51,-5.79
+2022-06-01,KINGFA,Specialty Chemicals,Basic Materials,964.35,1168,38.13,3.04,1.11,30.86,20.62,0,7.97,6.46,0.95,-13.63,-14.63
+2022-06-01,MAXVIL,,,,,,,,,,,,,,,
+2022-06-01,KIRLOSIND,Metal Fabrication,Industrials,1410.6,1380,7.28,0.59,0.37,4.36,4.39,3.41,8.31,-21.39,-7.08,2.65,-8.65
+2022-06-01,JSWISPL,,,,,,,,,,,,,,,
+2022-06-01,CARERATING,Financial Data & Stock Exchanges,Financial Services,479.4,1422,18.94,2.2,5.75,20.9,13.52,2.69,11.6,-16.34,-24.44,-10.59,5.72
+2022-06-01,DBCORP,Publishing,Communication Services,80.7,1429,9.98,0.76,0.81,3.86,4.72,6.12,7.57,-13.92,-13.64,-3.7,-10.23
+2022-06-01,CANTABIL,Apparel Manufacturing,Consumer Cyclical,232.87,1902,49.95,11.88,4.96,21.06,17.07,0.09,23.77,192.37,71.23,56.45,-3.24
+2022-06-01,THANGAMAYL,Luxury Goods,Consumer Cyclical,502.92,1380,35.81,4.26,0.63,-17.45,21.49,0.89,11.89,26.67,-26.11,-19.32,-11
+2022-06-01,GEOJITFSL,Capital Markets,Financial Services,50.2,1200,7.97,1.72,2.79,14.44,5.01,3.97,21.61,-22.11,-31.98,-22.11,-21.56
+2022-06-01,KCP,Building Materials,Basic Materials,109.7,1415,7.52,1.2,0.67,10.21,5.13,3.5,15.98,8.78,-14.5,-0.36,-3.65
+2022-06-01,HERITGFOOD,Packaged Foods,Consumer Defensive,149.42,1368,14.16,2.08,0.51,9.24,7.24,2.55,14.69,-15.89,-30.91,-5.51,-6.15
+2022-06-01,DFMFOODS,,,,,,,,,,,,,,,
+2022-06-01,HIMATSEIDE,Textile Manufacturing,Consumer Cyclical,115.95,1142,8.11,0.78,0.18,16.83,7.18,0.43,9.58,-28.29,-44.09,-29.98,-18.09
+2022-06-01,FMGOETZE,Auto Parts,Consumer Cyclical,272.35,1516,28.05,1.73,1.13,13.69,8,0.19,6.17,-11.49,13.1,2.75,0.26
+2022-06-01,NDTV,Broadcasting,Communication Services,179,1155,14.46,4.96,2.91,7.47,9.78,0,34.29,156.26,115.02,15.08,-3.97
+2022-06-01,OMAXE,Real Estate - Development,Real Estate,89.7,1641,-10.29,1.32,2.66,2.1,-119.25,0,-12.81,11.29,27.78,-2.71,-11.01
+2022-06-01,SPIC,Agricultural Inputs,Basic Materials,59.5,1212,7.42,1.75,3.29,-11.44,6.56,0,23.54,31.64,28.79,8.58,-23.03
+2022-06-01,AVADHSUGAR,Confectioners,Consumer Defensive,614.45,1231,9.89,1.52,0.45,3.92,7.96,0.65,15.35,97.13,49.25,5.39,-15.45
+2022-06-01,SOTL,Specialty Chemicals,Basic Materials,221.59,1532,5.89,1.22,0.53,4.15,3.96,1.39,20.71,-12.95,-3.69,11.28,-2.89
+2022-06-01,TIMETECHNO,Packaging & Containers,Consumer Cyclical,104.1,2355,12.56,1.14,0.65,8.1,6.48,0.7,9.07,25.57,35.81,41.73,10.51
+2022-06-01,GALLISPAT,,,,,,,,,,,,,,,
+2022-06-01,MTNL,Telecom Services,Communication Services,21.85,1377,-0.53,-0.07,1.25,1.96,-256.71,0,13.94,4.3,15.61,-4.38,-12.95
+2022-06-01,JYOTISTRUC,Specialty Industrial Machinery,Industrials,18.05,1205,-14.06,7.93,274.5,-12.1,-75.04,0,-28,276.04,0,-13.84,-9.52
+2022-06-01,APTECHT,Education & Training Services,Consumer Defensive,167.68,971,19.55,4.62,4.29,21.58,17.67,0.94,23.56,13.84,-36.09,-29.45,-35
+2022-06-01,ASHIANA,Real Estate - Development,Real Estate,128.75,1318,-187.12,1.79,6.46,-16.1,-449.52,0.62,-0.96,-4.91,-25.49,-17.2,-14.68
+2022-06-01,ACCELYA,Information Technology Services,Technology,940.05,,,,,,,,,-10.24,-15.53,3.59,-5.05
+2022-06-01,SHANTIGEAR,Specialty Industrial Machinery,Industrials,249.7,1916,45.07,7.37,5.81,54.72,26.76,1,16.34,67.02,67.47,31.49,10.41
+2022-06-01,NAHARPOLY,Packaging & Containers,Consumer Cyclical,393.35,968,9.9,1.06,1.99,-6.73,8.4,0.38,10.7,164.7,67.6,-17.96,-20.38
+2022-06-01,SASKEN,Information Technology Services,Technology,798.75,1203,9.37,1.84,2.77,11.23,7.21,3.38,19.62,-16.91,-27.59,-11.92,-0.98
+2022-06-01,NURECA,Medical Devices,Healthcare,1047,1048,23.29,5.15,4.1,748.4,16.58,0.48,22.13,-31.67,-30.2,-24.02,-18.47
+2022-06-01,GOCLCORP,Specialty Chemicals,Basic Materials,266.95,1324,7.52,1.15,2.66,-21.44,11.38,1.5,15.29,22.15,-10.15,0.53,-1.37
+2022-06-01,PRAKASH,Steel,Basic Materials,59.55,1067,6.57,0.38,0.27,3.05,4.07,0,6,-24.72,-2.54,-9.7,-21.54
+2022-06-01,DYNAMATECH,Auto Parts,Consumer Cyclical,1928.15,1223,79.02,3.21,0.98,11.39,11.76,0,4.06,45.55,-16.62,-0.84,-14.89
+2022-06-01,NXTDIGITAL,,,,,,,,,,,,,,,
+2022-06-01,KOPRAN,Drug Manufacturers - General,Healthcare,231.5,1117,16.81,2.62,2.35,-33.34,12.35,0.58,14.32,28.9,-20.25,-14.91,-13.38
+2022-06-01,AMBIKCO,Textile Manufacturing,Consumer Cyclical,1827.75,1047,5.82,1.44,1.19,3.47,2.79,1.91,24.82,59.59,-4.52,-24.59,-17.45
+2022-06-01,JMCPROJECT,,,,,,,,,,,,,,,
+2022-06-01,SHIVALIK,Agricultural Inputs,Basic Materials,753.15,1092,41.56,3.8,5.27,98.01,25.39,0.06,8.92,-9999999999,-9999999999,-13.97,-17.34
+2022-06-01,TEXRAIL,Specialty Industrial Machinery,Industrials,46.75,1505,62.33,1.13,0.93,55.38,14.41,0.17,1.54,61.37,65.19,45.19,-2.71
+2022-06-01,EIHAHOTELS,Lodging,Consumer Cyclical,395.2,1205,93.43,3.62,6.17,31.62,35.04,0,3.88,27.61,16.25,6.12,-17.85
+2022-06-01,WONDERLA,Leisure,Consumer Cyclical,235.65,1333,-140.27,1.66,10.36,62.28,51.22,0,-1.18,14.09,14.59,7.41,1.16
+2022-06-01,NEULANDLAB,Drug Manufacturers - Specialty & Generic,Healthcare,1054.3,1353,21.2,1.61,1.46,22.4,11.4,0.28,7.59,-49.14,-41.02,0.28,-20.35
+2022-06-01,SHRIRAMPPS,Real Estate - Development,Real Estate,71.9,1220,114.13,1.08,3.31,9.81,11.11,0,0.86,-9999999999,-9999999999,-12.16,-0.55
+2022-06-01,SANDHAR,Auto Parts,Consumer Cyclical,239.55,1442,25.87,1.68,0.63,29.65,10.61,0.42,6.49,0.71,-3.6,8.2,-5.67
+2022-06-01,DPSCLTD,Utilities - Regulated Electric,Utilities,12.2,1189,122,0.87,2.21,-223.9,18.68,0.19,1.12,-3.94,-54.98,-14.69,-12.23
+2022-06-01,GMBREW,Beverages - Wineries & Distilleries,Consumer Defensive,485.6,888,9.51,1.5,1.94,9.11,7.14,0.82,15.8,42.14,-13.18,-2.73,-4.34
+2022-06-01,KSL,Steel,Basic Materials,310.05,1354,5.57,0.99,0.79,5.15,4.34,2.42,17.76,-13.05,-4.6,0.45,0.73
+2022-06-01,THEJO,Specialty Industrial Machinery,Industrials,970,1034,27.78,6.27,2.44,37.86,16.2,0.21,22.81,44.78,-15.28,-4.62,-17.01
+2022-06-01,SIRCA,Specialty Chemicals,Basic Materials,223.2,1224,44.11,5.43,6.12,34.79,27.98,0.34,12.31,20.86,-19.78,2.88,-9.01
+2022-06-01,KESORAMIND,Building Materials,Basic Materials,52.6,1288,-13.63,2.52,0.36,3.98,5.98,0,-15.15,-23.76,-9.54,-0.66,-11.3
+2022-06-01,NITINSPIN,Textile Manufacturing,Consumer Cyclical,223.75,1258,3.86,1.44,0.47,2.92,3.02,1.34,37.24,89.86,-8.24,-15.36,-5.89
+2022-06-01,SHALBY,Medical Care Facilities,Healthcare,112.9,1220,22.58,1.39,1.74,64.46,10.45,0.89,6.18,-31.49,-19.9,-10.75,-8.47
+2022-06-01,JKIL,Engineering & Construction,Industrials,245.4,1857,9.02,0.89,0.53,4.88,4.58,0.41,9.87,35.24,46.07,51.72,10.72
+2022-06-01,LSIL,,,,,,,,,,,,,,,
+2022-06-01,PRECAM,Auto Parts,Consumer Cyclical,106.55,1013,21.97,1.48,1.16,11.56,8.93,0.94,6.75,108.11,-27.44,-21.48,-16.37
+2022-06-01,HONDAPOWER,Specialty Industrial Machinery,Industrials,1531.45,1554,20.84,2.32,1.36,42.1,12.08,0.65,11.13,46.79,13.74,27.41,9.2
+2022-06-01,SJS,Auto Parts,Consumer Cyclical,445.5,1357,24.89,3.76,3.67,22.37,14.16,0.82,15.26,-9999999999,0.81,20.39,4.22
+2022-06-01,63MOONS,Software - Application,Technology,175.45,809,-15.2,0.26,5.06,-7.94,-14.24,0,-1.72,103.07,44.17,-15.22,-16.43
+2022-06-01,UJJIVAN,,,,,,,,,,,,,,,
+2022-06-01,BODALCHEM,Specialty Chemicals,Basic Materials,96.85,1187,11.67,1.13,0.58,-87.74,7.94,0.82,9.9,-4.68,-12.19,-6.7,-13.22
+2022-06-01,WHEELS,Auto Parts,Consumer Cyclical,609.55,1467,19.18,2,0.41,53.13,8.57,0.17,10.42,13.11,-7.71,3.14,-1.84
+2022-06-01,KDDL,Luxury Goods,Consumer Cyclical,729.2,929,28.82,3.68,1.15,21.9,10,0.21,12.65,157.85,-12.74,-11.06,-19.18
+2022-06-01,POWERMECH,Engineering & Construction,Industrials,988.7,1455,10.46,1.39,0.55,8.33,6.66,0,13.32,63.84,1.42,11.1,8.24
+2022-06-01,KKCL,Apparel Manufacturing,Consumer Cyclical,246.9,1522,18.63,3.18,2.51,26.74,12.09,2.43,17.08,34.65,-3.74,18.67,15.92
+2022-06-01,TVSSRICHAK,Auto Parts,Consumer Cyclical,1683.4,1289,29.65,1.33,0.51,-20.74,11.29,1.78,4.48,-14.78,-22.89,-5.59,-1.41
+2022-06-01,KHAICHEM,Agricultural Inputs,Basic Materials,108.75,1055,13.26,4.18,1.28,39.11,9.51,0.28,31.51,225.11,79.01,6.2,-11.19
+2022-06-01,RAMKY,Engineering & Construction,Industrials,176.1,1219,51.64,4.41,0.84,4.39,6.55,0.36,8.56,98.76,5.61,-3.59,-17.79
+2022-06-01,VINDHYATEL,Engineering & Construction,Industrials,928.9,1101,5.7,0.34,0.83,6,4.95,1.08,5.97,-11.42,-12.28,-14.66,-13.04
+2022-06-01,CENTENKA,Textile Manufacturing,Consumer Cyclical,503.15,1100,5.97,0.88,0.53,19.79,3.91,1.59,14.72,52.35,24.4,-0.78,-14
+2022-06-01,TWL,,,,,,,,,,,,,,,
+2022-06-01,INSECTICID,Agricultural Inputs,Basic Materials,519.07,1537,14.35,1.77,1.03,11.39,9.04,0,12.35,42.97,20.1,22.19,8.12
+2022-06-01,ONMOBILE,Telecom Services,Communication Services,132.35,1398,43.39,2.14,2.69,-57.72,23.88,1.13,4.97,5.25,26.65,14.99,-17.2
+2022-06-01,HMT,Farm & Heavy Construction Machinery,Industrials,25.6,911,1.71,-0.22,5.18,-18.05,7.49,0,-12.73,-19.87,-7.75,-5.19,-6.4
+2022-06-01,AGSTRA,Software - Infrastructure,Technology,88.8,1068,-12.81,2.22,0.6,3.29,5.21,1.13,-17.12,-9999999999,-9999999999,-26.49,-25.38
+2022-06-01,CIGNITITEC,Information Technology Services,Technology,465.95,1308,14.26,2.84,1.05,34.2,9.63,0.54,19.95,9.55,-20.74,-10,10.52
+2022-06-01,NUCLEUS,Software - Application,Technology,418.7,1121,29.32,2.27,2.25,19.44,15.26,1.55,8.29,-29.79,-17.73,-7.42,0.23
+2022-06-01,ESTER,Specialty Chemicals,Basic Materials,136.7,1140,8.34,1.83,1.03,18.42,7.41,2.41,21.99,-0.58,10.24,9.84,-11.86
+2022-06-01,PATELENG,Engineering & Construction,Industrials,23.03,1213,15.46,0.51,0.36,2.36,5.26,0,3.02,72.12,12.23,1.81,-0.56
+2022-06-01,FIEMIND,Auto Parts,Consumer Cyclical,513.47,1352,14.35,2.1,0.87,14.65,6.9,1.56,14.66,53,-14.89,2.56,6.82
+2022-06-01,SUVEN,Drug Manufacturers - Specialty & Generic,Healthcare,73.93,1167,-8.17,12.13,98.48,-9.15,-9.88,0,-126.89,-13.3,-11.48,2.55,-5.93
+2022-06-01,RIIL,Engineering & Construction,Industrials,946.1,1429,171.08,3.28,21.92,246.04,68.44,0.32,1.92,104.85,21.18,34.96,-15.23
+2022-06-01,UGROCAP,Credit Services,Financial Services,153.95,1087,75.1,1.12,4.05,-0.97,81.06,0,1.51,-9999999999,-19.52,-13.68,-9.97
+2022-06-01,TTKHLTCARE,Drug Manufacturers - General,Healthcare,739.15,1045,25.12,3.17,1.75,23.21,16.35,0.81,12.62,8.01,5.55,5.04,-3.79
+2022-06-01,SUTLEJTEX,Textile Manufacturing,Consumer Cyclical,64.15,1051,7,0.96,0.34,11.06,4.88,0.47,13.66,32.82,-16.63,-11.09,-13.54
+2022-06-01,ANDHRAPAP,Paper & Paper Products,Basic Materials,328.25,1306,9.34,1.19,0.96,6.45,5.06,1.52,12.77,41.73,42.84,53.39,-3.16
+2022-06-01,ASHAPURMIN,Other Industrial Metals & Mining,Basic Materials,108.2,990,11.21,1.9,0.79,8.66,7.58,0.46,16.6,-27.82,11.89,4.34,-20.06
+2022-06-01,ORCHPHARMA,Drug Manufacturers - Specialty & Generic,Healthcare,300.2,1226,-625.42,1.89,2.19,13.25,12.72,0,-0.3,-78.74,-24.9,7.33,-12.67
+2022-06-01,BFUTILITIE,Utilities - Renewable,Utilities,330.7,1246,24.51,-7.28,2.43,3.82,9.9,0,-29.7,7.6,-12.61,2.34,-13.76
+2022-06-01,AJMERA,Real Estate - Development,Real Estate,272.5,967,21.31,1.36,2,-15.2,15.94,0,6.39,85.94,-5.43,-21.23,-20.04
+2022-06-01,TNPL,Paper & Paper Products,Basic Materials,179,1239,86.47,0.78,0.31,1.12,8.85,1.68,0.9,22.06,42.12,40.06,-17.49
+2022-06-01,VHL,Credit Services,Financial Services,2973.7,950,2.21,0.34,67.32,-190.09,2.06,0.17,15.45,21.76,0.11,-13.01,-14.43
+2022-06-01,COFFEEDAY,Restaurants,Consumer Cyclical,45.25,956,-7.92,0.27,1.65,8.85,42.47,0,-3.35,31.35,18.92,-20.12,-3.21
+2022-06-01,LUMAXTECH,Auto Parts,Consumer Cyclical,169.9,1158,16.69,2.13,0.77,13.24,8.54,1.97,12.76,16.77,11.37,6.52,-2.55
+2022-06-01,HUHTAMAKI,Packaging & Containers,Consumer Cyclical,169.1,,,,,,,,,-41.76,-25.47,0.06,-14.1
+2022-06-01,SASTASUNDR,Pharmaceutical Retailers,Healthcare,307.1,977,1.56,1.18,1.55,-4.72,1.1,0,75.84,47.54,-33.17,-19.94,-18.66
+2022-06-01,SUNFLAG,Steel,Basic Materials,93.05,1677,7.73,0.96,0.62,38.83,5.69,0,12.41,18.38,31.8,31.33,-20.54
+2022-06-01,ORIENTHOT,Lodging,Consumer Cyclical,59.85,1069,-52.96,2.43,4.87,37.41,58.22,0,-4.6,57.09,56.68,10.02,-6.85
+2022-06-01,IGARASHI,Auto Parts,Consumer Cyclical,293.2,923,771.58,2.11,1.71,12.68,20.93,0.51,0.27,-30.07,-43.47,-18.68,-16.5
+2022-06-01,SANGAMIND,Textile Manufacturing,Consumer Cyclical,284.7,1237,8.84,1.73,0.52,5.05,6.23,0.35,19.65,180.91,5.13,-7.04,-24
+2022-06-01,EVERESTIND,Building Products & Equipment,Industrials,578.15,907,20.52,1.67,0.66,28.19,8.78,1.29,8.13,54.21,47.04,-9.73,-6.87
+2022-06-01,NRBBEARING,Auto Parts,Consumer Cyclical,123.15,1194,16.29,2.03,1.3,74.41,9.39,0.28,12.45,3.75,-26.52,4.76,3.4
+2022-06-01,GIPCL,Utilities - Regulated Electric,Utilities,86.85,1314,7.67,0.43,1.12,3.63,3.65,3.11,5.63,7.96,6.24,16.5,-5.6
+2022-06-01,REPCOHOME,Mortgage Finance,Financial Services,148.9,932,4.8,0.41,1.51,0.68,10.39,1.68,8.48,-58.14,-51.26,-22.31,-16.28
+2022-06-01,SESHAPAPER,Paper & Paper Products,Basic Materials,187.15,1181,10.24,0.94,0.89,4.28,5.65,1.34,8.76,9.99,18.98,29.74,-10.8
+2022-06-01,SANGHIIND,Building Materials,Basic Materials,38.95,978,24.04,0.53,0.87,2.43,12.2,0,2.21,-16.06,-32.44,-16.42,-17.13
+2022-06-01,WELENT,Engineering & Construction,Industrials,95.45,1421,11.46,0.79,1.06,4.95,16.14,1.57,6.96,-11.82,-0.52,17.84,8.96
+2022-06-01,ITDCEM,Engineering & Construction,Industrials,60.8,1045,15.16,0.92,0.27,3.08,4.18,0.2,6.08,-26.97,-19.04,-6.96,-9.39
+2022-06-01,TARC,Real Estate - Development,Real Estate,37.55,1109,-4.76,0.83,4.42,-13.65,-15.92,0,-17.48,33.16,-14.95,-2.59,-8.19
+2022-06-01,CENTRUM,Financial Conglomerates,Financial Services,23.65,984,-5.56,1.46,1.47,0.3,12.13,0,-26.19,-33.38,-31.84,-10.42,-12.73
+2022-06-01,RUSHIL,"Furnishings, Fixtures & Appliances",Consumer Cyclical,399.78,897,39.33,3.13,1.45,-135.93,17.92,0.11,7.95,78.39,35.22,9.18,-10.99
+2022-06-01,BCLIND,Household & Personal Products,Consumer Defensive,36.96,893,10.52,2.43,0.46,9.39,7.47,0.73,23.14,118.96,54.9,-9.81,-19.97
+2022-06-01,PNBGILTS,Capital Markets,Financial Services,65.2,1174,7.08,0.82,1.39,-0.26,21.69,4.6,11.61,-13.93,-0.08,7.77,3.41
+2022-06-01,TDPOWERSYS,Specialty Industrial Machinery,Industrials,96.03,1494,21.11,2.83,1.9,136.92,13.27,0.52,13.37,151.52,24.67,32.58,39.25
+2022-06-01,DCW,Chemicals,Basic Materials,42.45,1109,11.23,1.38,0.45,6.23,4.57,0,13.41,17.43,0.35,8.99,-14.42
+2022-06-01,MANGLMCEM,Building Materials,Basic Materials,317.15,873,11.22,1.18,0.56,4.63,6.26,0.46,10.47,6.25,-12.72,-5.41,-15.02
+2022-06-01,MPSLTD,Publishing,Communication Services,680.7,1165,14,3.17,2.61,10.14,8.37,0,23.75,25.73,-1.53,10.08,19.11
+2022-06-01,ALICON,Metal Fabrication,Industrials,710.65,1145,45.73,2.55,1.1,14.83,12.59,0,5.39,29.04,-16.43,-8.22,-7.12
+2022-06-01,GOKULAGRO,Packaged Foods,Consumer Defensive,107.48,1547,12.02,3.29,0.15,27.85,7.18,0,26.13,155.54,68.52,54.87,-17.26
+2022-06-01,CLNINDIA,,,,,,,,,,,,,,,
+2022-06-01,GNA,Auto Parts,Consumer Cyclical,263.17,1130,25.46,1.9,0.91,27.31,7.51,0.95,14.91,26.68,-28.99,7.72,1.35
+2022-06-01,TI,Beverages - Wineries & Distilleries,Consumer Defensive,67.35,1069,21.87,8,1.36,16.41,11.86,0.01,33.84,93.81,-16.85,-5.8,0.97
+2022-06-01,ZEEMEDIA,Broadcasting,Communication Services,16.25,1017,-7.85,2.23,1.17,4.42,40.28,0,-25.8,73.8,31.58,9.43,-20.34
+2022-06-01,PITTIENG,Metal Fabrication,Industrials,305,978,18.85,3.44,1.02,11.12,9.14,0.39,18.27,198.29,32.72,29.48,-1.88
+2022-06-01,QUICKHEAL,Software - Application,Technology,171.25,994,12.28,1.58,2.91,12.42,8.03,2.33,13.25,-22.98,-23.72,-4.97,-6.88
+2022-06-01,TNPETRO,Specialty Chemicals,Basic Materials,93.75,844,4.81,1.13,0.47,7.55,2.95,2.56,23.44,-7.41,-9.99,-2.34,-24.18
+2022-06-01,BFINVEST,Asset Management,Financial Services,275.45,1038,5.25,0.26,94.35,187.18,3.92,0,4.9,-13.39,-13.89,-2.65,-8.53
+2022-06-01,MANGCHEFER,Agricultural Inputs,Basic Materials,89.8,1065,12.12,1.56,0.37,-12.2,9,1.11,12.86,9.45,31.86,28.01,-18.4
+2022-06-01,SATIA,Paper & Paper Products,Basic Materials,117.9,1179,11.71,2.16,1.32,7.39,7.86,0.08,18.47,41.88,34.13,21.86,-10.34
+2022-06-01,GEPIL,Engineering & Construction,Industrials,164.35,1105,-3.83,1.63,0.42,22.49,-8.07,0.61,-42.74,-41.43,-34.76,6.38,-10.87
+2022-06-01,VISAKAIND,Building Products & Equipment,Industrials,103.43,894,37.26,1.22,0.64,16.49,4.96,3.12,16.16,-22.4,-13.79,-5.95,-9.32
+2022-06-01,5PAISA,Capital Markets,Financial Services,319.85,941,68.34,2.52,4.36,-6.69,26.81,0,3.67,-7.7,-22.99,-3.67,-5.9
+2022-06-01,VADILALIND,Packaged Foods,Consumer Defensive,1808.05,1300,29.07,4.37,1.86,40.57,13.44,0,15.03,81.49,85.76,37.22,1.27
+2022-06-01,WENDT,Tools & Accessories,Industrials,7277.55,1456,53.77,8.99,8.21,39.47,31.92,0.55,16.71,113.54,43.03,53.14,15.29
+2022-06-01,KPIGLOBAL,,,,,,,,,,,,,,,
+2022-06-01,MONTECARLO,Apparel Manufacturing,Consumer Cyclical,540.35,1121,9.83,1.63,1.24,15.86,6.22,2.78,16.58,68.91,-5.27,10.4,-1.22
+2022-06-01,PFS,Credit Services,Financial Services,15.55,999,7.7,0.44,1.08,0.37,42.91,0,5.74,-16.17,-15.26,-6.04,-8.53
+2022-06-01,UNIDT,Oil & Gas Equipment & Services,Energy,457,928,18.55,3.87,5.31,144.77,12.54,0.46,20.86,52.23,10.04,-0.31,-9.59
+2022-06-01,SHREDIGCEM,Building Materials,Basic Materials,63.8,919,16.88,2.94,1.47,16.04,7.62,6.23,17.71,-15.78,-16.27,-0.31,-12.96
+2022-06-01,NAHARCAP,Capital Markets,Financial Services,410.6,688,3.04,0.44,26.61,-9.93,2.24,0.73,14.52,216.82,29.63,-17.8,-27.23
+2022-06-01,EMAMIPAP,,,145.2,,,,,,,,,14.29,5.75,10,Infinity
+2022-06-01,BBL,Electrical Equipment & Parts,Industrials,756.9,856,15.39,0.76,0.68,-91.78,10.59,0.33,4.95,20.94,-14.73,-13.57,-12.2
+2022-06-01,CHEMCON,Specialty Chemicals,Basic Materials,288.55,1057,16.84,2.53,4.12,14.26,11.64,0,15.04,-41.04,-22.32,3.93,-10.08
+2022-06-01,BANCOINDIA,Auto Parts,Consumer Cyclical,167.85,1201,7.88,1.22,0.62,20.97,4.7,1.19,15.53,4.97,-3.95,16.16,20.32
+2022-06-01,PCJEWELLER,Luxury Goods,Consumer Cyclical,21.9,1020,-2.61,0.26,0.63,-1.42,-91.52,0,-10.05,-19.04,-7.98,7.35,-1.13
+2022-06-01,BHAGERIA,Specialty Chemicals,Basic Materials,203.9,890,12.61,1.76,1.48,11.77,7.18,1.72,13.92,7.09,-20.57,-7.06,-17.96
+2022-06-01,ENIL,Broadcasting,Communication Services,183.2,874,-24.11,1.15,2.75,21.59,17.36,0.55,-4.77,7.39,-0.92,-0.3,-11.9
+2022-06-01,RSWM,Textile Manufacturing,Consumer Cyclical,266.44,980,3.98,0.95,0.26,4.67,4.5,0,23.78,72.44,-5.88,-4.23,-23.5
+2022-06-01,INDNIPPON,Auto Parts,Consumer Cyclical,403.3,913,18.16,1.81,1.64,129.41,12.01,1.55,9.95,13.37,4.44,-7.3,-4.75
+2022-06-01,TAJGVK,Lodging,Consumer Cyclical,148.7,933,94.13,2.53,4.11,17.56,21.12,0,2.69,9.78,12.82,12.48,-13.45
+2022-06-01,CEREBRAINT,Computer Hardware,Technology,57.75,647,23.57,2.51,2.8,-37.26,14.43,0,10.63,10.53,-28.13,-21.85,-17.91
+2022-06-01,IMPAL,Auto Parts,Consumer Cyclical,778.8,972,16,0.79,1.51,-410.1,12.6,1.35,4.92,18.21,2.64,2.33,1.14
+2022-06-01,SAKSOFT,Information Technology Services,Technology,89.32,942,15.32,2.96,1.96,13.43,9.86,0.58,19.86,86.39,-8.76,-1.27,11.16
+2022-06-01,BAJAJHCARE,Drug Manufacturers - Specialty & Generic,Healthcare,310.35,857,12,2.61,1.26,1248.57,9.26,0.16,21.73,-9999999999,-11.42,-17.44,-8.93
+2022-06-01,SURYODAY,Banks - Regional,Financial Services,97.2,1032,-11.1,0.69,1.52,-2.98,7.57,0,-6.18,-56.48,-35.03,-15.92,-28.87
+2022-06-01,IFGLEXPOR,Building Materials,Basic Materials,269.8,973,12.55,1.04,0.78,222.41,6.01,3.71,8.3,-23.87,-8.15,4.11,-3.57
+2022-06-01,UNIENTER,Chemicals,Basic Materials,126,877,16.05,0.28,717.2,1684.18,16.21,2.7,1.72,14.75,5.84,-1.68,-4.07
+2022-06-01,ASAL,Auto Parts,Consumer Cyclical,418.1,664,12.68,-18.57,1.09,15.14,9.63,0,-146.47,987.39,68.45,47.82,-20.11
+2022-06-01,RPGLIFE,Drug Manufacturers - Specialty & Generic,Healthcare,510.45,845,16.4,3.3,1.93,13.04,9.55,1.41,20.13,15.3,-15.45,1.62,-4.35
+2022-06-01,VSSL,Steel,Basic Materials,117.07,950,9.48,1.71,0.7,16.13,5.51,0.64,18.15,18.17,-3.15,-4.67,-5.95
+2022-06-01,PARAGMILK,Packaged Foods,Consumer Defensive,89.45,852,-1.57,1.54,0.42,-5.72,-3.11,0.56,-96.11,-35.92,-23.02,-10.06,-10.68
+2022-06-01,PGIL,Apparel Manufacturing,Consumer Cyclical,214.88,932,13.66,1.55,0.35,-10.18,8.72,0,11.38,104.75,14.12,6.68,-8.67
+2022-06-01,GREENPOWER,Utilities - Independent Power Producers,Utilities,8.7,710,20.11,1.45,2.28,3.23,7.91,0,7.15,310.38,-15.29,-16.02,-14.87
+2022-06-01,NSIL,Asset Management,Financial Services,1406.55,723,10.93,0.09,9.51,17.31,9,0,0.83,-17.34,-9.34,-9.65,-21.01
+2022-06-01,URJA,Solar,Technology,13,725,1300,4.25,9.93,-87.28,329.1,0,0.45,91.18,45.25,-15.03,-20.49
+2022-06-01,FCONSUMER,Packaged Foods,Consumer Defensive,2.1,417,-0.93,2.77,0.29,3.51,-2.87,0,-299.12,-70.83,-69.34,-70.63,-12.5
+2022-06-01,PANACEABIO,Biotechnology,Healthcare,145.45,891,0.83,1.02,1.35,-8.21,0.52,0,123.01,-64.98,-34.83,-25.87,-7.83
+2022-06-01,DHARAMSI,,,,,,,,,,,,,,,
+2022-06-01,HEXATRADEX,Credit Services,Financial Services,180.95,1000,-39.86,0.43,2377.3,-46.07,-44.19,0,-1.07,61.49,41.31,34.09,-14.44
+2022-06-01,NDL,Textile Manufacturing,Consumer Cyclical,35.8,517,7.62,0.96,0.24,5.09,6.01,0,12.56,139.95,7.57,-28.26,-30.21
+2022-06-01,JETAIRWAYS,Airlines,Industrials,101.8,1157,-1.5,-0.07,8.48,21.64,-7.45,0,4.68,2.31,12.74,30.51,14.64
+2022-06-01,XCHANGING,Information Technology Services,Technology,70.4,785,14.92,1.28,4.5,22.43,5.59,0,8.57,0.07,-29.18,-18.42,-13.78
+2022-06-01,RADIOCITY,Broadcasting,Communication Services,22.8,789,-142.5,1.31,4.68,34.67,123.94,0,-0.94,-6.37,-1.3,-1.94,-10.41
+2022-06-01,AGARIND,Specialty Chemicals,Basic Materials,535.85,708,10.49,2.4,0.44,10.94,7.69,0.32,21.62,160.75,27.3,11.96,-24.1
+2022-06-01,SIGACHI,Drug Manufacturers - Specialty & Generic,Healthcare,28.52,877,18.47,3.85,3.5,149.87,16,0.26,17.58,-9999999999,-34.59,-5.25,-1.76
+2022-06-01,MBAPL,Agricultural Inputs,Basic Materials,161.66,1417,49.7,6.9,5,-19.69,14.93,0.08,27.77,677.21,267.08,92.91,39.19
+2022-06-01,SMCGLOBAL,Capital Markets,Financial Services,88.45,1001,5.73,1.08,1.02,5.17,5.19,2.26,18.83,26.9,18.8,20.18,8
+2022-06-01,FOSECOIND,Chemicals,Basic Materials,1556,,,,,,,,,12.06,10.72,18.17,0.65
+2022-06-01,DREDGECORP,Engineering & Construction,Industrials,309.35,867,162.82,0.62,1.08,4.23,8.39,0,0.25,-18.97,-3.42,-4.84,-10.7
+2022-06-01,PRECWIRE,Electrical Equipment & Parts,Industrials,46.33,804,8.5,2.2,0.31,18.88,6.51,1.73,17.27,78.6,19.62,-24.21,-14.09
+2022-06-01,SPAL,Apparel Manufacturing,Consumer Cyclical,336.1,864,10.2,1.35,1.05,32.11,6.53,0.67,13.28,71.26,-16.85,-14.31,-14.89
+2022-06-01,APEX,Farm Products,Consumer Defensive,265,829,20.17,1.77,0.93,23.3,10.94,0.75,8.77,-4.28,-13.27,-1.69,-15.02
+2022-06-01,ARVSMART,Real Estate - Development,Real Estate,171.7,730,27.25,1.66,2.84,4.54,11.35,0,5.71,66.54,-15.19,-12.11,-9.87
+2022-06-01,CREATIVE,Electronics & Computer Distribution,Technology,526.55,632,40.88,7.68,0.67,-33.38,24.98,0.09,19.43,516.21,30.82,-7.79,-16.97
+2022-06-01,GFLLIMITED,Entertainment,Communication Services,66.05,726,-6.52,2.06,NaN,8.16,-33.02,0,-31.52,-17.33,-13.03,6.62,-9.27
+2022-06-01,INDIANHUME,Engineering & Construction,Industrials,162.3,787,13.6,1.21,0.52,14.07,9.27,1.23,8.89,-23.52,-16.02,-15.42,-10.43
+2022-06-01,SHREEPUSHK,Specialty Chemicals,Basic Materials,259.05,799,14.65,2.02,1.38,18.92,10.23,0.39,14.04,37.46,23.09,17.32,-4.83
+2022-06-01,THEMISMED,Drug Manufacturers - Specialty & Generic,Healthcare,82.09,756,10.38,2.63,1.91,21.96,7.34,0.52,25.35,29.46,-12.51,-20.15,-7.54
+2022-06-01,3IINFOLTD,Information Technology Services,Technology,47.45,797,-13.79,1.13,1.18,-15.93,-23,0,-8.17,-46.69,-53.75,-5.1,-14.89
+2022-06-01,ASALCBR,Beverages - Wineries & Distilleries,Consumer Defensive,417.55,755,12.42,2.41,1.47,9.53,7.91,0.24,19.44,-2.88,-20.36,-7.47,-15.4
+2022-06-01,SHALPAINTS,Specialty Chemicals,Basic Materials,141.65,1023,-13.25,2.75,2.86,-16.55,-39.73,0,-16.23,22.64,36.6,2.91,0.68
+2022-06-01,ADORWELD,Specialty Industrial Machinery,Industrials,681.6,927,20.59,3.29,1.41,35.12,12.73,0,15.97,42.43,1.16,5.29,3.61
+2022-06-01,BHAGCHEM,Agricultural Inputs,Basic Materials,90.81,862,24.26,4.54,1.98,130.37,14.43,0.1,18.83,-9999999999,27.31,7.13,-5.2
+2022-06-01,SHAKTIPUMP,Specialty Industrial Machinery,Industrials,473.55,871,13.43,2.21,0.74,51.21,8.11,1.69,16.49,-36.31,-22.7,-4.31,-6.77
+2022-06-01,ARMANFIN,Credit Services,Financial Services,1105,939,29.59,4.41,4.12,-3.34,39.76,0,14.92,80.03,9.89,36.03,-2.92
+2022-06-01,RANEHOLDIN,Auto Parts,Consumer Cyclical,638.7,912,37.77,1.17,0.35,59.49,7.69,0,3.11,13.83,6.61,9.4,3.05
+2022-06-01,DPABHUSHAN,Luxury Goods,Consumer Cyclical,406,904,22.1,6.54,0.52,53.96,14.71,0,29.29,188.45,41.74,11.07,-10.26
+2022-06-01,LUMAXIND,Auto Parts,Consumer Cyclical,1175.4,1099,26.98,2.23,0.63,10.17,10.95,0.6,8.28,-27.52,-15.23,17.14,24.22
+2022-06-01,UTTAMSUGAR,Confectioners,Consumer Defensive,292,1114,8.25,2.41,0.55,3.48,6.19,0,29.15,103.2,78.21,43.7,13.95
+2022-06-01,ARIHANTCAP,Capital Markets,Financial Services,82.9,864,17.13,3.77,8.91,-47.8,12.53,0.42,22,-9999999999,178.28,9.77,1.16
+2022-06-01,KRISHANA,Agricultural Inputs,Basic Materials,155.7,923,29.88,4.18,4.41,-181.86,17.95,0.15,13.33,259.17,89.42,40.71,-1.14
+2022-06-01,JAGSNPHARM,Drug Manufacturers - Specialty & Generic,Healthcare,291,763,40.42,5.74,3.5,110.26,26.02,1.37,14.2,138.92,85.41,23.17,-6.31
+2022-06-01,SHREYAS,Marine Shipping,Industrials,351.4,772,3.66,1.23,1.44,6.52,3.8,0.57,33.54,81.46,36.73,11.7,-2.29
+2022-06-01,RAMCOSYS,Software - Application,Technology,257.25,793,-10.78,1.37,1.49,8.63,-17.46,0,-12.63,-51.75,-45.31,-14.31,-15
+2022-06-01,SRHHYPOLTD,Chemicals,Basic Materials,465.7,800,7.78,1.4,0.63,13.38,5.14,0.64,18.02,61.53,44.07,16.11,-1.82
+2022-06-01,KELLTONTEC,Software - Application,Technology,73.5,710,10.08,1.48,0.84,1060.51,8.2,0.34,14.72,2.73,52.17,-16.52,-12.81
+2022-06-01,NCLIND,Building Materials,Basic Materials,163.75,741,7.85,1,0.45,9.91,4.95,2.44,12.74,-18.39,-24,-6.8,-12.27
+2022-06-01,DVL,Capital Markets,Financial Services,222.4,779,2.17,0.38,3.26,-29.92,1.82,1.12,17.41,26.11,-7.97,-2.52,-3.62
+2022-06-01,DCMSRIND,Confectioners,Consumer Defensive,89.7,781,11.79,1.16,0.37,13.22,8.11,1.67,9.86,-9999999999,-9999999999,-4.12,-17.89
+2022-06-01,BLISSGVS,Drug Manufacturers - Specialty & Generic,Healthcare,80.6,836,56.36,1.02,1.13,6.17,13.92,0.64,1.84,-24.39,-20.16,1.9,2.03
+2022-06-01,OCCL,Chemicals,Basic Materials,749.1,749,17.38,1.33,1.69,12.24,10.61,2.27,7.68,-32.24,-21.61,-7.82,-14.03
+2022-06-01,MADRASFERT,Agricultural Inputs,Basic Materials,51.05,823,5.06,-1.63,2.43,-2.6,9.84,0,-32.13,79.12,78.5,60.53,-2.02
+2022-06-01,SANGHVIMOV,Rental & Leasing Services,Industrials,178,771,26.22,1.05,2.3,5.93,5.41,0,4.01,5.45,-13.68,-4.71,-0.59
+2022-06-01,ALLSEC,Specialty Business Services,Industrials,478.45,730,20.46,3.48,2.3,11.44,8.14,12.53,17.02,32.5,4.33,-8.07,-6.46
+2022-06-01,SMSPHARMA,Drug Manufacturers - General,Healthcare,81.2,688,11.05,1.46,1.33,15.25,8.04,0.37,13.23,-49.66,-36.91,-16.33,-17.56
+2022-06-01,ONWARDTEC,Information Technology Services,Technology,298.45,658,24.52,4.03,2.14,-167.27,14.59,0.8,14.51,45.02,11.74,0.25,-10.35
+2022-06-01,ANUP,Specialty Industrial Machinery,Industrials,373.45,739,11.96,1.88,2.64,9.97,10.49,0.92,15.77,-10.87,-25.32,-10.12,-11.63
+2022-06-01,MEDICAMEQ,Drug Manufacturers - Specialty & Generic,Healthcare,664.6,812,54.52,5.54,7.03,197.59,33,0.15,10.17,-9999999999,-5.94,1.67,-6.77
+2022-06-01,IWEL,Specialty Industrial Machinery,Industrials,543.1,597,-1.21,0.4,1,-1.55,-24.78,0,-19.09,-9999999999,-33.86,-20.52,-18.47
+2022-06-01,DECCANCE,Building Materials,Basic Materials,489.4,686,7.83,1.06,0.87,8.13,3.65,1.02,13.57,0.23,-19.55,-8.8,-13.26
+2022-06-01,NAGAFERT,Agricultural Inputs,Basic Materials,11.3,676,-0.98,-0.58,0.25,10.42,-10.13,0,58.77,20.86,-3.42,0.44,-19.86
+2022-06-01,HTMEDIA,Publishing,Communication Services,25.05,584,32.96,0.28,0.41,-15.99,8.43,0,0.85,0.4,3.3,-18,-15.8
+2022-06-01,UGARSUGAR,Confectioners,Consumer Defensive,54.8,617,14.23,5.06,0.55,6.63,13.2,0.36,35.58,94.67,101.47,15.73,-21.43
+2022-06-01,MANORG,Specialty Chemicals,Basic Materials,629.5,540,10.03,1.77,1.1,-6.41,8.12,0.24,17.67,-9999999999,-38.93,-27.83,-27.06
+2022-06-01,SATIN,Credit Services,Financial Services,112.55,845,41.38,0.53,0.67,2.51,108.26,0,1.31,33.51,40.95,24.99,-5.66
+2022-06-01,SPECIALITY,Restaurants,Consumer Cyclical,131.85,620,75.78,4.28,2.45,11.47,15.28,0,5.64,155.52,36.99,-10.52,-9.82
+2022-06-01,ARSHIYA,Integrated Freight & Logistics,Industrials,21.45,563,1.33,1.8,3.75,8.05,2.51,0,135.77,-22.42,-27.16,-35.97,-22.98
+2022-06-01,ZOTA,Biotechnology,Healthcare,278.15,700,77.7,7.81,5.33,52.49,43.67,0.36,9.94,84.21,-27.6,-7.88,-8.64
+2022-06-01,JAYAGROGN,Specialty Chemicals,Basic Materials,250.35,752,8.48,1.61,0.3,11.55,5.95,0.4,18.99,32.32,15,20.48,-9.83
+2022-06-01,AURIONPRO,Software - Infrastructure,Technology,317.75,725,10.25,1.83,1.43,11.68,6.88,0,17.81,111.76,14.46,3.3,-6.85
+2022-06-01,CAPACITE,Engineering & Construction,Industrials,118.75,807,16.89,0.84,0.61,23.37,5.41,0,4.95,-41.99,-28.05,-9.97,-13.89
+2022-06-01,AWHCL,Waste Management,Industrials,315.1,892,13.13,2.14,1.38,8.48,7.71,0,16.29,5.37,8.21,12.02,17.25
+2022-06-01,SEPC,Engineering & Construction,Industrials,8.48,836,-3.16,1.13,2.54,-11.61,-18.21,0,-35.73,77.41,21.14,9.56,-1.17
+2022-06-01,RCOM,Telecom Services,Communication Services,2.55,700,-0.11,-0.01,1.26,5.88,-7.13,0,10.93,2,-13.56,-13.56,-7.27
+2022-06-01,ISMTLTD,Steel,Basic Materials,58.15,1748,0.38,1.26,0.82,16.79,0.74,0,171.24,231.34,28.65,11.19,-2.76
+2022-06-01,ORIENTBELL,Building Products & Equipment,Industrials,634.05,915,28.77,3.21,1.4,20.89,15.68,0.08,11.3,115.41,71.32,12.78,27.27
+2022-06-01,DEEPINDS,Oil & Gas E&P,Energy,104.15,667,9.21,0.59,2.07,12.2,5.86,0.67,6.38,237.82,43.79,12.03,-16.03
+2022-06-01,TEXINFRA,Real Estate Services,Real Estate,65.35,833,-9.65,1.25,43.94,-242.76,-10.63,0.31,-12.94,-6.84,15.87,8.92,-4.39
+2022-06-01,ORIENTPPR,Paper & Paper Products,Basic Materials,26,552,-19.12,0.36,0.95,-22.54,-96.18,0.96,-1.86,-5.11,-16.53,-5.8,-18.62
+2022-06-01,SPENCERS,Department Stores,Consumer Cyclical,75.8,683,-5.62,11.03,0.28,12.5,224.03,0,-196.36,3.84,-26.8,-3.56,-12.57
+2022-06-01,GOODLUCK,Steel,Basic Materials,278.7,725,9.45,1.56,0.28,9.32,7.28,0.52,16.1,167.72,3.72,-6.85,-3.95
+2022-06-01,HPAL,Specialty Chemicals,Basic Materials,73.92,680,93.57,4.94,4.13,-66.5,46.76,0,4.37,-9999999999,-9999999999,-1.68,-4.48
+2022-06-01,BALAJITELE,Entertainment,Communication Services,55.25,559,-4.22,1.26,1.66,-4.67,-5.21,0.36,-29.82,-16.92,-8.15,-25.44,-11.17
+2022-06-01,SMLISUZU,Auto Manufacturers,Consumer Cyclical,627.15,908,-9.1,5.62,0.99,-48.76,-25.65,0.01,-61.78,39.43,-7.93,23.44,-9.84
+2022-06-01,ROSSELLIND,Conglomerates,Industrials,172.05,632,21.03,2.56,2.16,19.01,14.44,0.17,12.18,40.97,30.44,26.09,-14.1
+2022-06-01,DIGISPICE,Information Technology Services,Technology,29.75,688,129.35,2.78,0.69,4.61,20.79,0,2.19,-37.57,-23.52,-10.39,-7.32
+2022-06-01,GICHSGFIN,Mortgage Finance,Financial Services,129.1,696,4.01,0.46,0.61,0.54,44.32,3.1,11.48,-4.93,-12.89,-5.35,-13.36
+2022-06-01,STEELCAS,Steel,Basic Materials,323.2,655,19.66,4.18,2.2,-9911.47,11.2,0.84,21.25,-9999999999,9.67,13.01,-10.71
+2022-06-01,JUBLINDS,Specialty Chemicals,Basic Materials,416,626,11.8,4.48,0.72,20.85,8.02,0,38.35,44.39,-17.07,-12.58,-10.41
+2022-06-01,KUANTUM,Paper & Paper Products,Basic Materials,71.65,626,46.53,0.75,0.76,12.93,11.7,0,1.62,7.99,-10.55,4.37,-12.62
+2022-06-01,VIMTALABS,Diagnostics & Research,Healthcare,342.4,757,18.69,3.24,2.74,12.82,9.59,0.58,17.66,56.78,-8.85,4.14,-6.59
+2022-06-01,FLFL,Apparel Manufacturing,Consumer Cyclical,15.55,314,-0.12,-0.17,0.11,0.46,-1.54,0,135.49,-73.42,-69.92,-71.57,-19.22
+2022-06-01,JINDRILL,Oil & Gas Equipment & Services,Energy,199.85,580,8.99,0.49,1.38,2.96,5.8,0.25,5.4,87.56,56.81,2.04,-4.95
+2022-06-01,KICL,Asset Management,Financial Services,1585.35,693,12.1,0.13,25.32,-74.45,9.69,0,1.07,-6.66,-17.41,-1.38,-5.54
+2022-06-01,FCSSOFT,Information Technology Services,Technology,3.25,556,-10620.92,1.6,20.93,126.89,88.75,0,-0.02,160,54.76,-9.72,-1.52
+2022-06-01,YUKEN,Specialty Industrial Machinery,Industrials,480.45,577,42.07,3.02,1.74,275.11,17.7,0.13,7.18,-9999999999,-20.26,-14.34,-8.65
+2022-06-01,DYNPRO,Specialty Chemicals,Basic Materials,469.7,533,370.43,3.12,2.19,13.41,17.25,0,8.39,-7.66,-17.16,-15.11,-19.37
+2022-06-01,TCPLPACK,Packaging & Containers,Consumer Cyclical,923.3,841,17.75,2.47,0.79,8.66,8.33,0.8,13.93,86.85,84.02,29.83,13.91
+2022-06-01,NAHARINDUS,Textile Manufacturing,Consumer Cyclical,137.3,547,3.48,0.61,0.28,6.47,3.87,0.04,17.5,118.98,19.39,-12.04,-33.49
+2022-06-01,PARSVNATH,Real Estate - Development,Real Estate,12.15,529,-1.07,-1.74,0.59,0.96,-53.32,0,162.47,15.17,-33.61,-19.27,-24.06
+2022-06-01,SUMMITSEC,Capital Markets,Financial Services,584.1,637,12.53,0.14,9.89,13.69,8.61,0,1.13,-1.06,-8.2,-5.65,-8.91
+2022-06-01,BIGBLOC,Building Products & Equipment,Industrials,113.9,807,50.18,17.15,4.6,33.09,31.23,0.13,34.2,547.53,179.17,53.81,-9.46
+2022-06-01,EQUIPPP,Agricultural Inputs,Basic Materials,65.35,674,-225.34,99.73,NaN,-4324.31,-301.55,0,-43.64,3432.43,-29.31,-9.3,-20.35
+2022-06-01,IFBAGRO,Beverages - Wineries & Distilleries,Consumer Defensive,556.85,522,8.91,1.04,0.52,4.95,4.22,0,11.68,16.19,-8.28,1.43,-12.68
+2022-06-01,GANESHBE,Specialty Chemicals,Basic Materials,122.6,765,23.4,2.73,2.14,8.87,12.33,0,11.65,-9999999999,57.68,24.21,-5.26
+2022-06-01,RAJMET,Copper,Basic Materials,28.86,798,5.31,26.97,0.78,-172.71,44.09,0,33.86,566.51,193.59,54.33,7.93
+2022-06-01,LINCOLN,Drug Manufacturers - Specialty & Generic,Healthcare,287.5,576,8.3,1.33,1.22,7.56,5.41,0.52,16.02,-2.08,-18.83,-7.47,-12.91
+2022-06-01,KAMDHENU,Steel,Basic Materials,100.25,271,10.1,1.24,0.45,6.23,7.1,0.79,12.27,20.39,-15.87,-7.55,-18.79
+2022-06-01,ADSL,Information Technology Services,Technology,128.9,699,11.78,1.31,1.44,47.76,7.23,0.54,11.49,106.41,16.02,25.27,-15.92
+2022-06-01,VLSFINANCE,Capital Markets,Financial Services,147.15,569,2.71,0.19,20.32,3.46,2.35,1.02,7.09,22.37,-23.99,-9.59,-14.47
+2022-06-01,JAYBARMARU,Auto Parts,Consumer Cyclical,56.74,615,21.82,1.3,0.32,5.82,6.58,0.88,5.93,-25.64,-20.95,-5.31,-8.31
+2022-06-01,HCL-INSYS,Electronics & Computer Distribution,Technology,16.7,550,22.57,-2.56,7.92,5.46,23.81,0,-11.4,55.35,-16.92,-13.7,-5.92
+2022-06-01,JASH,Specialty Industrial Machinery,Industrials,651.8,779,24.41,4.17,2.18,53.76,17.45,0.49,17.24,58.36,38.42,30.32,2.83
+2022-06-01,ARTEMISMED,,,42.25,,,,,,,,,54.03,23.9,5.63,Infinity
+2022-06-01,SALASAR,Steel,Basic Materials,4.78,683,21.72,2.42,0.98,457.57,13.67,0.42,11.15,-33.05,-3.63,-4.4,-14.95
+2022-06-01,HLVLTD,Lodging,Consumer Cyclical,9.2,607,-13.94,1.47,8.31,-12.47,-23.64,0,-10.31,26.03,-8.46,0.55,-3.66
+2022-06-01,UNIVPHOTO,Medical Devices,Healthcare,539.7,591,1.15,0.55,10.52,-9.92,0.99,0,47.95,148.19,-17.55,-15.21,12.61
+2022-06-01,BLKASHYAP,Engineering & Construction,Industrials,21.7,490,11.13,1.16,0.42,5.61,6.38,0,10.39,20.56,-17.02,-5.03,-9.21
+2022-06-01,MONARCH,Capital Markets,Financial Services,299.95,932,16.49,5.55,6.45,20.67,11.4,0.33,32.18,-9999999999,-9999999999,74.54,-15.23
+2022-06-01,KANORICHEM,Chemicals,Basic Materials,136.85,598,87.72,1,0.44,7.2,11.12,0,1.14,12.08,-14.2,13.43,12.03
+2022-06-01,BGRENERGY,Engineering & Construction,Industrials,73.5,531,-2.9,0.92,0.43,1.62,36.17,0,-31.72,26.4,23.63,-4.23,-10.31
+2022-06-01,KOKUYOCMLN,Business Equipment & Supplies,Industrials,60.35,606,-128.4,2.53,1.2,34,40.98,0,-1.98,1.86,-4.58,-2.11,-15.71
+2022-06-01,HITECH,Steel,Basic Materials,48.73,598,14.42,2.31,0.33,-34.53,10.14,0,15.59,21.46,-11.42,-12.64,-21.49
+2022-06-01,APCL,Building Materials,Basic Materials,219.19,591,13.38,1.85,0.74,5.99,7.48,2.14,13.01,-23.12,-24.15,-10.87,-14.17
+2022-06-01,BINDALAGRO,,,,,,,,,,,,,,,
+2022-06-01,CONTROLPR,Business Equipment & Supplies,Industrials,439.8,719,17.91,2.8,2.8,14.32,11.32,1.93,15.61,20.48,27.24,24.36,-4.33
+2022-06-01,STCINDIA,Conglomerates,Industrials,90.95,546,-6.28,-0.11,NaN,115.13,-60.22,0,1.83,1.45,-4.06,-16.75,-9.19
+2022-06-01,CENTUM,Electronic Components,Technology,452.95,584,-19.11,2.86,0.8,5.64,48.65,0.44,-14.97,12.76,-18.01,8.91,-4.61
+2022-06-01,KBCGLOBAL,Real Estate - Development,Real Estate,5.25,323,18.71,2.31,3.2,-16.36,11.33,0.08,12.36,-71.64,-67.89,-58,-28.08
+2022-06-01,THEINVEST,Capital Markets,Financial Services,89.6,462,298.67,0.77,1.49,1.53,18.81,0,0.26,-13.89,-10.93,-24.13,-10.89
+2022-06-01,SWELECTES,Solar,Technology,363.8,552,17.02,0.71,1.6,5.68,10.95,0.82,4.18,60.02,53.92,23.16,-13.53
+2022-06-01,LIKHITHA,Oil & Gas Equipment & Services,Energy,141.7,560,12.16,2.9,2.17,179.62,8.48,1.06,23.88,-26.22,-18.32,-5.23,-5.53
+2022-06-01,RML,Auto Parts,Consumer Cyclical,313.3,510,44.95,2.23,0.3,17.31,10.45,0,4.67,-9.42,-10.01,-7.58,-10.92
+2022-06-01,AARTISURF,Specialty Chemicals,Basic Materials,697.17,537,96.16,3.95,0.94,23.02,21.35,0.42,4.04,-49.96,-32.45,-12.96,-8.87
+2022-06-01,AYMSYNTEX,Textile Manufacturing,Consumer Cyclical,94.6,475,9.45,1.16,0.32,9.47,4.58,0,12.39,38.81,-4.01,-15.04,-26.27
+2022-06-01,ZUARI,Agricultural Inputs,Basic Materials,148.85,627,4.8,1.71,0.17,1.1,6.86,0.87,35.54,58.18,37.89,22.36,-20.44
+2022-06-01,ASIANTILES,Building Products & Equipment,Industrials,49.05,373,2.72,0.41,0.24,-49.87,3.23,0.46,10.01,-58.56,-49.32,-35.67,-30.38
+2022-06-01,TALBROAUTO,Auto Parts,Consumer Cyclical,90.31,558,12.42,1.85,0.97,10.79,7.08,0.67,14.87,85.71,23.34,-1.07,-2.48
+2022-06-01,SVPGLOB,Textile Manufacturing,Consumer Cyclical,41.2,522,7.27,0.9,0.3,1.37,9.45,0.07,12.26,-9999999999,-61.71,-23.77,-20.31
+2022-06-01,INTLCONV,Specialty Industrial Machinery,Industrials,60.15,407,25.06,1.88,1.98,11.08,12.81,1.66,7.48,-9999999999,-8.17,-19.32,-16.75
+2022-06-01,SKIPPER,Engineering & Construction,Industrials,57.93,609,24.21,0.83,0.36,35.24,7.79,0.17,3.43,-4.36,-21.35,-4.14,-2.31
+2022-06-01,SOUTHWEST,Oil & Gas Equipment & Services,Energy,206,575,52.69,5.48,4.88,59.48,22.67,0.06,10.41,449.33,43.8,-7.71,-7.95
+2022-06-01,SHYAMCENT,Steel,Basic Materials,23.75,528,9.28,3.02,2.54,17.06,6.7,0,32.51,202.55,99.58,17.87,-23.88
+2022-06-01,MANINDS,Steel,Basic Materials,77.15,457,4.4,0.48,0.21,1.01,2.14,0,10.78,-15.64,-17.71,-5.34,-19.76
+2022-06-01,NBIFIN,Capital Markets,Financial Services,2186.75,538,67.62,0.25,47.46,68,48.76,0,0.37,-8.36,-6.03,4.12,2.85
+2022-06-01,MARATHON,Real Estate - Development,Real Estate,146.55,675,17.53,1.04,2.2,8.83,13.88,0,5.93,149.23,78.83,51.63,5.74
+2022-06-01,BETA,,,,,,,,,,,,,,,
+2022-06-01,TFCILTD,Credit Services,Financial Services,56.55,512,5.65,0.55,2.05,3.68,14.38,1.26,9.11,-12.8,-3.58,-1.82,-6.91
+2022-06-01,SUULD,Apparel Retail,Consumer Cyclical,75.85,464,1.01,0.34,0.04,-0.47,0.81,0.08,63.69,-64.22,-41.9,-31.64,-21.64
+2022-06-01,ARIHANTSUP,Real Estate - Development,Real Estate,137.15,565,13.66,3.16,1.71,27.29,12.01,0,23.17,71.12,-26.64,-8.63,-11.66
+2022-06-01,NECLIFE,Drug Manufacturers - Specialty & Generic,Healthcare,26,584,23.21,0.54,0.35,6.14,9.31,0,2.3,-13.04,2.77,-2.99,-6.47
+2022-06-01,RUBYMILLS,Textile Manufacturing,Consumer Cyclical,201.82,675,21.75,1.27,4.24,7.16,17.32,0.19,5.86,63.25,54.08,24.6,-13.64
+2022-06-01,MGEL,Farm Products,Consumer Defensive,43.18,562,154.21,7.06,0.44,-19.65,36.39,0.09,5.4,357.42,121.21,15.86,-4.53
+2022-06-01,INDRAMEDCO,Medical Care Facilities,Healthcare,59.85,549,9.37,1.69,0.64,5.82,4.47,0.05,18.01,-33.28,-28.11,-7.92,-8.7
+2022-06-01,KRITI,Building Products & Equipment,Industrials,81.25,404,20.21,2.61,0.74,100.05,11.43,0.25,12.93,955.19,-31.89,-21.99,-25.66
+2022-06-01,RAMASTEEL,Steel,Basic Materials,4.6,580,4.24,4.57,0.76,-16.56,14.24,0.14,21.57,360,51.32,1.77,-10.68
+2022-06-01,UNITECH,Real Estate - Diversified,Real Estate,1.9,498,-0.48,0.25,0.93,-36.41,531.97,0,-50.55,-26.92,-17.39,-25.49,-11.63
+2022-06-01,ZUARIGLOB,,,,,,,,,,,,,,,
+2022-06-01,DELPHIFX,Capital Markets,Financial Services,456.95,509,64.18,2.65,0.34,17.68,26.67,0,4.13,-31.41,-19.62,-4.18,-17.58
+2022-06-01,EXXARO,Building Products & Equipment,Industrials,112.85,505,25.36,1.89,1.55,20.38,10.96,0,6.79,-9999999999,-23.31,-4.4,6.71
+2022-06-01,MAWANASUG,Confectioners,Consumer Defensive,121.6,476,18.18,1.24,0.33,-3.15,8.32,2.47,6.81,138.2,54.61,3.14,-18.09
+2022-06-01,CREST,Financial Conglomerates,Financial Services,179.55,511,42.25,0.87,8.98,-4.9,40.57,0.28,2.05,79.82,18.87,2.6,-0.28
+2022-06-01,PLASTIBLEN,Specialty Chemicals,Basic Materials,196.2,510,13.9,1.34,0.71,33.01,8.15,2.08,9.62,-19.18,-20.41,-6.95,-13.64
+2022-06-01,NELCAST,Metal Fabrication,Industrials,61.4,535,37.44,1.21,0.58,-41.33,12.13,0.33,3.22,-14.19,-17.53,-9.44,-10.1
+2022-06-01,BBTCL,Packaging & Containers,Consumer Cyclical,235,483,19.71,5.45,1.54,61.54,11.92,0.21,27.64,205.19,62.74,3.5,-12.96
+2022-06-01,SNOWMAN,Integrated Freight & Logistics,Industrials,32.05,536,320.5,1.27,1.87,7.78,10.65,0,0.4,-36.97,-18.24,-3.03,-12.31
+2022-06-01,VASCONEQ,Engineering & Construction,Industrials,23.65,514,13.44,0.63,0.79,15.44,8.92,0,4.34,31.02,5.35,-3.67,-10.75
+2022-06-01,KOTHARIPET,Specialty Chemicals,Basic Materials,91.2,537,16.31,3.44,1.41,28.96,10.51,0,21.1,138.12,74.05,2.82,-8.66
+2022-06-01,CLSEL,Packaged Foods,Consumer Defensive,105.25,545,8.37,1.33,0.58,-9.33,6.73,0,15.87,-14.67,9.18,12.15,-14.26
+2022-06-01,V2RETAIL,Apparel Retail,Consumer Cyclical,117.7,405,-34.62,1.57,0.64,6.91,9.97,0,-4.52,-4.62,-23.1,-22.23,-22.08
+2022-06-01,REPRO,Specialty Business Services,Industrials,390.05,496,-20.81,1.85,1.79,19.96,44.53,0,-8.64,6.27,-32.81,-14.47,-3.7
+2022-06-01,BASML,Textile Manufacturing,Consumer Cyclical,59.75,388,5.4,0.86,0.25,6.92,5.4,0,11.59,9.59,-12.13,-17.98,-23.84
+2022-06-01,MMP,Aluminum,Basic Materials,213.4,543,18.7,2.28,1.21,28.59,12.71,0.47,12.18,132.72,46.42,32.71,13.09
+2022-06-01,MENONBE,Auto Parts,Consumer Cyclical,80.7,453,18.42,4.04,2.34,18.67,11.02,2.48,21.91,27.79,-0.62,0.12,-3.18
+2022-06-01,DLINKINDIA,Communication Equipment,Technology,134.3,477,11.28,1.58,0.52,14.24,7.34,1.34,13.97,27.06,1.63,-5.29,-8.14
+2022-06-01,SANDESH,Publishing,Communication Services,750.4,569,6.32,0.6,1.85,25.44,3.99,0.67,9.45,-4.12,-0.06,12.38,-2.62
+2022-06-01,YAARI,Credit Services,Financial Services,26.11,229,-1.8,-0.78,180.04,-0.47,-5.6,0,49.56,-68.72,-62.26,-49.63,-19.54
+2022-06-01,ORICONENT,Packaging & Containers,Consumer Cyclical,29,456,3.56,0.4,0.9,13.4,3.12,2.45,11.09,19.1,-15.82,-15.2,-11.99
+2022-06-01,VIKASLIFE,Farm Products,Consumer Defensive,5.3,579,17.1,2.9,1.92,-38.9,14.29,0,14.39,87.28,55.88,6,0.95
+2022-06-01,VIKASLIFE,Farm Products,Consumer Defensive,5.3,579,17.1,2.9,1.92,-38.9,14.29,0,14.39,87.28,55.88,6,0.95
+2022-06-01,PENIND,Specialty Industrial Machinery,Industrials,37.2,529,12.65,0.72,0.23,2.71,6.03,0,5.69,55.97,32.86,-0.13,-8.26
+2022-06-01,GALLANTT,Steel,Basic Materials,72,586,9.88,0.28,0.2,2.5,2.78,0,8.44,25.33,4.05,12.85,-2.37
+2022-06-01,STERTOOLS,Tools & Accessories,Industrials,203.65,734,28.72,2.06,1.47,29.55,12.58,0.49,7.18,4.33,9.49,36.08,36.27
+2022-06-01,JAIBALAJI,Steel,Basic Materials,47.15,521,10.84,-0.31,0.11,1.13,15.62,0,-2.89,1.51,-16.47,-1.36,-11.29
+2022-06-01,MANAKSIA,Metal Fabrication,Industrials,88.05,578,3.15,0.54,0.49,4.13,1.6,3.41,17.24,39.1,43.87,17.24,-4.03
+2022-06-01,VINYLINDIA,Specialty Chemicals,Basic Materials,288.9,530,15.2,5.52,0.64,31.5,11.35,1.3,36.31,100.62,19.38,20.88,-0.02
+2022-06-01,CYBERTECH,Information Technology Services,Technology,152.1,429,18.92,3.1,3.09,16.48,11.22,0.65,16.42,7.19,1.43,-10.95,-12.38
+2022-06-01,NAVKARCORP,Integrated Freight & Logistics,Industrials,49.6,747,11.1,0.4,1.65,5.99,9.57,0,3.57,26.05,22.62,44.82,-18.62
+2022-06-01,AXISCADES,Engineering & Construction,Industrials,134.6,511,23.37,1.54,0.84,16.37,6.76,0,6.71,67.83,72.79,53.92,-17.65
+2022-06-01,TVSELECT,Computer Hardware,Technology,218.7,408,27,4.4,1.32,15.55,14.46,0.91,16.3,52.83,25.47,3.62,-7.11
+2022-06-01,GOACARBON,Specialty Chemicals,Basic Materials,446.95,410,10.83,3.57,0.53,-10.25,12.91,0,32.97,37.1,33.58,23.13,-12.64
+2022-06-01,RBL,Auto Parts,Consumer Cyclical,678.4,525,19.37,2.16,1.04,46.2,8.98,3.68,11.15,-22.49,-10.73,10.23,4.43
+2022-06-01,SARLAPOLY,Textile Manufacturing,Consumer Cyclical,49.95,418,9.02,1.07,0.99,11.4,5.8,0,11.91,49.1,-12.14,-11.2,-12.37
+2022-06-01,MALLCOM,Security & Protection Services,Industrials,686.9,429,13.14,2.55,1.23,344,8.94,0.44,19.42,-9999999999,-9999999999,-16.21,-16.44
+2022-06-01,BIRLACABLE,Communication Equipment,Technology,120.9,363,16.68,1.94,0.68,144.57,9.65,0.83,11.65,60.66,48.25,-12.71,-9.47
+2022-06-01,INNOVANA,,,,,,,,,,,,,,,
+2022-06-01,INDOBORAX,Chemicals,Basic Materials,109.95,353,9.7,1.7,2.01,30.74,6.21,0.91,17.56,-9999999999,-9999999999,-9999999999,-26.92
+2022-06-01,SREEL,Footwear & Accessories,Consumer Cyclical,169.05,392,23.68,1.16,3.21,23.65,16.17,0,4.9,2.08,2.83,0.24,-12.23
+2022-06-01,WINDLAS,Drug Manufacturers - Specialty & Generic,Healthcare,229.15,500,12.33,1.27,1.08,54.7,8.58,0,9.65,-9999999999,-18.29,-5.85,-7.26
+2022-06-01,KAYA,Household & Personal Products,Consumer Defensive,307.25,402,-5.83,-258.28,1.24,13.43,72.93,0,4429.41,3.71,-31.57,-13.9,-17.74
+2022-06-01,TBZ,Luxury Goods,Consumer Cyclical,60.7,406,20.1,0.77,0.22,-6.12,12.38,4.12,3.83,-19.28,-23.46,-11.71,-13.78
+2022-06-01,SADBHAV,Engineering & Construction,Industrials,24.25,417,-0.57,0.52,0.22,-0.13,14.94,0,-90.29,-63.03,-39.68,-22.03,-24.34
+2022-06-01,NRAIL,Paper & Paper Products,Basic Materials,236.75,403,6.6,0.75,0.25,4.21,3.74,0.42,11.38,5.15,-4.84,7.05,-9.59
+2022-06-01,GANDHITUBE,Metal Fabrication,Industrials,365.05,444,11.91,3.01,3.35,10.65,8.21,2.62,26.21,14.65,-3.81,10,-4.12
+2022-06-01,HMVL,Publishing,Communication Services,57.25,422,10.39,0.27,0.68,8.35,6.31,0,2.55,-33.24,-17.09,-11.45,-16.61
+2022-06-01,SEJALLTD,Building Products & Equipment,Industrials,255,258,2.02,41.91,10.59,-42.86,1.94,0,2391.58,-84.8,-84.8,37.5,-13.59
+2022-06-01,CONSOFINVT,Capital Markets,Financial Services,134.05,434,705.53,0.86,228.56,-65.37,153.71,0,0.12,111.6,-10.21,-22.85,-6.75
+2022-06-01,HERCULES,Specialty Industrial Machinery,Industrials,135.5,434,29.01,0.7,4.01,30.75,20.13,1.66,2.41,1.46,-3.15,-2.97,-12.52
+2022-06-01,MAGADSUGAR,Confectioners,Consumer Defensive,338.45,477,10.36,0.8,0.49,3.25,8.75,1.18,7.69,58.93,37.41,17.62,-7.17
+2022-06-01,DPWIRES,Metal Fabrication,Industrials,281.84,438,15.04,2.88,0.71,97.47,10.23,0,19.14,117.57,54.04,5.85,-18.62
+2022-06-01,UNIVCABLES,Electrical Equipment & Parts,Industrials,145.4,505,6.73,0.39,0.28,-41.45,6.4,0.69,5.79,-27.43,-2.94,0.76,-7.27
+2022-06-01,RANASUG,Confectioners,Consumer Defensive,30.9,475,5.57,1.06,0.35,5.18,4.07,0,18.98,109.49,30.11,11.35,-17.93
+2022-06-01,MIRCELECTR,"Furnishings, Fixtures & Appliances",Consumer Cyclical,13.75,318,-15.8,1.56,0.27,12.97,219.8,0,-9.87,-20.75,-45.87,-30.38,-22.54
+2022-06-01,PTL,Real Estate Services,Real Estate,31.3,415,12.57,0.71,6.55,10.15,7.48,3.99,5.66,48.48,28.54,2.29,-5.44
+2022-06-01,DUCON,Specialty Industrial Machinery,Industrials,20.6,467,108.42,3.1,1.21,28.77,33.39,0,2.95,192.2,118.92,-19.37,-19.53
+2022-06-01,TRIL,Electrical Equipment & Parts,Industrials,30.65,407,28.92,1.14,0.35,214.77,10.15,0.08,3.92,20.67,10.05,-13.05,-9.72
+2022-06-01,SDBL,Beverages - Brewers,Consumer Defensive,26.12,184,-18.67,0.63,0.51,19.85,19.42,0.06,-3.4,48.16,71.39,73.79,2.67
+2022-06-01,GAYAPROJ,Engineering & Construction,Industrials,16.8,315,-0.33,-64.49,0.1,-0.45,-5.22,0,19648.83,-53.14,-50.07,-28.51,-18.25
+2022-06-01,ASIANENE,Oil & Gas Equipment & Services,Energy,90.85,343,8.86,1.42,1.33,7.12,4.69,0,16.05,-9999999999,-9999999999,-25.5,-14.89
+2022-06-01,DCMNVL,Textile Manufacturing,Consumer Cyclical,177.6,332,2.71,1.08,0.36,3.8,2.65,0,40.01,40.28,-36.08,-27.92,-32.37
+2022-06-01,VISESHINFO,Information Technology Services,Technology,0.8,302,-72.73,0.69,616.61,115.29,-454.86,0,-0.94,433.33,433.33,-33.33,-5.88
+2022-06-01,VARDHACRLC,Textile Manufacturing,Consumer Cyclical,53.85,433,29.75,2.04,1.43,-45.97,18.96,46.26,6.86,22.39,8.13,5.8,-9.72
+2022-06-01,BHARATWIRE,Steel,Basic Materials,62.5,399,28.8,0.88,1.06,16.86,10.81,0,3.03,11.71,10.62,-3.77,-15.88
+2022-06-01,ANDHRACEMT,,,,,,,,,,,,,,,
+2022-06-01,TAKE,Biotechnology,Healthcare,23.5,344,-0.44,1.9,0.53,2.86,-0.6,0,-432.08,-64.04,-47.6,-16.81,-20.47
+2022-06-01,MUTHOOTCAP,Credit Services,Financial Services,189.5,312,-1.92,0.76,0.79,4.25,-9.66,0,-39.37,-52.95,-47.07,-33.67,-31.32
+2022-06-01,RICOAUTO,Auto Parts,Consumer Cyclical,38.65,523,22.09,0.81,0.29,2.42,6.66,0.53,3.69,-17.59,-8.63,7.96,3.07
+2022-06-01,ADVANIHOTR,Lodging,Consumer Cyclical,37.65,349,53.4,6.98,7.15,26.67,29.89,0.02,13.05,14.68,-4.68,-18.06,-6.39
+2022-06-01,FOODSIN,Packaged Foods,Consumer Defensive,76.95,388,25.31,1.97,0.61,25.01,10.88,0.26,7.77,-9999999999,-11.81,-14.4,-3.75
+2022-06-01,RELCAPITAL,Financial Conglomerates,Financial Services,14,354,-0.04,-0.02,0.02,0.09,-4.4,0,40.95,-4.76,-9.97,8.11,-14.89
+2022-06-01,KSOLVES,Software - Application,Technology,340.1,404,25.36,24.18,8.57,39.56,18.5,3.05,95.31,84.23,8.66,5,-0.72
+2022-06-01,TRIGYN,Information Technology Services,Technology,108.75,335,8.57,0.55,0.32,7.45,2.01,0,6.43,9.41,0.37,-20.53,-18.99
+2022-06-01,LINC,Business Equipment & Supplies,Industrials,259.6,387,47.46,2.7,1.1,18.89,16.02,0,5.69,59.41,20.86,-10.42,-10.39
+2022-06-01,MSPL,Steel,Basic Materials,11.5,444,18.55,0.72,0.19,4.03,8.13,0,4.16,5.99,29.21,-9.8,-10.85
+2022-06-01,BSHSL,Agricultural Inputs,Basic Materials,41.58,437,41.54,11.05,2.28,-36.06,33.95,0,26.6,113.56,47.81,23.16,-4.08
+2022-06-01,HPL,Electrical Equipment & Parts,Industrials,62.65,403,51.78,0.53,0.4,3.99,8.63,0.24,1.02,15.38,2.2,-0.48,-8.21
+2022-06-01,COASTCORP,Packaged Foods,Consumer Defensive,256.24,313,22.22,1.53,0.66,253.12,16.4,1.02,6.63,-9999999999,-5.27,-26.23,-26.24
+2022-06-01,MUNJALAU,Auto Parts,Consumer Cyclical,42.8,428,15.97,1.27,0.23,3.13,6.4,0,7.94,-31.02,-17.05,-4.36,-4.57
+2022-06-01,NATHBIOGEN,Agricultural Inputs,Basic Materials,189.7,361,-5.34,0.67,1.3,21.15,-8.67,1.05,-12.43,-57.68,-26.98,-8.07,-16.65
+2022-06-01,ZEELEARN,Education & Training Services,Consumer Defensive,7.25,237,-90.62,0.51,0.95,3.78,7.82,0,-0.59,-45.28,-47.46,-44.87,-0.68
+2022-06-01,XELPMOC,Information Technology Services,Technology,191.05,277,-21.06,2.85,34.34,-124.09,-19.79,0,-13.21,-33.42,-50.93,-36.61,-29.92
+2022-06-01,HITECHGEAR,Auto Parts,Consumer Cyclical,192.05,361,-325.51,1.09,0.38,6.48,8.59,1.04,-0.33,-18.1,-18.38,-11.5,-11.7
+2022-06-01,GODHA,Electrical Equipment & Parts,Industrials,7.24,186,119.34,7.37,5.25,61.13,93.53,0,3.26,333.53,199.17,-47.42,-57.16
+2022-06-01,KHADIM,Footwear & Accessories,Consumer Cyclical,207.05,373,57.84,1.79,0.64,12.15,9.56,0,3.1,29.24,-19.09,-12.67,-15.71
+2022-06-01,OMINFRAL,Engineering & Construction,Industrials,34.7,335,12.63,0.51,1.07,17.81,7.87,1.15,4,35.81,6.44,-15.37,-13.03
+2022-06-01,MAXIND,Medical Care Facilities,Healthcare,69.85,376,-23.28,0.59,2.22,5.65,-105.74,0,-2.52,1.31,-8.63,-7.11,-9.34
+2022-06-01,INDOTHAI,Capital Markets,Financial Services,300,300,30.22,4.67,59.34,61.5,23.41,0.33,15.45,478.59,120.43,-7.64,-0.61
+2022-06-01,INDSWFTLAB,Drug Manufacturers - Specialty & Generic,Healthcare,61.65,365,-14.4,0.61,0.35,2.42,5.51,0,-0.36,-26.12,-15.49,-7.92,-6.02
+2022-06-01,MUNJALSHOW,Auto Parts,Consumer Cyclical,103,412,33.88,0.65,0.39,13.76,15.75,4.37,1.91,-30.41,-15.5,-1.9,-1.58
+2022-06-01,HITECHCORP,Packaging & Containers,Consumer Cyclical,239.4,412,11,1.9,0.7,5.66,5.28,0.59,17.24,36.25,0.38,-2.86,-7.46
+2022-06-01,CEBBCO,,,,,,,,,,,,,,,
+2022-06-01,HINDCOMPOS,Auto Parts,Consumer Cyclical,275.85,408,18.86,0.44,1.75,18.18,12.15,0.72,2.35,-11.73,-11.16,-1.95,-10.35
+2022-06-01,LYKALABS,Biotechnology,Healthcare,123.95,356,9.13,26.66,1.94,4.49,4.97,0,292.39,95.2,-34.69,-11.15,-19.93
+2022-06-01,UFO,Entertainment,Communication Services,98.5,375,-3.55,1.36,2.5,-14.59,-9.86,0,-31.5,-6.37,0.41,2.82,-12.17
+2022-06-01,KNAGRI,,,,,,,,,,,,,,,
+2022-06-01,JPINFRATEC,Infrastructure Operations,Industrials,2.6,362,-0.15,-0.06,0.34,1.7,108.49,0,41.53,8.33,18.18,-18.75,-7.14

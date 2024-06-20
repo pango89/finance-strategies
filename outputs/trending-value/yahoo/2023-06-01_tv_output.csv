@@ -1,0 +1,26 @@
+symbol,industry,sector,cmp,marketCap,sum,priceToEarnings,priceToEarningsDecile,priceToBook,priceToBookDecile,priceToSales,priceToSalesDecile,priceToCashflow,priceToCashflowDecile,enterpriseToEbitda,enterpriseToEbitdaDecile,dividendYield,dividendYieldDecile,return1M,return6M,return12M
+POCL,Specialty Chemicals,Basic Materials,402.9,469,13,6.24,1,1.77,3,0.32,1,6.01,2,5.68,2,0.62,4,12.54,557.26,557.26
+JINDALSAW,Steel,Basic Materials,246.35,7827,12,12.15,2,0.99,2,0.44,1,4.84,1,6.26,2,0.81,4,46.9,161.94,176.02
+MANAKSIA,Metal Fabrication,Industrials,169.05,1108,15,10.37,2,0.99,2,0.95,3,20.89,5,4.36,1,1.77,2,22.68,118.83,91.99
+CHENNPETRO,Oil & Gas Refining & Marketing,Energy,383.6,5713,11,1.62,1,0.88,2,0.07,1,0.99,1,1.75,1,0.52,5,30.41,77.18,30.08
+SUNFLAG,Steel,Basic Materials,143.5,2587,14,2.32,1,0.77,1,0.74,2,9.31,2,1.93,1,0,7,-6.42,55.56,54.22
+NCC,Engineering & Construction,Industrials,123,7723,11,12.59,3,1.25,2,0.5,1,7.02,2,5.37,1,1.63,2,0.33,53.18,90.26
+PATELENG,Engineering & Construction,Industrials,25.75,1993,14,10.86,2,0.69,1,0.51,1,2.84,1,4.96,1,0,8,26.54,48.16,11.81
+BANSWRAS,Textile Manufacturing,Consumer Cyclical,163.4,560,15,4.96,1,1.1,2,0.37,1,27.9,6,4.29,1,0.76,4,0.93,43.84,49.39
+KIRLOSIND,Metal Fabrication,Industrials,2655.15,2625,9,11.89,2,0.85,2,0.41,1,3.45,1,5.05,1,1.8,2,4.87,37.62,88.23
+NAVA,Conglomerates,Industrials,239.9,3481,9,3.75,1,0.58,1,0.99,3,2.85,1,3.68,1,2.48,2,2.67,29.89,30.03
+UNIVCABLES,Electrical Equipment & Parts,Industrials,370.95,1288,15,10.89,2,0.86,2,0.58,2,9,2,7.16,2,0.4,5,-2.51,27.04,155.12
+ARVIND,Textile Manufacturing,Consumer Cyclical,125.8,3290,13,8.12,1,0.98,2,0.39,1,4.94,1,5.31,1,0.12,7,13.59,26.56,25.93
+GICRE,Insurance - Reinsurance,Financial Services,185.75,32588,9,4.87,1,0.72,1,0.72,2,2.78,1,1.1,1,1.21,3,19.03,24.96,49.5
+OIL,Oil & Gas E&P,Energy,254.25,27572,7,3.16,1,0.72,1,0.76,2,2.42,1,3.1,1,9.05,1,-1.45,22.29,3.84
+GSFC,Agricultural Inputs,Basic Materials,158.85,6330,9,5,1,0.53,1,0.56,2,6.85,2,3,1,1.58,2,-2.43,20.89,-6.86
+UJJIVANSFB,Banks - Regional,Financial Services,36.05,7047,14,6.2,1,1.67,3,2.14,5,6.65,2,2.31,1,2.24,2,27.39,20.57,118.48
+NITINSPIN,Textile Manufacturing,Consumer Cyclical,249.5,1403,15,8.51,2,1.36,3,0.58,2,7.24,2,7.93,3,1,3,-1.79,20.24,11.51
+MAGADSUGAR,Confectioners,Consumer Defensive,364.45,514,11,10.22,2,0.8,1,0.54,2,4.47,1,8.26,3,1.78,2,-3.1,17.6,7.68
+IOC,Oil & Gas Refining & Marketing,Energy,90.5,124633,11,12.73,3,0.89,2,0.15,1,4.2,1,8.05,3,2.65,1,10.16,17.53,14.85
+ELECTCAST,Steel,Basic Materials,46.9,2789,10,8.83,2,0.64,1,0.38,1,6.17,2,6.36,2,1.71,2,19.8,17.1,31.19
+MANGCHEFER,Agricultural Inputs,Basic Materials,92.45,1096,12,8.14,1,1.36,3,0.3,1,5.7,2,6.3,2,1.3,3,-4.89,16.88,2.95
+GSPL,Utilities - Regulated Gas,Utilities,304.3,17169,15,10.46,2,1.82,4,0.95,3,5.14,2,5.35,1,1.03,3,7.09,15.4,20.02
+MAHSEAMLES,Steel,Basic Materials,447.3,5994,14,7.84,1,1.26,3,1.05,3,6.57,2,5.64,1,0.56,4,4.07,15.3,62.95
+JPOLYINVST,Asset Management,Financial Services,578.05,608,11,2.16,1,0.26,1,0.2,1,,,0.68,1,0,7,10.02,14.13,122.33
+GAIL,Utilities - Regulated Gas,Utilities,105.35,69269,14,12.37,2,1.07,2,0.48,1,21.61,5,8.4,3,4.43,1,-2.72,13.04,6.06

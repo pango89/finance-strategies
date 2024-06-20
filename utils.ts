@@ -163,3 +163,58 @@ export const calculateMACD = (prices: number[], fastPeriod: number, slowPeriod: 
 
     return macdResults;
 }
+
+export const getFYBeginDate = (dateString: string): string => {
+    // Parse the input date string
+    const inputDate = new Date(dateString);
+
+    // Extract the year and month from the input date
+    const year = inputDate.getFullYear();
+    const month = inputDate.getMonth() + 1; // getMonth() returns 0-based month, so add 1
+
+    // Determine the fiscal year based on the input date
+    const fy = month >= 4 ? year : year - 1;
+
+    // Construct the fiscal year begin date as 'YYYY-04-01'
+    const fyBeginDate = new Date(fy, 3, 1); // Month is 0-based, so April is 3
+
+    // Format the fiscal year begin date to 'YYYY-MM-DD'
+    const formattedDate = fyBeginDate.toISOString().split('T')[0];
+
+    return formattedDate;
+};
+
+export const getPreviousFYEndDate = (dateString: string): string => {
+    // Parse the input date string
+    const inputDate = new Date(dateString);
+
+    // Extract the year and month from the input date
+    const year = inputDate.getFullYear();
+    const month = inputDate.getMonth() + 1; // getMonth() returns 0-based month, so add 1
+
+    // Determine the fiscal year based on the input date
+    const fy = month >= 4 ? year : year - 1;
+
+    // Previous fiscal year end date is always March 31st of the determined fiscal year
+    const previousFyEndDate = new Date(fy, 2, 31); // Month is 0-based, so March is 2
+
+    // Format the fiscal year end date to 'YYYY-MM-DD'
+    const formattedDate = previousFyEndDate.toISOString().split('T')[0];
+
+    return formattedDate;
+};
+
+export const addDaysToDate = (dateString: string, days: number): string => {
+    // Parse the input date string
+    const date = new Date(dateString);
+
+    // Add the specified number of days
+    date.setDate(date.getDate() + days);
+
+    // Format the new date to 'YYYY-MM-DD'
+    const newDateString = date.toISOString().split('T')[0];
+
+    return newDateString;
+};
+
+export const Infinity = 9999999999
