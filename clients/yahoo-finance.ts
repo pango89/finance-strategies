@@ -10,6 +10,32 @@ const Infinity: number = 9999999999;
 export default class YahooFinance {
 	constructor() { }
 
+	public async getQuoteHistoryOnDay({ symbol, referenceDate }: { symbol: string; referenceDate: string; }) {
+		try {
+			const endDate = new Date(referenceDate);
+			let startDate = new Date(endDate);
+
+			const bufferDays = 10;
+			startDate.setDate(endDate.getDate() - bufferDays);
+
+			// Function to format date as YYYY-MM-DD
+			const formatDate = (date: Date) => date.toISOString().split('T')[0];
+
+			// Fetch historical data
+			const historicalData = await this.getHistoricalData({ symbol, startDate: formatDate(startDate), endDate: addDaysToDate(referenceDate, 1) })
+
+			if (!historicalData || historicalData.length === 0) {
+				throw new Error('No historical data found');
+			}
+
+			// Get the most recent closing price
+			return historicalData[historicalData.length - 1];
+		} catch (error) {
+			// console.error(`Error fetching history quote for ${symbol} for date ${referenceDate}:`, error);
+			return null;
+		}
+	}
+
 	public async getHistoricalData({
 		symbol,
 		startDate,

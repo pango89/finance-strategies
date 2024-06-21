@@ -91,7 +91,7 @@ export default class TrendingValueStrategy {
         }
     }
 
-    public static async run(referenceDate: string):Promise<any[]> {
+    public static async run(referenceDate: string): Promise<any[]> {
         const csvHelper = new CsvHelper();
 
         const path = `./inputs/trending-value/yahoo/${referenceDate}_tv_input.csv`;
