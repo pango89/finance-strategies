@@ -1,3 +1,6 @@
+// import * as fs from 'fs';
+// import * as path from 'path';
+
 export const round = (num: number) => Math.round(num * 100) / 100;
 
 export const calculateSMA = (data: number[], period: number): number[] => {
@@ -220,3 +223,17 @@ export const addDaysToDate = (dateString: string, days: number): string => {
 export const Infinity = 9999999999;
 
 export const formatDate = (date: Date) => date.toISOString().split('T')[0];
+
+// export const doesFileExist = (folder: string, file: string) => {
+//     const filePath = path.join(__dirname, folder, file);
+
+//     fs.access(filePath, fs.constants.F_OK, (err) => {
+//         if (err) {
+//             console.error(`${filePath} does not exist.`);
+//             return false;
+//         } else {
+//             console.log(`${filePath} exists.`);
+//             return true;
+//         }
+//     });
+// }

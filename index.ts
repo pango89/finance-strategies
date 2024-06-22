@@ -1,9 +1,10 @@
 import YahooFinance from './clients/yahoo-finance';
 import CsvHelper from './csvHelper';
-import Quote from './interfaces/quote';
 import V20Strategy from './v20-strategy';
 import KnoxvilleDivergenceStrategy from './knoxville-divergence-strategy';
-import { calculateSMA, delay, formatDate } from './utils';
+import TrendingValueStrategy from './trending-value-strategy';
+
+import { delay, formatDate } from './utils';
 
 const runKD = async (histories: any[], set: string) => {
 	const kdConfig = {
@@ -64,6 +65,12 @@ const runV20 = async (histories: any[], set: string) => {
 	});
 };
 
+const runTV = async () => {
+	const referenceDate = '2024-06-21';
+	// await TrendingValueStrategy.build(referenceDate);
+	const trendingValueStocks = await TrendingValueStrategy.run(referenceDate);
+}
+
 const test = async () => {
 	const sets = [
 		'V40', 'V40N', 'V40S', 'PG75', 'TP', 'NIFTYMIDCAP150', 'NIFTYSMALLCAP250',
@@ -104,5 +111,6 @@ const test = async () => {
 };
 
 (async () => {
-	await test();
+	// await test();
+	await runTV();
 })();
