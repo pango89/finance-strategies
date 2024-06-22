@@ -217,4 +217,6 @@ export const addDaysToDate = (dateString: string, days: number): string => {
     return newDateString;
 };
 
-export const Infinity = 9999999999
+export const Infinity = 9999999999;
+
+export const formatDate = (date: Date) => date.toISOString().split('T')[0];

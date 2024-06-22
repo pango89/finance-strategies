@@ -1,7 +1,7 @@
 import YahooFinance from '../clients/yahoo-finance';
 import CsvHelper from '../csvHelper';
 import TrendingValueStrategy from '../trending-value-strategy';
-import { xirr, round, getDurationInDays } from '../utils';
+import { xirr, round, getDurationInDays, formatDate } from '../utils';
 import path = require('path');
 
 const build = async () => {
@@ -13,9 +13,9 @@ const run = async () => {
     const yahooFinance = new YahooFinance();
     const cashFlowMap = new Map<string, number>();
     const dates = [
-        // '2021-06-01',
-        // '2022-06-01',
-        // '2023-06-01',
+        '2021-06-01',
+        '2022-06-01',
+        '2023-06-01',
         '2024-06-05'
     ];
     const capital = 1000000;
@@ -57,7 +57,8 @@ const run = async () => {
                 const gain = round(cmp - buyPrice);
                 const gainPercent = round((100 * (cmp - buyPrice)) / buyPrice);
                 const days = getDurationInDays(buyDate, date);
-                const annualGainPercent = round((gainPercent / days) * 365);
+                // const annualGainPercent = round((gainPercent / days) * 365);
+                const cagr = xirr([-1 * buyPrice, cmp], [new Date(buyDate), new Date(date)]);
 
                 report.push({
                     symbol: portfolioStock,
@@ -68,7 +69,7 @@ const run = async () => {
                     gain,
                     gainPercent,
                     days,
-                    annualGainPercent,
+                    cagr,
                 });
 
                 if (!cashFlowMap.has(date))
@@ -139,8 +140,8 @@ const run = async () => {
     await csvHelper.writeToCsv({
         path: path.join(__dirname, `/reports/TV/${new Date().toISOString().split('T')[0]}_tv_trades.csv`),
         data: report,
-        ids: ['symbol', 'buyDate', 'buyPrice', 'sellDate', 'sellPrice', 'gain', 'gainPercent', 'days', 'annualGainPercent'],
-        titles: ['Symbol', 'Buy Date', 'Buy Price', 'Sell Date', 'Sell Price', 'Gain', 'Gain %', 'Days', 'Annual Gain %'],
+        ids: ['symbol', 'buyDate', 'buyPrice', 'sellDate', 'sellPrice', 'gain', 'gainPercent', 'days', 'cagr'],
+        titles: ['Symbol', 'Buy Date', 'Buy Price', 'Sell Date', 'Sell Price', 'Gain', 'Gain %', 'Days', 'CAGR %'],
         append: false
     });
 

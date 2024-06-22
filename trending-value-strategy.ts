@@ -118,17 +118,17 @@ export default class TrendingValueStrategy {
 
         const top25Stocks = topDecileStocks.slice(0, 25);
 
-        return top25Stocks;
+        await csvHelper.writeToCsv({
+            path: `./outputs/trending-value/yahoo/${referenceDate}_tv_output.csv`,
+            data: top25Stocks,
+            ids: ['symbol', 'industry', 'sector', 'cmp', 'marketCap', 'sum', 'priceToEarnings', 'priceToEarningsDecile', 'priceToBook', 'priceToBookDecile',
+                'priceToSales', 'priceToSalesDecile', 'priceToCashflow', 'priceToCashflowDecile', 'enterpriseToEbitda', 'enterpriseToEbitdaDecile', 'dividendYield',
+                'dividendYieldDecile', 'return1M', 'return6M', 'return12M'],
+            titles: ['symbol', 'industry', 'sector', 'cmp', 'marketCap', 'sum', 'priceToEarnings', 'priceToEarningsDecile', 'priceToBook', 'priceToBookDecile',
+                'priceToSales', 'priceToSalesDecile', 'priceToCashflow', 'priceToCashflowDecile', 'enterpriseToEbitda', 'enterpriseToEbitdaDecile', 'dividendYield',
+                'dividendYieldDecile', 'return1M', 'return6M', 'return12M'],
+        });
 
-        // await csvHelper.writeToCsv({
-        //     path: `./outputs/trending-value/yahoo/${referenceDate}_tv_output.csv`,
-        //     data: top25Stocks,
-        //     ids: ['symbol', 'industry', 'sector', 'cmp', 'marketCap', 'sum', 'priceToEarnings', 'priceToEarningsDecile', 'priceToBook', 'priceToBookDecile',
-        //         'priceToSales', 'priceToSalesDecile', 'priceToCashflow', 'priceToCashflowDecile', 'enterpriseToEbitda', 'enterpriseToEbitdaDecile', 'dividendYield',
-        //         'dividendYieldDecile', 'return1M', 'return6M', 'return12M'],
-        //     titles: ['symbol', 'industry', 'sector', 'cmp', 'marketCap', 'sum', 'priceToEarnings', 'priceToEarningsDecile', 'priceToBook', 'priceToBookDecile',
-        //         'priceToSales', 'priceToSalesDecile', 'priceToCashflow', 'priceToCashflowDecile', 'enterpriseToEbitda', 'enterpriseToEbitdaDecile', 'dividendYield',
-        //         'dividendYieldDecile', 'return1M', 'return6M', 'return12M'],
-        // });
+        return top25Stocks;
     }
 }

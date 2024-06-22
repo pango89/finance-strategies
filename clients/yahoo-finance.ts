@@ -3,7 +3,7 @@ import { ModuleOptionsWithValidateTrue } from 'yahoo-finance2/dist/esm/src/lib/m
 import { FundamentalsTimeSeriesOptions } from 'yahoo-finance2/dist/esm/src/modules/fundamentalsTimeSeries';
 import { QuoteResponseArray } from 'yahoo-finance2/dist/esm/src/modules/quote';
 import { QuoteSummaryOptions } from 'yahoo-finance2/dist/esm/src/modules/quoteSummary';
-import { round, getFYBeginDate, getPreviousFYEndDate, addDaysToDate } from '../utils';
+import { round, formatDate, getPreviousFYEndDate, addDaysToDate } from '../utils';
 
 const Infinity: number = 9999999999;
 
@@ -17,9 +17,6 @@ export default class YahooFinance {
 
 			const bufferDays = 10;
 			startDate.setDate(endDate.getDate() - bufferDays);
-
-			// Function to format date as YYYY-MM-DD
-			const formatDate = (date: Date) => date.toISOString().split('T')[0];
 
 			// Fetch historical data
 			const historicalData = await this.getHistoricalData({ symbol, startDate: formatDate(startDate), endDate: addDaysToDate(referenceDate, 1) })
@@ -161,9 +158,6 @@ export default class YahooFinance {
 
 			const bufferDays = 30;
 			startDate.setDate(endDate.getDate() - periods[periods.length - 1] - bufferDays);
-
-			// Function to format date as YYYY-MM-DD
-			const formatDate = (date: Date) => date.toISOString().split('T')[0];
 
 			// Fetch historical data
 			const historicalData = await this.getHistoricalData({ symbol, startDate: formatDate(startDate), endDate: addDaysToDate(referenceDate, 1) })
