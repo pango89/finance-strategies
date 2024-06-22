@@ -3,7 +3,7 @@ import CsvHelper from './csvHelper';
 import Quote from './interfaces/quote';
 import V20Strategy from './v20-strategy';
 import KnoxvilleDivergenceStrategy from './knoxville-divergence-strategy';
-import { calculateSMA, delay } from './utils';
+import { calculateSMA, delay, formatDate } from './utils';
 
 const runKD = async (histories: any[], set: string) => {
 	const kdConfig = {
@@ -32,7 +32,7 @@ const runKD = async (histories: any[], set: string) => {
 
 	const csvHelper = new CsvHelper();
 	await csvHelper.writeToCsv({
-		path: `./outputs/kd/${new Date().toISOString().split('T')[0]}_${set}.csv`,
+		path: `./outputs/kd/${formatDate(new Date())}_${set}.csv`,
 		data: signals,
 		ids: ['signal', 'symbol', 'cmp', 'sma200', 'sma50', 'sma20'],
 		titles: ['Signal', 'Symbol', 'CMP', 'SMA200', 'SMA50', 'SMA20'],
@@ -57,7 +57,7 @@ const runV20 = async (histories: any[], set: string) => {
 
 	const csvHelper = new CsvHelper();
 	await csvHelper.writeToCsv({
-		path: `./outputs/v20/${new Date().toISOString().split('T')[0]}_${set}.csv`,
+		path: `./outputs/v20/${formatDate(new Date())}_${set}.csv`,
 		data: signals,
 		ids: ['signal', 'symbol', 'cmp', 'sma200', 'sma50', 'sma20', 'target', 'upside'],
 		titles: ['Signal', 'Symbol', 'CMP', 'SMA200', 'SMA50', 'SMA20', 'Target', 'Upside'],

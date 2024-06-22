@@ -1,6 +1,6 @@
 import YahooFinance from '../clients/yahoo-finance';
 import CsvHelper from '../csvHelper';
-import { delay, xirr } from '../utils';
+import { delay, formatDate, xirr } from '../utils';
 import Report from '../report';
 import path = require('path');
 import MACDStrategy from '../macd-strategy';
@@ -91,7 +91,7 @@ const runMACD = async (histories: any[], set: string) => {
     consolidatedReport = consolidatedReport.sort((a, b) => a.buyDate > b.buyDate ? 1 : -1);
 
     await csvHelper.writeToCsv({
-        path: path.join(__dirname, `/reports/MACD/${new Date().toISOString().split('T')[0]}_macd_${set}.csv`),
+        path: path.join(__dirname, `/reports/MACD/${formatDate(new Date())}_macd_${set}.csv`),
         data: consolidatedReport,
         ids: ['symbol', 'buyDate', 'buyPrice', 'sellDate', 'sellPrice', 'gain', 'gainPercent', 'days', 'annualGainPercent'],
         titles: ['Symbol', 'Buy Date', 'Buy Price', 'Sell Date', 'Sell Price', 'Gain', 'Gain %', 'Days', 'Annual Gain %'],

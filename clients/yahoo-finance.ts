@@ -55,7 +55,7 @@ export default class YahooFinance {
 			low: round(x.low),
 			open: round(x.open),
 			close: round(x.close),
-			date: x.date.toISOString().split('T')[0],
+			date: formatDate(x.date),
 			volume: x.volume
 		}))
 
@@ -120,7 +120,7 @@ export default class YahooFinance {
 		const [tr1M, tr3M, tr6M, tr12M] = await this.getTrailingReturns({
 			symbol,
 			periods: [30, 90, 180, 365],
-			referenceDate: new Date().toISOString().split('T')[0]
+			referenceDate: formatDate(new Date())
 		});
 
 		const summary = {
@@ -219,7 +219,7 @@ export default class YahooFinance {
 
 	public async getHistoricalQuoteSummary({ symbol, referenceDate }: { symbol: string; referenceDate?: string; }) {
 		if (!referenceDate)
-			referenceDate = new Date().toISOString().split('T')[0];
+			referenceDate = formatDate(new Date());
 
 		try {
 			const querySummaryOptions = { modules: ['summaryProfile'] } as QuoteSummaryOptions;

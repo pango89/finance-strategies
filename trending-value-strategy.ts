@@ -1,7 +1,7 @@
 import YahooFinance from './clients/yahoo-finance';
 import Tickertape from './clients/tickertape';
 import CsvHelper from './csvHelper';
-import { delay, Infinity } from './utils';
+import { delay, formatDate, Infinity } from './utils';
 
 export default class TrendingValueStrategy {
     private static clean(summaries: any[]) {
@@ -57,7 +57,7 @@ export default class TrendingValueStrategy {
             minMarketCap: 5000
         });
         await csvHelper.writeToCsv({
-            path: `./inputs/trending-value/${new Date().toISOString().split('T')[0]}_tv_input.csv`,
+            path: `./inputs/trending-value/${formatDate(new Date())}_tv_input.csv`,
             data: summaries,
             ids: ['symbol', 'industry', 'sector', 'cmp', 'marketCap', 'priceToEarnings', 'priceToBook', 'priceToSales', 'priceToCashflow', 'enterpriseToEbitda', 'dividendYield', 'returnOnEquity', 'return12M', 'return6M', 'return1M'],
             titles: ['symbol', 'industry', 'sector', 'cmp', 'marketCap', 'priceToEarnings', 'priceToBook', 'priceToSales', 'priceToCashflow', 'enterpriseToEbitda', 'dividendYield', 'returnOnEquity', 'return12M', 'return6M', 'return1M'],

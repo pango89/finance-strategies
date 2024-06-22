@@ -179,7 +179,7 @@ export const getFYBeginDate = (dateString: string): string => {
     const fyBeginDate = new Date(fy, 3, 1); // Month is 0-based, so April is 3
 
     // Format the fiscal year begin date to 'YYYY-MM-DD'
-    const formattedDate = fyBeginDate.toISOString().split('T')[0];
+    const formattedDate = formatDate(fyBeginDate);
 
     return formattedDate;
 };
@@ -199,7 +199,7 @@ export const getPreviousFYEndDate = (dateString: string): string => {
     const previousFyEndDate = new Date(fy, 2, 31); // Month is 0-based, so March is 2
 
     // Format the fiscal year end date to 'YYYY-MM-DD'
-    const formattedDate = previousFyEndDate.toISOString().split('T')[0];
+    const formattedDate = formatDate(previousFyEndDate);
 
     return formattedDate;
 };
@@ -212,7 +212,7 @@ export const addDaysToDate = (dateString: string, days: number): string => {
     date.setDate(date.getDate() + days);
 
     // Format the new date to 'YYYY-MM-DD'
-    const newDateString = date.toISOString().split('T')[0];
+    const newDateString = formatDate(date);
 
     return newDateString;
 };
