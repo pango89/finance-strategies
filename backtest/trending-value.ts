@@ -158,6 +158,7 @@ const run = async () => {
         portfolioHoldings.push({
             symbol, buyDate, buyPrice, quantity, currentDate: today, cmp,
             days: getDurationInDays(buyDate, today),
+            gain: (cmp - buyPrice) * quantity,
             gainPercent: round((100 * (cmp - buyPrice)) / buyPrice),
             cagr: xirr([-1 * buyPrice, cmp], [new Date(buyDate), new Date(today)])
         });
@@ -166,8 +167,8 @@ const run = async () => {
     await csvHelper.writeToCsv({
         path: path.join(__dirname, `/reports/TV/${formatDate(new Date())}_tv_portfolio.csv`),
         data: portfolioHoldings,
-        ids: ['symbol', 'buyDate', 'buyPrice', 'quantity', 'currentDate', 'cmp', 'days', 'gainPercent', 'cagr'],
-        titles: ['Symbol', 'Buy Date', 'Buy Price', 'Quantity', 'Current Date', 'CMP', 'Days', 'Gain %', 'CAGR %'],
+        ids: ['symbol', 'buyDate', 'buyPrice', 'quantity', 'currentDate', 'cmp', 'days', 'gain', 'gainPercent', 'cagr'],
+        titles: ['Symbol', 'Buy Date', 'Buy Price', 'Quantity', 'Current Date', 'CMP', 'Days', 'Unrealized Gain', 'Unrealized Gain %', 'CAGR %'],
         append: false
     });
 };
