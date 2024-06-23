@@ -31,6 +31,14 @@ export default class CsvHelper {
 
 		for (let i = 0; i < data.length; i += 1) {
 			const item = data[i];
+
+			for (const [key, value] of Object.entries(item)) {
+				const regex = /^-?\d*\.\d+$/;
+				if (regex.test(value as string)) {
+					item[key] = (+value).toFixed(2);
+				}
+			}
+
 			await csvWriter.writeRecords([{ ...item }]);
 		}
 	}

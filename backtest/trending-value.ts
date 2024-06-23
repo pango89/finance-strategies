@@ -13,11 +13,13 @@ const run = async () => {
     const yahooFinance = new YahooFinance();
     const cashFlowMap = new Map<string, number>();
     const dates = [
+        '2020-06-01',
         '2021-06-01',
         '2022-06-01',
         '2023-06-01',
         '2024-06-05'
     ];
+
     const capital = 1000000;
 
     const portfolioStocksMap = new Map<string, { buyDate: string; quantity: number; buyPrice: number; cmp: number; }>();
@@ -54,7 +56,7 @@ const run = async () => {
 
                 trades.push(sellTrade);
 
-                const gain = round(cmp - buyPrice);
+                const gain = round(cmp - buyPrice) * quantity;
                 const gainPercent = round((100 * (cmp - buyPrice)) / buyPrice);
                 const days = getDurationInDays(buyDate, date);
                 // const annualGainPercent = round((gainPercent / days) * 365);
@@ -64,8 +66,10 @@ const run = async () => {
                     symbol: portfolioStock,
                     buyDate,
                     buyPrice,
+                    buyQuantity: quantity,
                     sellDate: date,
                     sellPrice: cmp,
+                    sellQuantity: quantity,
                     gain,
                     gainPercent,
                     days,
@@ -104,6 +108,7 @@ const run = async () => {
 
             cashFlowMap.set(date, cashFlowMap.get(date) - quantity * cmp);
         }
+
         // console.log();
         console.log(`Done for Date = ${date}`);
         // console.log(trendingValueStocks);
@@ -141,8 +146,8 @@ const run = async () => {
     await csvHelper.writeToCsv({
         path: path.join(__dirname, `/reports/TV/${formatDate(new Date())}_tv_trades.csv`),
         data: report,
-        ids: ['symbol', 'buyDate', 'buyPrice', 'sellDate', 'sellPrice', 'gain', 'gainPercent', 'days', 'cagr'],
-        titles: ['Symbol', 'Buy Date', 'Buy Price', 'Sell Date', 'Sell Price', 'Gain', 'Gain %', 'Days', 'CAGR %'],
+        ids: ['symbol', 'buyDate', 'buyPrice', 'buyQuantity', 'sellDate', 'sellPrice', 'sellQuantity', 'gain', 'gainPercent', 'days', 'cagr'],
+        titles: ['Symbol', 'Buy Date', 'Buy Price', 'Buy Quantity', 'Sell Date', 'Sell Price', 'Sell Quantity', 'Gain', 'Gain %', 'Days', 'CAGR %'],
         append: false
     });
 

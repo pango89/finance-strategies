@@ -1,26 +1,26 @@
 symbol,industry,sector,cmp,marketCap,sum,priceToEarnings,priceToEarningsDecile,priceToBook,priceToBookDecile,priceToSales,priceToSalesDecile,priceToCashflow,priceToCashflowDecile,enterpriseToEbitda,enterpriseToEbitdaDecile,dividendYield,dividendYieldDecile,return1M,return6M,return12M
-CHENNPETRO,Oil & Gas Refining & Marketing,Energy,294.9,4392,14,3.25,1,1.47,3,0.1,1,4.28,1,4.96,1,0,7,-3.99,173.69,128.69
-GNFC,Chemicals,Basic Materials,679.3,10558,14,6.17,1,1.32,3,1.22,4,5.37,2,4.04,1,1.17,3,-18.45,60.72,84.07
-JINDRILL,Oil & Gas Equipment & Services,Energy,199.85,580,15,8.99,2,0.49,1,1.38,4,2.96,1,5.8,2,0.25,5,-4.95,56.81,87.56
+CHENNPETRO,Oil & Gas Refining & Marketing,Energy,294.90,4392,14,3.25,1,1.47,3,0.10,1,4.28,1,4.96,1,0,7,-3.99,173.69,128.69
+GNFC,Chemicals,Basic Materials,679.30,10558,14,6.17,1,1.32,3,1.22,4,5.37,2,4.04,1,1.17,3,-18.45,60.72,84.07
+JINDRILL,Oil & Gas Equipment & Services,Energy,199.85,580,15,8.99,2,0.49,1,1.38,4,2.96,1,5.80,2,0.25,5,-4.95,56.81,87.56
 AVADHSUGAR,Confectioners,Consumer Defensive,614.45,1231,14,9.89,2,1.52,3,0.45,1,3.92,1,7.96,3,0.65,4,-15.45,49.25,97.13
-GSFC,Agricultural Inputs,Basic Materials,170.55,6797,12,7.56,1,0.58,1,0.75,2,28.72,5,4.3,1,1.31,2,-0.26,48.11,57.84
-JKIL,Engineering & Construction,Industrials,245.4,1857,14,9.02,2,0.89,2,0.53,2,4.88,2,4.58,1,0.41,5,10.72,46.07,35.24
-MANAKSIA,Metal Fabrication,Industrials,88.05,578,6,3.15,1,0.54,1,0.49,1,4.13,1,1.6,1,3.41,1,-4.03,43.87,39.1
+GSFC,Agricultural Inputs,Basic Materials,170.55,6797,12,7.56,1,0.58,1,0.75,2,28.72,5,4.30,1,1.31,2,-0.26,48.11,57.84
+JKIL,Engineering & Construction,Industrials,245.40,1857,14,9.02,2,0.89,2,0.53,2,4.88,2,4.58,1,0.41,5,10.72,46.07,35.24
+MANAKSIA,Metal Fabrication,Industrials,88.05,578,6,3.15,1,0.54,1,0.49,1,4.13,1,1.60,1,3.41,1,-4.03,43.87,39.10
 ANDHRAPAP,Paper & Paper Products,Basic Materials,328.25,1306,13,9.34,2,1.19,3,0.96,3,6.45,2,5.06,1,1.52,2,-3.16,42.84,41.73
-WSTCSTPAPR,Paper & Paper Products,Basic Materials,347.9,2298,12,7.48,1,1.36,3,0.69,2,3.89,1,4.35,1,0.53,4,0.69,39.16,52.35
-ZUARI,Agricultural Inputs,Basic Materials,148.85,627,12,4.8,1,1.71,4,0.17,1,1.1,1,6.86,2,0.87,3,-20.44,37.89,58.18
-MAGADSUGAR,Confectioners,Consumer Defensive,338.45,477,11,10.36,2,0.8,2,0.49,1,3.25,1,8.75,3,1.18,2,-7.17,37.41,58.93
-SHREYAS,Marine Shipping,Industrials,351.4,772,15,3.66,1,1.23,3,1.44,4,6.52,2,3.8,1,0.57,4,-2.29,36.73,81.46
-TIMETECHNO,Packaging & Containers,Consumer Cyclical,104.1,2355,15,12.56,3,1.14,2,0.65,2,8.1,2,6.48,2,0.7,4,10.51,35.81,25.57
-PENIND,Specialty Industrial Machinery,Industrials,37.2,529,15,12.65,3,0.72,1,0.23,1,2.71,1,6.03,2,0,7,-8.26,32.86,55.97
-GESHIP,Marine Shipping,Industrials,390.5,5576,12,9.1,2,0.69,1,1.61,5,4.22,1,5.42,2,3.56,1,2.21,31.61,-8.05
-RANASUG,Confectioners,Consumer Defensive,30.9,475,14,5.57,1,1.06,2,0.35,1,5.18,2,4.07,1,0,7,-17.93,30.11,109.49
-NLCINDIA,Utilities - Regulated Electric,Utilities,76.45,10601,11,9.7,2,0.75,2,0.89,3,1.37,1,6.1,2,4.31,1,-14.05,29.69,27.1
-CENTENKA,Textile Manufacturing,Consumer Cyclical,503.15,1100,12,5.97,1,0.88,2,0.53,2,19.79,4,3.91,1,1.59,2,-14,24.4,52.35
-NTPC,Utilities - Regulated Electric,Utilities,156.8,152044,12,9.12,2,1.12,2,1.15,3,3.64,1,8.06,3,4.67,1,-0.44,23.46,42.29
-COALINDIA,Thermal Coal,Energy,196.05,120821,13,6.96,1,2.8,5,1.2,4,2.94,1,4.13,1,8.93,1,4.48,22.72,32.83
-LGBBROSLTD,Auto Parts,Consumer Cyclical,587.85,1846,14,7.52,1,1.63,4,0.96,3,9.12,3,4.46,1,1.7,2,-4.91,19.77,87.48
-PRECWIRE,Electrical Equipment & Parts,Industrials,46.33,804,15,8.5,2,2.2,4,0.31,1,18.88,4,6.51,2,1.73,2,-14.09,19.62,78.6
-NAHARINDUS,Textile Manufacturing,Consumer Cyclical,137.3,547,13,3.48,1,0.61,1,0.28,1,6.47,2,3.87,1,0.04,7,-33.49,19.39,118.98
-UFLEX,Packaging & Containers,Consumer Cyclical,616.05,4449,11,4.05,1,0.67,1,0.34,1,6.28,2,3.88,1,0.41,5,-5.38,19.3,38.36
-SESHAPAPER,Paper & Paper Products,Basic Materials,187.15,1181,12,10.24,2,0.94,2,0.89,3,4.28,1,5.65,2,1.34,2,-10.8,18.98,9.99
+WSTCSTPAPR,Paper & Paper Products,Basic Materials,347.90,2298,12,7.48,1,1.36,3,0.69,2,3.89,1,4.35,1,0.53,4,0.69,39.16,52.35
+ZUARI,Agricultural Inputs,Basic Materials,148.85,627,12,4.80,1,1.71,4,0.17,1,1.10,1,6.86,2,0.87,3,-20.44,37.89,58.18
+MAGADSUGAR,Confectioners,Consumer Defensive,338.45,477,11,10.36,2,0.80,2,0.49,1,3.25,1,8.75,3,1.18,2,-7.17,37.41,58.93
+SHREYAS,Marine Shipping,Industrials,351.40,772,15,3.66,1,1.23,3,1.44,4,6.52,2,3.80,1,0.57,4,-2.29,36.73,81.46
+TIMETECHNO,Packaging & Containers,Consumer Cyclical,104.10,2355,15,12.56,3,1.14,2,0.65,2,8.10,2,6.48,2,0.70,4,10.51,35.81,25.57
+PENIND,Specialty Industrial Machinery,Industrials,37.20,529,15,12.65,3,0.72,1,0.23,1,2.71,1,6.03,2,0,7,-8.26,32.86,55.97
+GESHIP,Marine Shipping,Industrials,390.50,5576,12,9.10,2,0.69,1,1.61,5,4.22,1,5.42,2,3.56,1,2.21,31.61,-8.05
+RANASUG,Confectioners,Consumer Defensive,30.90,475,14,5.57,1,1.06,2,0.35,1,5.18,2,4.07,1,0,7,-17.93,30.11,109.49
+NLCINDIA,Utilities - Regulated Electric,Utilities,76.45,10601,11,9.70,2,0.75,2,0.89,3,1.37,1,6.10,2,4.31,1,-14.05,29.69,27.10
+CENTENKA,Textile Manufacturing,Consumer Cyclical,503.15,1100,12,5.97,1,0.88,2,0.53,2,19.79,4,3.91,1,1.59,2,-14,24.40,52.35
+NTPC,Utilities - Regulated Electric,Utilities,156.80,152044,12,9.12,2,1.12,2,1.15,3,3.64,1,8.06,3,4.67,1,-0.44,23.46,42.29
+COALINDIA,Thermal Coal,Energy,196.05,120821,13,6.96,1,2.80,5,1.20,4,2.94,1,4.13,1,8.93,1,4.48,22.72,32.83
+LGBBROSLTD,Auto Parts,Consumer Cyclical,587.85,1846,14,7.52,1,1.63,4,0.96,3,9.12,3,4.46,1,1.70,2,-4.91,19.77,87.48
+PRECWIRE,Electrical Equipment & Parts,Industrials,46.33,804,15,8.50,2,2.20,4,0.31,1,18.88,4,6.51,2,1.73,2,-14.09,19.62,78.60
+NAHARINDUS,Textile Manufacturing,Consumer Cyclical,137.30,547,13,3.48,1,0.61,1,0.28,1,6.47,2,3.87,1,0.04,7,-33.49,19.39,118.98
+UFLEX,Packaging & Containers,Consumer Cyclical,616.05,4449,11,4.05,1,0.67,1,0.34,1,6.28,2,3.88,1,0.41,5,-5.38,19.30,38.36
+SESHAPAPER,Paper & Paper Products,Basic Materials,187.15,1181,12,10.24,2,0.94,2,0.89,3,4.28,1,5.65,2,1.34,2,-10.80,18.98,9.99
