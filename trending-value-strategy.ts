@@ -35,11 +35,27 @@ export default class TrendingValueStrategy {
 
         let decile = 1;
 
-        for (let i = 1; i < records.length; i++) {
-            const { symbol, return6M, sector, industry, cmp, return12M, marketCap, return1M } = records[i];
+        for (let i = 0; i < records.length; i++) {
+            const { symbol, return6M, sector, industry, cmp, return12M, marketCap, return1M, return3M,
+                returnOnEquity, debtToEquity, returnOnCapitalEmployed, priceToEarningsGrowth } = records[i];
 
             if (!map[symbol])
-                map[symbol] = { sum: 0, symbol, return6M, sector, industry, cmp, return12M, return1M, marketCap };
+                map[symbol] = {
+                    sum: 0,
+                    symbol,
+                    sector,
+                    industry,
+                    marketCap,
+                    cmp,
+                    return1M,
+                    return3M,
+                    return6M,
+                    return12M,
+                    returnOnEquity,
+                    debtToEquity,
+                    returnOnCapitalEmployed,
+                    priceToEarningsGrowth
+                };
 
             map[symbol][attribute] = records[i][attribute];
             map[symbol]['sum'] += decile;
@@ -84,8 +100,8 @@ export default class TrendingValueStrategy {
             await csvHelper.writeToCsv({
                 path: `./inputs/trending-value/yahoo/${referenceDate}_tv_input.csv`,
                 data: [stock],
-                ids: ['date', 'symbol', 'industry', 'sector', 'cmp', 'marketCap', 'priceToEarnings', 'priceToBook', 'priceToSales', 'priceToCashflow', 'enterpriseToEbitda', 'dividendYield', 'returnOnEquity', 'return12M', 'return6M', 'return3M', 'return1M'],
-                titles: ['date', 'symbol', 'industry', 'sector', 'cmp', 'marketCap', 'priceToEarnings', 'priceToBook', 'priceToSales', 'priceToCashflow', 'enterpriseToEbitda', 'dividendYield', 'returnOnEquity', 'return12M', 'return6M', 'return3M', 'return1M'],
+                ids: ['date', 'symbol', 'industry', 'sector', 'cmp', 'marketCap', 'priceToEarnings', 'priceToBook', 'priceToSales', 'priceToCashflow', 'enterpriseToEbitda', 'dividendYield', 'returnOnEquity', 'debtToEquity', 'returnOnCapitalEmployed', 'priceToEarningsGrowth', 'return12M', 'return6M', 'return3M', 'return1M'],
+                titles: ['date', 'symbol', 'industry', 'sector', 'cmp', 'marketCap', 'priceToEarnings', 'priceToBook', 'priceToSales', 'priceToCashflow', 'enterpriseToEbitda', 'dividendYield', 'returnOnEquity', 'debtToEquity', 'returnOnCapitalEmployed', 'priceToEarningsGrowth', 'return12M', 'return6M', 'return3M', 'return1M'],
                 append
             });
         }
@@ -123,10 +139,10 @@ export default class TrendingValueStrategy {
             data: top25Stocks,
             ids: ['symbol', 'industry', 'sector', 'cmp', 'marketCap', 'sum', 'priceToEarnings', 'priceToEarningsDecile', 'priceToBook', 'priceToBookDecile',
                 'priceToSales', 'priceToSalesDecile', 'priceToCashflow', 'priceToCashflowDecile', 'enterpriseToEbitda', 'enterpriseToEbitdaDecile', 'dividendYield',
-                'dividendYieldDecile', 'return1M', 'return6M', 'return12M'],
-            titles: ['symbol', 'industry', 'sector', 'cmp', 'marketCap', 'sum', 'priceToEarnings', 'priceToEarningsDecile', 'priceToBook', 'priceToBookDecile',
-                'priceToSales', 'priceToSalesDecile', 'priceToCashflow', 'priceToCashflowDecile', 'enterpriseToEbitda', 'enterpriseToEbitdaDecile', 'dividendYield',
-                'dividendYieldDecile', 'return1M', 'return6M', 'return12M'],
+                'dividendYieldDecile', 'returnOnEquity', 'debtToEquity', 'returnOnCapitalEmployed', 'priceToEarningsGrowth', 'return1M', 'return3M', 'return6M', 'return12M'],
+            titles: ['Symbol', 'Industry', 'Sector', 'CMP', 'Market Cap', 'Sum', 'PE', 'PE Decile', 'PB', 'PB Decile',
+                'PS', 'PS Decile', 'PCFO', 'PCFO Decile', 'EVEBITDA', 'EVEBITDA Decile', 'Dividend Yield',
+                'Dividend Yield Decile', 'ROE', 'Debt to Equity', 'ROCE', 'PEG', 'return1M', 'return3M', 'return6M', 'return12M'],
         });
 
         return top25Stocks;

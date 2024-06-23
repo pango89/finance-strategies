@@ -248,7 +248,7 @@ export default class YahooFinance {
 
 			const financialStatements = await this.getFinancialStatements({
 				symbol,
-				startDate: getPreviousFYEndDate(referenceDate),
+				startDate: getPreviousFYEndDate(getPreviousFYEndDate(referenceDate)),
 				endDate: referenceDate
 			});
 
@@ -266,13 +266,43 @@ export default class YahooFinance {
 				}
 			}
 
-			const latestStatement: any = financialStatements[0];
-			const {
+			let financialStatementsLastFY: any = null;
+			let financialStatementsLastToLastFY: any = null;
+
+			if (financialStatements.length === 2) {
+				financialStatementsLastFY = financialStatements[1];
+				financialStatementsLastToLastFY = financialStatements[0];
+			} else {
+				const statement = financialStatements[0] as any;
+				const statementDate = formatDate(statement.date);
+				if (statementDate === getPreviousFYEndDate(referenceDate)) {
+					financialStatementsLastFY = statement;
+				} else {
+					financialStatementsLastToLastFY = statement;
+				}
+			}
+
+			if (!financialStatementsLastFY) {
+				return {
+					date: referenceDate,
+					symbol,
+					industry,
+					sector,
+					cmp: round(cmp),
+					return12M: round(return12M),
+					return6M: round(return6M),
+					return3M: round(return3M),
+					return1M: round(return1M)
+				}
+			}
+
+			let {
 				netIncome, dilutedEPS, ordinarySharesNumber, stockholdersEquity,
-				totalRevenue, operatingCashFlow, totalDebt, cashAndCashEquivalents,
-				interestExpense, taxProvision, depreciation, depreciationIncomeStatement,
-				cashDividendsPaid, freeCashFlow
-			} = latestStatement;
+				totalRevenue, operatingCashFlow, totalDebt = 0, cashAndCashEquivalents = 0,
+				interestExpense = 0, taxProvision = 0, depreciation, depreciationIncomeStatement = 0,
+				cashDividendsPaid = -0, freeCashFlow, operatingIncome, totalAssets, currentLiabilities,
+				operatingRevenue, operatingExpense = 0, changeInOtherCurrentLiabilities = 0
+			} = financialStatementsLastFY;
 
 			const eps = netIncome / ordinarySharesNumber;
 
@@ -281,13 +311,25 @@ export default class YahooFinance {
 			const priceToBook = cmp / (stockholdersEquity / ordinarySharesNumber);
 			const priceToSales = cmp / (totalRevenue / ordinarySharesNumber);
 			const priceToCashflow = cmp / ((operatingCashFlow || freeCashFlow) / ordinarySharesNumber);
-			const enterpriseValue = marketCap + (totalDebt || 0) - (cashAndCashEquivalents || 0);
+			const enterpriseValue = marketCap + totalDebt - cashAndCashEquivalents;
 
-			const ebitda = netIncome + (interestExpense || 0) + (taxProvision || 0) + (depreciation || depreciationIncomeStatement || 0);
+			const ebitda = netIncome + interestExpense + taxProvision + (depreciation || depreciationIncomeStatement);
 			const enterpriseToEbitda = enterpriseValue / ebitda;
 
-			const dividendYield = 100 * (-1 * (cashDividendsPaid || -0) / ordinarySharesNumber) / cmp;
-			const returnOnEquity = 100 * netIncome / stockholdersEquity;
+			const dividendYield = 100 * (-1 * (cashDividendsPaid) / ordinarySharesNumber) / cmp; // Percentage
+			const returnOnEquity = 100 * netIncome / stockholdersEquity; // Percentage
+			const debtToEquity = totalDebt / stockholdersEquity;
+			operatingIncome = operatingIncome || (operatingRevenue - operatingExpense);
+
+			const returnOnCapitalEmployed = 100 * (operatingIncome / (totalAssets - (currentLiabilities || changeInOtherCurrentLiabilities)));
+
+			let priceToEarningsGrowth = Infinity; // PEG Ratio
+
+			if (financialStatementsLastToLastFY) {
+				const { dilutedEPS: epsLastToLastFY } = financialStatementsLastToLastFY;
+				const epsAnnualGrowthRate = 100 * ((dilutedEPS || eps) - epsLastToLastFY) / epsLastToLastFY;
+				priceToEarningsGrowth = priceToEarnings / epsAnnualGrowthRate;
+			}
 
 			const summary = {
 				date: referenceDate,
@@ -303,6 +345,9 @@ export default class YahooFinance {
 				enterpriseToEbitda: round(enterpriseToEbitda),
 				dividendYield: round(dividendYield), // Percentage
 				returnOnEquity: round(returnOnEquity),
+				debtToEquity: round(debtToEquity),
+				returnOnCapitalEmployed: round(returnOnCapitalEmployed),
+				priceToEarningsGrowth: round(priceToEarningsGrowth),
 				return12M: round(return12M),
 				return6M: round(return6M),
 				return3M: round(return3M),
