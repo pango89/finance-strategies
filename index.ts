@@ -78,7 +78,7 @@ const test = async () => {
 		'NIFTYMEDIA', 'NIFTYOILGAS', 'NIFTYIT', 'NIFTYMETAL', 'NIFTYPHARMA',
 		'NIFTYPRIVATEBANK', 'NIFTYPSUBANK', 'NIFTYREALTY', 'NIFTY500', 'NIFTYMICROCAP250'
 	];
-	const startDate = '2022-01-01';
+	const startDate = '2023-01-01';
 
 	const csvHelper = new CsvHelper();
 	const yahooFinanceClient = new YahooFinance();
@@ -111,6 +111,6 @@ const test = async () => {
 };
 
 (async () => {
-	// await test();
-	await runTV();
+	await test();
+	// await runTV();
 })();
