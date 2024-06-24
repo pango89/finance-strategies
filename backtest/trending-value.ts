@@ -12,13 +12,18 @@ const build = async () => {
 const run = async () => {
     const yahooFinance = new YahooFinance();
     const cashFlowMap = new Map<string, number>();
+
+    // Re-balancing dates
     const dates = [
-        '2020-06-01',
-        '2021-06-01',
+        // '2020-06-01',
+        // '2021-06-01',
         '2022-06-01',
-        '2023-06-01',
-        '2024-06-05'
+        // '2023-06-01',
+        // '2024-06-05'
     ];
+
+    // Note: Change this date to a past date to check performance on that particular day.
+    const currentDate = '2022-06-17' // formatDate(new Date());
 
     const capital = 1000000;
 
@@ -115,14 +120,13 @@ const run = async () => {
     }
 
     // Add Current Portfolio Worth to Cashflow
-    const today = formatDate(new Date()) // dates[dates.length - 1];
-    if (!cashFlowMap.has(today))
-        cashFlowMap.set(today, 0);
+    if (!cashFlowMap.has(currentDate))
+        cashFlowMap.set(currentDate, 0);
 
     for (const portfolioStock of portfolioStocksMap.keys()) {
         const quote = await yahooFinance.getQuoteHistoryOnDay({
             symbol: portfolioStock,
-            referenceDate: today
+            referenceDate: currentDate
         });
 
         if (!quote)
@@ -132,7 +136,7 @@ const run = async () => {
 
         const { quantity } = portfolioStocksMap.get(portfolioStock);
         portfolioStocksMap.get(portfolioStock).cmp = cmp;
-        cashFlowMap.set(today, cashFlowMap.get(today) + quantity * cmp);
+        cashFlowMap.set(currentDate, cashFlowMap.get(currentDate) + quantity * cmp);
     }
 
     const cashFlows = [...cashFlowMap.values()];
@@ -144,7 +148,7 @@ const run = async () => {
     const csvHelper = new CsvHelper();
 
     await csvHelper.writeToCsv({
-        path: path.join(__dirname, `/reports/TV/${formatDate(new Date())}_tv_trades.csv`),
+        path: path.join(__dirname, `/reports/TV/${currentDate}_tv_trades.csv`),
         data: report,
         ids: ['symbol', 'buyDate', 'buyPrice', 'buyQuantity', 'sellDate', 'sellPrice', 'sellQuantity', 'gain', 'gainPercent', 'days', 'cagr'],
         titles: ['Symbol', 'Buy Date', 'Buy Price', 'Buy Quantity', 'Sell Date', 'Sell Price', 'Sell Quantity', 'Gain', 'Gain %', 'Days', 'CAGR %'],
@@ -156,16 +160,16 @@ const run = async () => {
         const { buyDate, buyPrice, quantity, cmp } = detail;
 
         portfolioHoldings.push({
-            symbol, buyDate, buyPrice, quantity, currentDate: today, cmp,
-            days: getDurationInDays(buyDate, today),
+            symbol, buyDate, buyPrice, quantity, currentDate: currentDate, cmp,
+            days: getDurationInDays(buyDate, currentDate),
             gain: (cmp - buyPrice) * quantity,
             gainPercent: round((100 * (cmp - buyPrice)) / buyPrice),
-            cagr: xirr([-1 * buyPrice, cmp], [new Date(buyDate), new Date(today)])
+            cagr: xirr([-1 * buyPrice, cmp], [new Date(buyDate), new Date(currentDate)])
         });
     }
 
     await csvHelper.writeToCsv({
-        path: path.join(__dirname, `/reports/TV/${formatDate(new Date())}_tv_portfolio.csv`),
+        path: path.join(__dirname, `/reports/TV/${currentDate}_tv_portfolio.csv`),
         data: portfolioHoldings,
         ids: ['symbol', 'buyDate', 'buyPrice', 'quantity', 'currentDate', 'cmp', 'days', 'gain', 'gainPercent', 'cagr'],
         titles: ['Symbol', 'Buy Date', 'Buy Price', 'Quantity', 'Current Date', 'CMP', 'Days', 'Unrealized Gain', 'Unrealized Gain %', 'CAGR %'],

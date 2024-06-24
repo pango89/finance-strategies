@@ -117,26 +117,30 @@ const npvDerivative = (rate: number, cashFlows: number[], dates: Date[]): number
 export const xirr = (cashFlows: number[], dates: Date[], guess: number = 0.1): number => {
     if (cashFlows.length === 0) return 0;
 
-    const tol = 1e-6;
-    const maxIter = 1000;
-    let rate = guess;
+    try {
+        const tol = 1e-6;
+        const maxIter = 1000;
+        let rate = guess;
 
-    for (let i = 0; i < maxIter; i++) {
-        const npvValue = npv(rate, cashFlows, dates);
-        const derivativeValue = npvDerivative(rate, cashFlows, dates);
+        for (let i = 0; i < maxIter; i++) {
+            const npvValue = npv(rate, cashFlows, dates);
+            const derivativeValue = npvDerivative(rate, cashFlows, dates);
 
-        if (Math.abs(npvValue) < tol) {
-            return round(100 * rate);
+            if (Math.abs(npvValue) < tol) {
+                return round(100 * rate);
+            }
+
+            if (derivativeValue === 0) {
+                throw new Error("XIRR derivative is zero; no solution found");
+            }
+
+            rate = rate - npvValue / derivativeValue;
         }
 
-        if (derivativeValue === 0) {
-            throw new Error("XIRR derivative is zero; no solution found");
-        }
-
-        rate = rate - npvValue / derivativeValue;
+        throw new Error("XIRR did not converge");
+    } catch (error) {
+        return - 1;
     }
-
-    throw new Error("XIRR did not converge");
 }
 
 // Calculate MACD

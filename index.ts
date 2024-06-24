@@ -66,7 +66,7 @@ const runV20 = async (histories: any[], set: string) => {
 };
 
 const runTV = async () => {
-	const referenceDate = '2024-05-01';
+	const referenceDate = '2024-06-31';
 	// await TrendingValueStrategy.build(referenceDate);
 	const trendingValueStocks = await TrendingValueStrategy.run(referenceDate);
 }
