@@ -15,15 +15,15 @@ const run = async () => {
 
     // Re-balancing dates
     const dates = [
-        // '2020-06-01',
-        // '2021-06-01',
+        '2020-06-01',
+        '2021-06-01',
         '2022-06-01',
-        // '2023-06-01',
-        // '2024-06-05'
+        '2023-06-01',
+        '2024-06-05'
     ];
 
     // Note: Change this date to a past date to check performance on that particular day.
-    const currentDate = '2022-06-17' // formatDate(new Date());
+    const currentDate = '2024-06-24' // formatDate(new Date());
 
     const capital = 1000000;
 
@@ -33,10 +33,14 @@ const run = async () => {
 
     for (let i = 0; i < dates.length; i++) {
         const date = dates[i];
+        console.log(`****************************************************************`);
+        console.log(`Date = ${date}`);
+        console.log(`****************************************************************`);
         const trendingValueStocks = await TrendingValueStrategy.run(date);
         const trendingValueStocksSet = new Set(trendingValueStocks.map(x => x.symbol));
 
-        // Sell all the stocks from portfolio which are not found in trendingValueStocks
+        // Sell Stocks
+        // 1. Stocks which are not found in new set of trending Value Stocks
         for (const portfolioStock of portfolioStocksMap.keys()) {
             if (!trendingValueStocksSet.has(portfolioStock)) {
                 const quote = await yahooFinance.getQuoteHistoryOnDay({
@@ -60,6 +64,7 @@ const run = async () => {
                 };
 
                 trades.push(sellTrade);
+                console.log(`SELL ${portfolioStock}, Quantity = ${quantity}, Price = ${cmp}, Total = ${round(quantity * cmp)}`);
 
                 const gain = round(cmp - buyPrice) * quantity;
                 const gainPercent = round((100 * (cmp - buyPrice)) / buyPrice);
@@ -89,6 +94,7 @@ const run = async () => {
             }
         }
 
+        // Buy Stocks
         for (let j = 0; j < trendingValueStocks.length; j++) {
             const { symbol, cmp } = trendingValueStocks[j];
 
@@ -106,6 +112,7 @@ const run = async () => {
             };
 
             trades.push(buyTrade);
+            console.log(`BUY ${symbol}, Quantity = ${quantity}, Price = ${cmp}, Total = ${round(quantity * cmp)}`);
             portfolioStocksMap.set(symbol, { buyDate: date, quantity, buyPrice: cmp, cmp });
 
             if (!cashFlowMap.has(date))
@@ -114,9 +121,7 @@ const run = async () => {
             cashFlowMap.set(date, cashFlowMap.get(date) - quantity * cmp);
         }
 
-        // console.log();
-        console.log(`Done for Date = ${date}`);
-        // console.log(trendingValueStocks);
+        console.log(`Portfolio Total = ${[...portfolioStocksMap.values()].map(x => x.cmp * x.quantity).reduce((a, b) => a + b)}`);
     }
 
     // Add Current Portfolio Worth to Cashflow
@@ -143,10 +148,26 @@ const run = async () => {
     const cashflowDates = [...cashFlowMap.keys()];
     const estimatedXIRR = xirr(cashFlows, cashflowDates.map(x => new Date(x)));
 
+    console.log(`****************************************************************`);
     console.log(`XIRR = ${estimatedXIRR} %`);
 
-    const csvHelper = new CsvHelper();
+    const portfolioHoldings = [];
+    for (const [symbol, detail] of portfolioStocksMap) {
+        const { buyDate, buyPrice, quantity, cmp } = detail;
 
+        portfolioHoldings.push({
+            symbol, buyDate, buyPrice, quantity, currentDate, cmp,
+            days: getDurationInDays(buyDate, currentDate),
+            gain: (cmp - buyPrice) * quantity,
+            gainPercent: round((100 * (cmp - buyPrice)) / buyPrice),
+            cagr: xirr([-1 * buyPrice, cmp], [new Date(buyDate), new Date(currentDate)])
+        });
+    }
+
+    console.log(`Current Date = ${currentDate}`);
+    console.log(`Portfolio Total = ${[...portfolioStocksMap.values()].map(x => x.cmp * x.quantity).reduce((a, b) => a + b)}`);
+
+    const csvHelper = new CsvHelper();
     await csvHelper.writeToCsv({
         path: path.join(__dirname, `/reports/TV/${currentDate}_tv_trades.csv`),
         data: report,
@@ -154,19 +175,6 @@ const run = async () => {
         titles: ['Symbol', 'Buy Date', 'Buy Price', 'Buy Quantity', 'Sell Date', 'Sell Price', 'Sell Quantity', 'Gain', 'Gain %', 'Days', 'CAGR %'],
         append: false
     });
-
-    const portfolioHoldings = [];
-    for (const [symbol, detail] of portfolioStocksMap) {
-        const { buyDate, buyPrice, quantity, cmp } = detail;
-
-        portfolioHoldings.push({
-            symbol, buyDate, buyPrice, quantity, currentDate: currentDate, cmp,
-            days: getDurationInDays(buyDate, currentDate),
-            gain: (cmp - buyPrice) * quantity,
-            gainPercent: round((100 * (cmp - buyPrice)) / buyPrice),
-            cagr: xirr([-1 * buyPrice, cmp], [new Date(buyDate), new Date(currentDate)])
-        });
-    }
 
     await csvHelper.writeToCsv({
         path: path.join(__dirname, `/reports/TV/${currentDate}_tv_portfolio.csv`),
