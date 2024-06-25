@@ -61,7 +61,7 @@ export default class TrendingValueStrategy {
             map[symbol]['sum'] += decile;
 
             map[symbol] = { ...map[symbol], [`${attribute}Decile`]: decile }
-            if (i % n === 0) decile++;
+            if ((i + 1) % n === 0) decile++;
         }
     }
 
