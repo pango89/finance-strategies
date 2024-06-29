@@ -107,7 +107,7 @@ export default class TrendingValueStrategy {
         }
     }
 
-    public static async run(referenceDate: string): Promise<any[]> {
+    public static async run(referenceDate: string, count: number = 25): Promise<any[]> {
         const csvHelper = new CsvHelper();
 
         const path = `./inputs/trending-value/yahoo/${referenceDate}_tv_input.csv`;
@@ -132,7 +132,7 @@ export default class TrendingValueStrategy {
         let topDecileStocks = stocksWithDecileScores.slice(0, Math.ceil(summaries.length / 10));
         topDecileStocks = topDecileStocks.sort((x: any, y: any) => y.return6M - x.return6M);
 
-        const top25Stocks = topDecileStocks.slice(0, 25);
+        const top25Stocks = topDecileStocks.slice(0, count);
 
         await csvHelper.writeToCsv({
             path: `./outputs/trending-value/yahoo/${referenceDate}_tv_output.csv`,
